@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .Title }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
   <meta name="description" content="Local business directory for {{ .Site.Params.town }} with quality-scored listings.">
-  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-row">
-      <a class="brand" href="/">
+      <a class="brand" href="{{ "" | relURL }}">
         <span class="brand-mark">📍</span>
         <span>
           <strong>{{ .Site.Title }}</strong>
@@ -19,11 +19,11 @@
       </a>
 
       <nav class="top-nav" aria-label="Main navigation">
-        <a class="nav-link {{ if eq .RelPermalink "/" }}active{{ end }}" href="/">Home</a>
-        <a class="nav-link {{ if hasPrefix .RelPermalink "/coffee/" }}active{{ end }}" href="/coffee/">Coffee</a>
-        <a class="nav-link {{ if hasPrefix .RelPermalink "/bicycle/" }}active{{ end }}" href="/bicycle/">Bicycle</a>
-        <a class="nav-link {{ if hasPrefix .RelPermalink "/medical/" }}active{{ end }}" href="/medical/">Medical</a>
-        <a class="nav-link {{ if hasPrefix .RelPermalink "/animal-services/" }}active{{ end }}" href="/animal-services/">Animal Services</a>
+        <a class="nav-link {{ if eq .RelPermalink "/" }}active{{ end }}" href="{{ "" | relURL }}">Home</a>
+        <a class="nav-link {{ if hasPrefix .RelPermalink "/coffee/" }}active{{ end }}" href="{{ "coffee/" | relURL }}">Coffee</a>
+        <a class="nav-link {{ if hasPrefix .RelPermalink "/bicycle/" }}active{{ end }}" href="{{ "bicycle/" | relURL }}">Bicycle</a>
+        <a class="nav-link {{ if hasPrefix .RelPermalink "/medical/" }}active{{ end }}" href="{{ "medical/" | relURL }}">Medical</a>
+        <a class="nav-link {{ if hasPrefix .RelPermalink "/animal-services/" }}active{{ end }}" href="{{ "animal-services/" | relURL }}">Animal Services</a>
       </nav>
     </div>
   </header>
@@ -39,6 +39,6 @@
     </div>
   </footer>
 
-  <script src="/js/site.js" defer></script>
+  <script src="{{ "js/site.js" | relURL }}" defer></script>
 </body>
 </html>
