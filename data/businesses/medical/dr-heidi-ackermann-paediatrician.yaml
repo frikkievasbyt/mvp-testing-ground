@@ -1,0 +1,36 @@
+slug: dr-heidi-ackermann-paediatrician
+name: 'Dr Heidi Ackermann Paediatrician'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Paediatrics'
+address:
+  street: 'Room 2 Prince Vincent Square, Gloucester Lane'
+  suburb: null
+  city: 'George'
+  postal_code: null
+  full: 'Room 2 Prince Vincent Square, Gloucester Lane, George'
+  latitude: null
+  longitude: null
+contact:
+  phone: '044 873 5192'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Heidi+Ackermann+Paediatrician+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 64
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=341369'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Heidi+Ackermann+Paediatrician+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Heidi+Ackermann+Paediatrician+George'
+notes: 'Medpages-backed doctor listing for George. Expertise inferred conservatively from Medpages description (Paediatrics).'

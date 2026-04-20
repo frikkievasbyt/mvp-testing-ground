@@ -1,0 +1,36 @@
+slug: dr-bm-jonker
+name: 'George GP & Homoeopath - Dr BM Jonker'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'General Practitioner;Homoeopathy'
+address:
+  street: '3 Quar Street'
+  suburb: 'Heather Park'
+  city: 'George'
+  postal_code: null
+  full: '3 Quar Street, Heather Park, George'
+  latitude: null
+  longitude: null
+contact:
+  phone: '082 859 3042'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=George+GP+%26+Homoeopath+-+Dr+BM+Jonker+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 64
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=257490'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+George+GP+%26+Homoeopath+-+Dr+BM+Jonker+George'
+  - 'https://www.google.com/maps/search/?api=1&query=George+GP+%26+Homoeopath+-+Dr+BM+Jonker+George'
+notes: 'Medpages-backed doctor listing for George. Expertise inferred conservatively from Medpages description (General Practice and Homoeopath).'
