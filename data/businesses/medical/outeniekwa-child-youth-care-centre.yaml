@@ -5,11 +5,11 @@ subcategories:
 - hospital
 expertise: 'Hospital Services'
 address:
-  street: 'Sandkraal Road'
+  street: 'Golf Street'
   suburb: 'Lawaaikamp'
   city: 'George'
   postal_code: '6519'
-  full: 'Sandkraal Road, George'
+  full: 'Golf Street, George'
   latitude: -33.9935821
   longitude: 22.4757200
 contact:

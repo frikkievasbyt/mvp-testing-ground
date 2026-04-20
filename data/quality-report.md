@@ -14,9 +14,6 @@ Total records: 32
 ## ⚠️ Coffee Time Patisserie
 - missing both phone and website
 
-## ⚠️ Costa
-- missing both phone and website
-
 ## ⚠️ Elvis Brew
 - missing both phone and website
 
@@ -41,9 +38,6 @@ Total records: 32
 ## ⚠️ La Rosa Blu - Vintage Café
 - missing both phone and website
 
-## ⚠️ Platō Coffee
-- missing both phone and website
-
 ## ⚠️ Red Shed
 - missing both phone and website
 
@@ -56,7 +50,6 @@ Total records: 32
 
 ## ⚠️ Root Coffee - Market Street
 - missing coordinates
-- missing both phone and website
 
 ## ⚠️ Root Coffee - Paddagat
 - missing coordinates
@@ -66,7 +59,6 @@ Total records: 32
 
 ## ⚠️ Rooted
 - missing coordinates
-- missing both phone and website
 
 ## ⚠️ The Daily
 - missing both phone and website
@@ -75,9 +67,6 @@ Total records: 32
 - missing both phone and website
 
 ## ⚠️ Woodville Farmstall
-- missing both phone and website
-
-## ⚠️ Yellow Bird Cafe
 - missing both phone and website
 
 ## ⚠️ Zesto
