@@ -8,10 +8,10 @@ address:
   street: '3 Quar Street'
   suburb: 'Heather Park'
   city: 'George'
-  postal_code: null
+  postal_code: '6529'
   full: '3 Quar Street, Heather Park, George'
-  latitude: null
-  longitude: null
+  latitude: -33.9572396
+  longitude: 22.4351650
 contact:
   phone: '082 859 3042'
   whatsapp: null

@@ -1,0 +1,36 @@
+slug: dr-c-w-roux-incorporated
+name: 'Dr C W Roux Incorporated'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Ophthalmologist'
+address:
+  street: '44 C J Langenhoven Road'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: '44 C J Langenhoven Road, George'
+  latitude: -33.9558232
+  longitude: 22.4521263
+contact:
+  phone: '044 874 1258'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+C+W+Roux+Incorporated+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 64
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=52384'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+C+W+Roux+Incorporated+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+C+W+Roux+Incorporated+George'
+notes: 'Medpages-backed doctor listing for George. Expertise inferred conservatively from Medpages specialty (Ophthalmology).'

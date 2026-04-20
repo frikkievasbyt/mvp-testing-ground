@@ -1,0 +1,36 @@
+slug: dr-emmy-verster
+name: 'Dr Emmy Verster'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Paediatrician'
+address:
+  street: 'Suite 1, 5 Gloucester Avenue'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Suite 1, 5 Gloucester Avenue, George'
+  latitude: -33.9572692
+  longitude: 22.4555820
+contact:
+  phone: '044 884 1156'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Emmy+Verster+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 64
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=251615'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Emmy+Verster+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Emmy+Verster+George'
+notes: 'Medpages-backed doctor listing for George. Expertise inferred conservatively from Medpages description (Paediatrician).'

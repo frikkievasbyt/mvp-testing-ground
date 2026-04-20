@@ -1,0 +1,37 @@
+slug: dr-j-l-van-heerden
+name: 'Dr J L Van Heerden'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'General Practitioner'
+address:
+  street: null
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'George, 6529'
+  latitude: -33.9777839
+  longitude: 22.4953110
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+J+L+Van+Heerden+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 60
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=243223'
+  - 'https://www.medpages.info/sf/index.php?page=newsearchresults&q=physician+george+western+cape'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+J+L+Van+Heerden+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+J+L+Van+Heerden+George'
+notes: 'Medpages organisation listing and Medpages George search results show a GP listing in George. Address details are limited in source, so unknown fields remain null.'

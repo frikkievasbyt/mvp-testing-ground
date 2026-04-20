@@ -1,0 +1,36 @@
+slug: dr-michiel-josiaa-prinsloo
+name: 'Dr Michiel Josiaa Prinsloo'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Dentist'
+address:
+  street: '42 Victoria Street'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: '42 Victoria Street, George, 6529'
+  latitude: null
+  longitude: null
+contact:
+  phone: '+27 44 871 5130'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Michiel+Josiaa+Prinsloo+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 66
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=person&personcode=1781546'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Michiel+Josiaa+Prinsloo+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Michiel+Josiaa+Prinsloo+George'
+notes: 'Medpages person listing confirms dentist expertise, George location, phone, and street address.'

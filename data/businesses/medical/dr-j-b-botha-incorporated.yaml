@@ -1,0 +1,36 @@
+slug: dr-j-b-botha-incorporated
+name: 'Dr J B Botha Incorporated'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Ophthalmologist'
+address:
+  street: '44 C J Langenhoven Road'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: '44 C J Langenhoven Road, George, 6529'
+  latitude: -33.9558391
+  longitude: 22.4524444
+contact:
+  phone: '+27 44 873 4174'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+J+B+Botha+Incorporated+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 67
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=323211'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+J+B+Botha+Incorporated+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+J+B+Botha+Incorporated+George'
+notes: 'Medpages organisation listing confirms ophthalmology practice in George with phone and street address. Expertise mapped conservatively to Ophthalmologist.'

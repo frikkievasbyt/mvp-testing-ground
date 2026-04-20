@@ -1,0 +1,36 @@
+slug: dr-e-j-j-van-der-horst
+name: 'Dr E J J Van Der Horst'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'General Practitioner'
+address:
+  street: 'Curamus Sunergos, 41 Victoria Street'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Curamus Sunergos, 41 Victoria Street, George'
+  latitude: -33.9645558
+  longitude: 22.4586099
+contact:
+  phone: '044 884 0188'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+E+J+J+Van+Der+Horst+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 66
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=21898'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+E+J+J+Van+Der+Horst+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+E+J+J+Van+Der+Horst+George'
+notes: 'Medpages organisation listing confirms a GP practice in George with phone and street address. Expertise mapped conservatively to General Practitioner.'

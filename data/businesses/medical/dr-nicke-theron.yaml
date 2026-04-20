@@ -1,0 +1,36 @@
+slug: dr-nicke-theron
+name: 'Dr Nicke Theron'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Paediatrician'
+address:
+  street: 'Room G01 Mediclinic George, York Street'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Room G01 Mediclinic George, York Street, George'
+  latitude: -33.9573553
+  longitude: 22.4567497
+contact:
+  phone: '044 874 3840'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Nicke+Theron+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 64
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=1922925'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Nicke+Theron+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Nicke+Theron+George'
+notes: 'Medpages-backed doctor listing for George. Expertise inferred conservatively from Medpages description (Paediatrician).'

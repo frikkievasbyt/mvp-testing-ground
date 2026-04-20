@@ -1,0 +1,36 @@
+slug: dr-hillegonda-van-rensburg
+name: 'Dr Hillegonda van Rensburg'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'General Practitioner'
+address:
+  street: '22 Gloucester Lane'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: '22 Gloucester Lane, George'
+  latitude: -33.9557884
+  longitude: 22.4528022
+contact:
+  phone: '044 874 4644'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Hillegonda+van+Rensburg+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 66
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=1897956'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Hillegonda+van+Rensburg+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Hillegonda+van+Rensburg+George'
+notes: 'Medpages organisation listing confirms a GP practice in George with phone and street address. Expertise mapped conservatively to General Practitioner.'
