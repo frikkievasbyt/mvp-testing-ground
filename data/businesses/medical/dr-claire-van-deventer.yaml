@@ -1,0 +1,36 @@
+slug: dr-claire-van-deventer
+name: 'Dr Claire Van Deventer'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Family Physician'
+address:
+  street: '7a Loudre Centre, 45 Hibernia Street'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: '7a Loudre Centre, 45 Hibernia Street, George, 6529'
+  latitude: -33.9613889
+  longitude: 22.4611770
+contact:
+  phone: '+27 44 873 5636'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Claire+Van+Deventer+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 72
+  publish_ready: true
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=person&personcode=22857'
+  - 'https://www.medpages.info/sf/index.php?page=newsearchresults&q=physician+george+western+cape'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Claire+Van+Deventer+George'
+notes: 'Medpages person listing confirms Family Physician specialty in George with telephone, street address, and map coordinates.'

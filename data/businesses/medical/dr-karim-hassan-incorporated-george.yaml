@@ -1,0 +1,36 @@
+slug: dr-karim-hassan-incorporated-george
+name: 'Dr Karim Hassan Incorporated - George'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Physician'
+address:
+  street: 'Unit 103 Eden Business Park, 1 Platinum Drive'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Unit 103 Eden Business Park, 1 Platinum Drive, George, 6529'
+  latitude: -33.9898362
+  longitude: 22.497604
+contact:
+  phone: '044 050 1405'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Karim+Hassan+Incorporated+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 66
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=1972873'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Karim+Hassan+Incorporated+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Karim+Hassan+Incorporated+George'
+notes: 'Medpages organisation listing confirms physician practice in George with phone, street address, and map coordinates.'

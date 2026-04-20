@@ -1,0 +1,36 @@
+slug: dr-rene-immink
+name: 'Dr Rene Immink'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Physician'
+address:
+  street: 'Room 404, 4th Floor Mediclinic George, 2 Cnr Gloucester Avenue & York Street'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Room 404, 4th Floor Mediclinic George, 2 Cnr Gloucester Avenue & York Street, George, 6529'
+  latitude: -33.9521618
+  longitude: 22.4501987
+contact:
+  phone: '+27 44 874 4024'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Rene+Immink+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 74
+  publish_ready: true
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=person&personcode=217686'
+  - 'https://www.medpages.info/sf/index.php?page=newsearchresults&q=physician+george+western+cape'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Rene+Immink+George'
+notes: 'Medpages person listing confirms physician specialty, George practice phone number, full address, and map coordinates.'

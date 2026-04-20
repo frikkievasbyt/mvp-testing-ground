@@ -1,0 +1,36 @@
+slug: dr-trevor-john-gould
+name: 'Dr Trevor John Gould'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Physician'
+address:
+  street: 'King George Park, Cnr Davidson & C J Langenhoven Road'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'King George Park, Cnr Davidson & C J Langenhoven Road, George, 6529'
+  latitude: -33.9519142
+  longitude: 22.4521559
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Trevor+John+Gould+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 66
+  publish_ready: true
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=person&personcode=81972'
+  - 'https://www.medpages.info/sf/index.php?page=newsearchresults&q=physician+george+western+cape'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Trevor+John+Gould+George'
+notes: 'Medpages listing confirms physician specialty, George location, and practice address/map coordinates; phone was not published on the profile at verification time.'

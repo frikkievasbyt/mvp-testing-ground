@@ -1,0 +1,36 @@
+slug: dr-nicholas-hechter
+name: 'Dr Nicholas Hechter'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Physician'
+address:
+  street: 'Redriver Centre, 27 Arbour Road'
+  suburb: 'Heatherlands'
+  city: 'George'
+  postal_code: '6529'
+  full: 'Redriver Centre, 27 Arbour Road, Heatherlands, George, 6529'
+  latitude: -33.9454476
+  longitude: 22.4544059
+contact:
+  phone: '044 050 1400'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Nicholas+Hechter+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 66
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=1982072'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Nicholas+Hechter+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Nicholas+Hechter+George'
+notes: 'Medpages organisation listing confirms physician practice in George (Heatherlands) with phone, street address, and map coordinates.'

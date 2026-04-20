@@ -1,0 +1,36 @@
+slug: dr-ja-coetser-inc
+name: 'Dr JA Coetser Inc'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Physician'
+address:
+  street: 'Room 11 Prince Vincent Square, Gloucester Avenue'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Room 11 Prince Vincent Square, Gloucester Avenue, George, 6529'
+  latitude: -33.9580067
+  longitude: 22.4562428
+contact:
+  phone: '044 501 8701'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+JA+Coetser+Inc+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 66
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=1978477'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+JA+Coetser+Inc+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+JA+Coetser+Inc+George'
+notes: 'Medpages organisation listing confirms physician practice in George with phone, street address, and map coordinates.'

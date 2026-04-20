@@ -1,0 +1,36 @@
+slug: dr-jeremy-rhys-tarlton
+name: 'Dr Jeremy Rhys Tarlton'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'General Practitioner'
+address:
+  street: 'Shop 22 Pre-Cap Centre, Courtenay Street'
+  suburb: null
+  city: 'George'
+  postal_code: null
+  full: 'Shop 22 Pre-Cap Centre, Courtenay Street, George'
+  latitude: -33.9579315
+  longitude: 22.4657337
+contact:
+  phone: '044 333 0641'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Jeremy+Rhys+Tarlton+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 65
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=2871'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Jeremy+Rhys+Tarlton+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Jeremy+Rhys+Tarlton+George'
+notes: 'Medpages organisation listing confirms a GP practice in George with phone, street address, and map coordinates. Expertise mapped conservatively to General Practitioner.'
