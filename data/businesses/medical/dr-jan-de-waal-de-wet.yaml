@@ -1,0 +1,36 @@
+slug: dr-jan-de-waal-de-wet
+name: 'Dr Jan De Waal De Wet'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Dentist'
+address:
+  street: 'Room K06 G J Lamprecht Medical Centre, Cnr Gloucester Avenue & York Street'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Room K06 G J Lamprecht Medical Centre, Cnr Gloucester Avenue & York Street, George, 6529'
+  latitude: null
+  longitude: null
+contact:
+  phone: '+27 44 874 4335'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Jan+De+Waal+De+Wet+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 66
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=person&personcode=9363'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Jan+De+Waal+De+Wet+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Jan+De+Waal+De+Wet+George'
+notes: 'Medpages person listing confirms dentist expertise, George location, phone, and practice address.'

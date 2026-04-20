@@ -5,6 +5,7 @@ import json
 import os
 import re
 import subprocess
+import time
 import urllib.parse
 
 BBOX = (-34.12, 22.20, -33.82, 22.70)  # George area
@@ -28,10 +29,22 @@ def overpass_fetch() -> list:
         ');'
         'out center tags 700;'
     )
-    url = 'https://overpass-api.de/api/interpreter?' + urllib.parse.urlencode({'data': q})
-    raw = run_curl(url, timeout=60)
-    payload = json.loads(raw)
-    return payload.get('elements', [])
+    endpoints = [
+        'https://overpass-api.de/api/interpreter',
+        'https://overpass.kumi.systems/api/interpreter',
+    ]
+    errors = []
+    for i, ep in enumerate(endpoints):
+        try:
+            url = ep + '?' + urllib.parse.urlencode({'data': q})
+            raw = run_curl(url, timeout=60)
+            payload = json.loads(raw)
+            return payload.get('elements', [])
+        except Exception as e:
+            errors.append(f'{ep}: {e}')
+            if i < len(endpoints) - 1:
+                time.sleep(1.0)
+    raise RuntimeError('Overpass fetch failed: ' + ' | '.join(errors))
 
 
 def slugify(s: str) -> str:
@@ -87,8 +100,13 @@ def expertise_for(tags: dict, kind: str, name: str) -> str:
     )
     if speciality:
         spec = str(speciality).replace('_', ' ').strip()
-        if kind == 'doctor' and spec.lower() in {'general', 'general practice', 'general practitioner'}:
+        spec_l = spec.lower()
+        if kind == 'doctor' and spec_l in {'general', 'general practice', 'general practitioner'}:
             return 'General Practitioner'
+        if kind == 'doctor' and spec_l in {'paediatrics', 'pediatrics'}:
+            return 'Paediatrician'
+        if kind == 'doctor' and spec_l == 'ophthalmology':
+            return 'Ophthalmologist'
         return spec.title()
 
     n = (name or '').lower()
@@ -135,6 +153,40 @@ def map_query(name: str, city: str = 'George') -> str:
 def medpages_query(name: str, city: str = 'George') -> str:
     q = urllib.parse.quote_plus(f'site:medpages.info {name} {city}')
     return f'https://www.google.com/search?q={q}'
+
+
+def normalize_name(s: str) -> str:
+    s = (s or '').strip().lower()
+    s = re.sub(r'[^a-z0-9]+', ' ', s)
+    return re.sub(r'\s+', ' ', s).strip()
+
+
+def extract_name_from_yaml(path: str):
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            for line in f:
+                if line.startswith('name:'):
+                    raw = line.split(':', 1)[1].strip()
+                    if raw.startswith("'") and raw.endswith("'") and len(raw) >= 2:
+                        raw = raw[1:-1].replace("''", "'")
+                    return raw
+    except Exception:
+        return None
+    return None
+
+
+def load_existing_names(*dirs: str) -> set:
+    out = set()
+    for d in dirs:
+        if not os.path.isdir(d):
+            continue
+        for fn in os.listdir(d):
+            if not (fn.endswith('.yaml') or fn.endswith('.yml')):
+                continue
+            nm = extract_name_from_yaml(os.path.join(d, fn))
+            if nm:
+                out.add(normalize_name(nm))
+    return out
 
 
 def reverse_geocode(lat: float, lon: float):
@@ -350,6 +402,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--phase', choices=['quick', 'enrich'], required=True)
     ap.add_argument('--limit', type=int, default=0, help='Optional max providers to write total')
+    ap.add_argument('--only-kind', choices=['doctor', 'dentist', 'pharmacy', 'clinic', 'hospital', 'medical_service', 'veterinary'], help='Optional filter to write only one provider kind')
+    ap.add_argument('--no-cleanup', action='store_true', help='Append/update without deleting existing YAML files')
+    ap.add_argument('--skip-existing-names', action='store_true', help='Skip records whose provider name already exists in medical/animal YAML')
     args = ap.parse_args()
 
     os.makedirs(MEDICAL_OUT_DIR, exist_ok=True)
@@ -365,12 +420,23 @@ def main():
     written_animal = 0
     written_total = 0
 
-    cleanup_yaml(MEDICAL_OUT_DIR)
-    cleanup_yaml(ANIMAL_OUT_DIR)
+    existing_names = set()
+    if args.skip_existing_names:
+        existing_names = load_existing_names(MEDICAL_OUT_DIR, ANIMAL_OUT_DIR)
+
+    if not args.no_cleanup:
+        cleanup_yaml(MEDICAL_OUT_DIR)
+        cleanup_yaml(ANIMAL_OUT_DIR)
 
     for el in named:
         rec = build_record(el, args.phase, seen_slugs, name_dupe_counter)
         if not rec:
+            continue
+
+        if args.only_kind and rec['kind'] != args.only_kind:
+            continue
+
+        if args.skip_existing_names and normalize_name(rec['name']) in existing_names:
             continue
 
         out_dir = ANIMAL_OUT_DIR if rec['target'] == 'animal' else MEDICAL_OUT_DIR

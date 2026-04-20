@@ -3,15 +3,15 @@ name: 'Dr J H Meyer Ingelyf - George'
 category: medical_service
 subcategories:
 - doctor
-expertise: 'Ophthalmology'
+expertise: 'Ophthalmologist'
 address:
   street: '44 C J Langenhoven Road'
   suburb: null
   city: 'George'
-  postal_code: null
+  postal_code: '6529'
   full: '44 C J Langenhoven Road, George'
-  latitude: null
-  longitude: null
+  latitude: -33.9558391
+  longitude: 22.4524444
 contact:
   phone: '044 382 2687'
   whatsapp: null
@@ -33,4 +33,4 @@ verification:
   - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=39754'
   - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+J+H+Meyer+Ingelyf+George'
   - 'https://www.google.com/maps/search/?api=1&query=Dr+J+H+Meyer+Ingelyf+George'
-notes: 'Medpages-backed doctor listing for George. Expertise inferred conservatively from Medpages description (Ophthalmology).'
+notes: 'Medpages-backed doctor listing for George. Expertise inferred conservatively from Medpages description (Ophthalmologist).'

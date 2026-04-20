@@ -1,0 +1,36 @@
+slug: ebrahim-desai-inc
+name: 'Ebrahim Desai Inc'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'General Practitioner'
+address:
+  street: '1st Floor Mediclinic George, 2 Cnr Gloucester Avenue & York Street'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: '1st Floor Mediclinic George, 2 Cnr Gloucester Avenue & York Street, George'
+  latitude: -33.9575132
+  longitude: 22.4563964
+contact:
+  phone: '044 873 6177'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Ebrahim+Desai+Inc+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 66
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=1974821'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Ebrahim+Desai+Inc+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Ebrahim+Desai+Inc+George'
+notes: 'Medpages organisation listing confirms a GP practice in George with phone and street address. Expertise mapped conservatively to General Practitioner.'

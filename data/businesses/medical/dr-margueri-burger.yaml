@@ -1,0 +1,36 @@
+slug: dr-margueri-burger
+name: 'Dr Margueri Burger'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Dentist'
+address:
+  street: 'Unit 1 Windsor Park, 3 Varing Avenue'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Unit 1 Windsor Park, 3 Varing Avenue, George, 6529'
+  latitude: null
+  longitude: null
+contact:
+  phone: '+27 44 874 2206'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Margueri+Burger+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 66
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=person&personcode=1940617'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Margueri+Burger+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Margueri+Burger+George'
+notes: 'Medpages person listing confirms dentist expertise, George location, phone, and practice address.'

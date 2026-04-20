@@ -1,0 +1,36 @@
+slug: dr-elizabeth-goosen
+name: 'Dr Elizabeth Goosen'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Paediatrician'
+address:
+  street: 'Therapy Connect, 28 Cathedral Street'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Therapy Connect, 28 Cathedral Street, George'
+  latitude: -33.9609743
+  longitude: 22.4657559
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Elizabeth+Goosen+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 64
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=313455'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Elizabeth+Goosen+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Elizabeth+Goosen+George'
+notes: 'Medpages-backed doctor listing for George. Expertise inferred conservatively from Medpages description (Paediatrician).'

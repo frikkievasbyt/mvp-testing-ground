@@ -1,0 +1,36 @@
+slug: dr-heinrich-van-rensburg
+name: 'Dr Heinrich van Rensburg'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Dermatologist'
+address:
+  street: '22 Gloucester Avenue'
+  suburb: null
+  city: 'George'
+  postal_code: null
+  full: '22 Gloucester Avenue, George'
+  latitude: null
+  longitude: null
+contact:
+  phone: '044 874 4644'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Heinrich+van+Rensburg+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 60
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=321831'
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Heinrich+van+Rensburg+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Heinrich+van+Rensburg+George'
+notes: 'Medpages-backed doctor listing for George. Dermatology expertise mapped conservatively from Medpages specialty.'
