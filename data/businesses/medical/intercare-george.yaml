@@ -1,0 +1,37 @@
+slug: intercare-george
+name: 'Intercare George'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'General Practitioner'
+address:
+  street: 'Herrie Street'
+  suburb: 'Dormehls Drift'
+  city: 'George'
+  postal_code: '6530'
+  full: 'Herrie Street, George'
+  latitude: -33.9567949
+  longitude: 22.4511806
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Intercare+George+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 64
+  publish_ready: false
+  sources:
+  - 'https://www.openstreetmap.org/way/85653141'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Intercare+George+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Intercare+George+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

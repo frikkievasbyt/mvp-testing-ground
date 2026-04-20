@@ -1,0 +1,41 @@
+slug: vida-e-caffe-george
+name: Vida e Caffè
+category: coffee_shop
+subcategories:
+- franchise
+address:
+  street: Platinum Drive
+  suburb: null
+  city: George
+  postal_code: '6546'
+  full: Platinum Drive, George, 6546
+  latitude: -33.9859
+  longitude: 22.499424
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: https://www.vidaecaffe.com/
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Vida+e+Caff%C3%A8,+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - OpenStreetMap (Overpass, node: Vida e Caffè)
+  - Official brand website (vidaecaffe.com)
+  - Google Maps place listing (query-based)
+  score: 74
+  publish_ready: true
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: George branch point and basic address context reconfirmed via OSM; brand
+  domain verified. Uncertainty: no branch-level direct phone/email/hours found on public
+  sources checked in this pass.'

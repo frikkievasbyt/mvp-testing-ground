@@ -1,0 +1,37 @@
+slug: dr-francois-du-toit
+name: 'Dr Francois du Toit'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Iridology;Massage;Wellness Coaching;Acupuncture'
+address:
+  street: 'Pikkewyn Street'
+  suburb: 'Eden'
+  city: 'George'
+  postal_code: '6529'
+  full: '5 Pikkewyn Street, George'
+  latitude: -33.9613045
+  longitude: 22.4953612
+contact:
+  phone: '+27 60 458 6419'
+  whatsapp: null
+  email: 'drfrancoisdutoit@gmail.com'
+links:
+  website: 'https://drfrancoisdutoit.com/'
+  facebook: 'https://www.facebook.com/drfrancoisdutoit/'
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Francois+du+Toit+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 72
+  publish_ready: true
+  sources:
+  - 'https://www.openstreetmap.org/node/12373429760'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Francois+du+Toit+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Francois+du+Toit+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

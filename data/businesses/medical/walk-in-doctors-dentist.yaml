@@ -1,0 +1,38 @@
+slug: walk-in-doctors-dentist
+name: 'Walk in  Doctors + Dentist'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'General Practitioner;Dentist'
+address:
+  street: 'N2'
+  suburb: 'George Ward 11'
+  city: 'George'
+  postal_code: '6546'
+  full: 'N2, George'
+  latitude: -33.9881104
+  longitude: 22.5018254
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Walk+in++Doctors+%2B+Dentist+George'
+hours:
+- 'Mo-Fr 09:00-18:00; Sa 09:00-17:00; Su 09:00-15:00'
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 64
+  publish_ready: false
+  sources:
+  - 'https://www.openstreetmap.org/node/9063006033'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Walk+in++Doctors+%2B+Dentist+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Walk+in++Doctors+%2B+Dentist+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

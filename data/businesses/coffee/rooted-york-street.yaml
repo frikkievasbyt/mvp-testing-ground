@@ -1,0 +1,40 @@
+slug: rooted-york-street
+name: Rooted
+category: coffee_shop
+subcategories:
+- takeaway_kiosk
+address:
+  street: York Street
+  suburb: null
+  city: George
+  postal_code: null
+  full: Pick 'n Pay, York Street, George
+  latitude: null
+  longitude: null
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: https://rootcoffee.co.za/
+  facebook: https://www.facebook.com/rootcoffeegeorge/
+  instagram: https://www.instagram.com/rootcoffeegeorge/
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Pick+n+Pay+York+Street+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - https://rootcoffee.co.za/contact-page/
+  - https://www.facebook.com/rootcoffeegeorge/
+  - https://www.instagram.com/rootcoffeegeorge/
+  - https://www.google.com/maps/search/?api=1&query=Pick+n+Pay+York+Street+George
+  score: 66
+  publish_ready: true
+  checks:
+    nominatim_match: false
+    overpass_match: false
+    address_consistent: true
+notes: 'QA: Linked this listing to Root Coffee official channels; Root website contact page explicitly lists a Pick n Pay York Street branch. Uncertainties: no branch-specific phone/email/hours published in reliably parseable form.'

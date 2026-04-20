@@ -1,0 +1,41 @@
+slug: root-coffee-paddagat
+name: Root Coffee - Paddagat
+category: coffee_shop
+subcategories:
+- beanery
+- shopping_centre
+address:
+  street: Knysna Road
+  suburb: George East
+  city: George
+  postal_code: '6529'
+  full: Paddagat Centre, Knysna Road, George East, George, 6529
+  latitude: null
+  longitude: null
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: https://rootcoffee.co.za/
+  facebook: https://www.facebook.com/rootcoffeegeorge/
+  instagram: https://www.instagram.com/rootcoffeegeorge/
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Paddagat+Centre+Knysna+Road+George+East+George+6529
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - https://rootcoffee.co.za/contact-page/
+  - https://www.facebook.com/rootcoffeegeorge/
+  - https://www.instagram.com/rootcoffeegeorge/
+  - https://www.google.com/maps/search/?api=1&query=Paddagat+Centre+Knysna+Road+George+East+George+6529
+  score: 68
+  publish_ready: true
+  checks:
+    nominatim_match: false
+    overpass_match: false
+    address_consistent: true
+notes: 'QA: Added official Root Coffee channels; Root contact page lists a Paddagat Centre branch matching this record. Uncertainties: prior phone number could not be re-verified from current official sources, so contact remains null pending confirmation.'

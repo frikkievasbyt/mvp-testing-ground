@@ -1,0 +1,39 @@
+slug: green-shed-coffee-roastery
+name: Green Shed Coffee Roastery
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: Leila's Lane
+  suburb: George Ward 4
+  city: George
+  postal_code: '6560'
+  full: Leila's Lane, George Ward 4, George, 6560
+  latitude: -33.993663
+  longitude: 22.575738
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Green+Shed+Coffee+Roastery+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: low
+  sources:
+  - https://www.openstreetmap.org/node/4701474292
+  - https://overpass-api.de/api/interpreter (OSM element node/4701474292, name match near Leila''s Lane)
+  score: 50
+  publish_ready: false
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: OSM confirms named roastery/cafe point and coordinates. No independently verified phone,
+  site, social links, or opening hours found. Uncertainty: branch status and current operating hours.'

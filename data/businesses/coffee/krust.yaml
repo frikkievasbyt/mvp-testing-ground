@@ -1,0 +1,38 @@
+slug: krust
+name: Krust
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: Knysna Street
+  suburb: null
+  city: George
+  postal_code: '6546'
+  full: Krust, Knysna Street, George, 6546
+  latitude: -33.983741
+  longitude: 22.499329
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Krust+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - https://overpass-api.de/api/interpreter (OSM node 12438384705)
+  - https://nominatim.openstreetmap.org/search?format=jsonv2&q=Krust+George
+  score: 78
+  publish_ready: true
+  checks:
+    nominatim_match: true
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Name, location, and postcode align in OSM/Nominatim. No verified phone, links, or opening hours available. Uncertainty: no suburb tag present.'

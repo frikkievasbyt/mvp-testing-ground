@@ -1,0 +1,39 @@
+slug: new-wave-village-cafe
+name: New Wave Village / Café
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: Victoria Bay Road
+  suburb: null
+  city: George
+  postal_code: '6546'
+  full: 2 Victoria Bay Road, George, 6546
+  latitude: -33.996538
+  longitude: 22.53175
+contact:
+  phone: +27 83 687 7774
+  whatsapp: null
+  email: newwavevicbay@gmail.com
+links:
+  website: https://newwavevillage.co.za/
+  facebook: https://www.facebook.com/newwavecafe
+  instagram: https://www.instagram.com/new_wave_cafe/
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=New+Wave+Village+/+Caf%C3%A9+George
+hours:
+- Mo-Sa 08:00-17:00
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: high
+  sources:
+  - https://overpass-api.de/api/interpreter (OSM node 12972119486)
+  - https://nominatim.openstreetmap.org/search?format=jsonv2&q=New+Wave+Village+Caf%C3%A9+George
+  score: 94
+  publish_ready: true
+  checks:
+    nominatim_match: true
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Strong structured tags in OSM include address, phone, email, website, social links, and opening hours; Nominatim confirms location identity. Uncertainty: WhatsApp not separately listed, so left null.'

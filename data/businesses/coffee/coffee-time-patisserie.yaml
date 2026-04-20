@@ -1,0 +1,39 @@
+slug: coffee-time-patisserie
+name: Coffee Time Patisserie
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: York Street
+  suburb: Dormehls Drift
+  city: George
+  postal_code: '6530'
+  full: York Street, Dormehls Drift, George, 6530
+  latitude: -33.962984
+  longitude: 22.452933
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Coffee+Time+Patisserie+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: low
+  sources:
+  - https://www.openstreetmap.org/node/12071092756
+  - https://overpass-api.de/api/interpreter (OSM element node/12071092756, name match near York Street)
+  score: 46
+  publish_ready: false
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: OSM confirms business name and map position only. No independently verified contact,
+  website, social links, or opening hours found. Uncertainty: category may be patisserie-first rather than cafe-first.'

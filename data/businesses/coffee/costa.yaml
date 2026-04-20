@@ -1,0 +1,40 @@
+slug: costa
+name: Costa
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: Meander Link
+  suburb: George Ward 11
+  city: George
+  postal_code: '6546'
+  full: Meander Link, George Ward 11, George, 6546
+  latitude: -33.979577
+  longitude: 22.493296
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: https://www.costacoffee.com/
+  facebook: https://www.facebook.com/CostaCoffee/
+  instagram: https://www.instagram.com/costacoffee/
+  menu: https://www.costacoffee.com/menu
+  google_maps: https://www.google.com/maps/search/?api=1&query=Costa+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: low
+  sources:
+  - https://www.openstreetmap.org/node/12437629618
+  - https://www.costacoffee.com/
+  - https://www.facebook.com/CostaCoffee/
+  score: 55
+  publish_ready: false
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: OSM confirms a Costa-branded cafe at the mapped George location; chain-level site/social
+  links added as brand references only. Uncertainty: branch-specific phone, hours, and local page not confirmed.'

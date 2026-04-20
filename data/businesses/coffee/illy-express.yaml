@@ -1,0 +1,38 @@
+slug: illy-express
+name: Illy Express
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: R404
+  suburb: null
+  city: George
+  postal_code: null
+  full: Illy Express, R404, George
+  latitude: -34.001235
+  longitude: 22.38153
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Illy+Express+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - https://overpass-api.de/api/interpreter (OSM node 10931260135)
+  - https://nominatim.openstreetmap.org/search?format=jsonv2&q=Illy+Express+George
+  score: 76
+  publish_ready: true
+  checks:
+    nominatim_match: true
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Location and name confirmed; OSM tags include service attributes but no direct contact fields. No postcode/hours/website in source data. Uncertainty: exact branch context on R404 not further specified.'

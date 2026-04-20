@@ -1,0 +1,38 @@
+slug: haleluja-shop
+name: Haleluja shop
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: Crossandra Street
+  suburb: Pacaltsdorp
+  city: George
+  postal_code: '6529'
+  full: 5564 Crossandra Street, Pacaltsdorp, George, 6529
+  latitude: -34.020093
+  longitude: 22.483627
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Haleluja+shop+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: high
+  sources:
+  - https://overpass-api.de/api/interpreter (OSM node 6380449685)
+  - https://nominatim.openstreetmap.org/search?format=jsonv2&q=Haleluja+shop+George
+  score: 90
+  publish_ready: true
+  checks:
+    nominatim_match: true
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Street, suburb, postcode, and house number confirmed from OSM/Nominatim. No contact details, links, or operating hours present in sources. Uncertainty: none material beyond missing contact metadata.'

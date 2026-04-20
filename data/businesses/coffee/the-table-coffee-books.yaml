@@ -1,0 +1,40 @@
+slug: the-table-coffee-books
+name: The Table Coffee & Books
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: null
+  suburb: null
+  city: George
+  postal_code: null
+  full: Market Street, George Ward 19, Garden Route District Municipality, 6530
+  latitude: -33.963258
+  longitude: 22.460277
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=The+Table+Coffee+&+Books+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: low
+  sources:
+  - OpenStreetMap (Overpass, node: The Table Coffee & Books)
+  - Google Maps place listing (query-based)
+  - Nominatim geocoding lookup (The Table Coffee & Books, George)
+  score: 55
+  publish_ready: false
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Name and coordinates were reconfirmed from OSM geometry. Uncertainty: no
+  verified phone/email/hours or official web/social links in this verification pass.'

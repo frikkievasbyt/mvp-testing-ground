@@ -1,0 +1,39 @@
+slug: beans-about-coffee
+name: Beans About Coffee
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: Knysna Street
+  suburb: null
+  city: George
+  postal_code: '6546'
+  full: Knysna Street, George, 6546
+  latitude: -33.984078
+  longitude: 22.501231
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Beans+About+Coffee,+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: low
+  sources:
+  - https://www.openstreetmap.org/node/12458859823
+  - https://overpass-api.de/api/interpreter (OSM element node/12458859823, name match near George)
+  score: 52
+  publish_ready: false
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: OSM confirms venue name and location on Knysna Street. No verified phone, email,
+  website, or opening hours in reviewed sources. Uncertainty: precise storefront/unit details unknown.'

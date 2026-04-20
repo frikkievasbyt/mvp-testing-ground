@@ -1,0 +1,42 @@
+slug: caloroso-roaster-eatery
+name: Caloroso Roaster & Eatery
+category: coffee_shop
+subcategories:
+- roaster
+- eatery
+address:
+  street: 103 Meade Street
+  suburb: George Central
+  city: George
+  postal_code: '6530'
+  full: 103 Meade Street, George Central, George, 6530
+  latitude: -33.961281
+  longitude: 22.458923
+contact:
+  phone: +27 74 197 7646
+  whatsapp: null
+  email: null
+links:
+  website: https://www.caloroso.co.za/
+  facebook: https://www.facebook.com/CalorosoRoastery
+  instagram: https://www.instagram.com/caloroso.cafe/
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=103+Meade+Street,+George
+hours:
+- Mo-Fr 07:00-17:00; Sa 08:30-14:00
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: high
+  sources:
+  - https://www.openstreetmap.org/node/1848349302
+  - https://www.caloroso.co.za/
+  - https://www.facebook.com/CalorosoRoastery
+  score: 92
+  publish_ready: true
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Address, phone, website, social handles, and hours align between OSM and official
+  brand channels. Uncertainty: Sunday/public-holiday hours not explicitly confirmed.'

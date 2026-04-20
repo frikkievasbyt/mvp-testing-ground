@@ -1,0 +1,41 @@
+slug: woodville-farmstall
+name: Woodville Farmstall
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: null
+  suburb: null
+  city: George
+  postal_code: null
+  full: Seven Passes Road, George Ward 11, Garden Route District Municipality
+  latitude: -33.935707
+  longitude: 22.670376
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Woodville+Farmstall+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: low
+  sources:
+  - OpenStreetMap (Overpass, node: Woodville Farmstall)
+  - Google Maps place listing (query-based)
+  - Nominatim geocoding lookup (Woodville Farmstall, George)
+  score: 54
+  publish_ready: false
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Coordinates and road-level locality were reconfirmed from OSM/Nominatim.
+  Uncertainty: no verified direct contact details, official links, or opening hours found
+  this round.'

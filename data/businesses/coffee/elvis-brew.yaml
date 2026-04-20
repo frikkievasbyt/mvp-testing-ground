@@ -1,0 +1,39 @@
+slug: elvis-brew
+name: Elvis Brew
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: R404
+  suburb: George Ward 23
+  city: George
+  postal_code: null
+  full: R404, George Ward 23, George
+  latitude: -34.007786
+  longitude: 22.387891
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Elvis+Brew+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: low
+  sources:
+  - https://www.openstreetmap.org/way/1308451509
+  - https://overpass-api.de/api/interpreter (OSM element way/1308451509, name match on R404)
+  score: 48
+  publish_ready: false
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: OSM confirms name and physical footprint, with amenity=cafe and takeaway/outdoor seating tags.
+  No verified contact channels or opening times found. Uncertainty: postal code and precise addressing remain unverified.'

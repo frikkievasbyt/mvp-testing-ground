@@ -1,0 +1,38 @@
+slug: drs-de-neckers-zoomers-burchell
+name: 'Drs. De Neckers / Zoomers / Burchell'
+category: medical_service
+subcategories:
+- dentist
+expertise: 'Dentist'
+address:
+  street: 'Knysna Street'
+  suburb: 'Levallia'
+  city: 'George'
+  postal_code: '6529'
+  full: '2 Knysna Street, George'
+  latitude: -33.9663111
+  longitude: 22.4857259
+contact:
+  phone: '+27 44 871 5500'
+  whatsapp: null
+  email: null
+links:
+  website: 'https://deneckerdentistry.com'
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Drs.+De+Neckers+%2F+Zoomers+%2F+Burchell+George'
+hours:
+- 'Mo-Fr 07:00-17:00'
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 72
+  publish_ready: true
+  sources:
+  - 'https://www.openstreetmap.org/node/8984221676'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Drs.+De+Neckers+%2F+Zoomers+%2F+Burchell+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Drs.+De+Neckers+%2F+Zoomers+%2F+Burchell+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

@@ -1,0 +1,37 @@
+slug: geneva-clinic
+name: 'Geneva Clinic'
+category: medical_service
+subcategories:
+- clinic
+expertise: 'Clinic Services'
+address:
+  street: 'Windsor Street'
+  suburb: 'Dormehls Drift'
+  city: 'George'
+  postal_code: '6530'
+  full: 'Windsor Street, George'
+  latitude: -33.9575061
+  longitude: 22.4517009
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Geneva+Clinic+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 64
+  publish_ready: false
+  sources:
+  - 'https://www.openstreetmap.org/way/85653109'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Geneva+Clinic+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Geneva+Clinic+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

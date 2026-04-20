@@ -1,0 +1,38 @@
+slug: rocket
+name: Rocket
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: null
+  suburb: null
+  city: George
+  postal_code: null
+  full: Arbour Road, George Ward 3, Garden Route District Municipality, 6530
+  latitude: -33.946309
+  longitude: 22.456057
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Rocket+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: low
+  sources:
+  - https://www.google.com/maps/search/?api=1&query=Rocket+George
+  - https://www.openstreetmap.org/
+  score: 40
+  publish_ready: false
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: false
+notes: 'QA: Kept only map-level location data after re-check. Uncertainties: "Rocket" is highly ambiguous in web search; no confidently matched official profile, contact details, or verified operating hours for the George coffee listing.'

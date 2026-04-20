@@ -1,0 +1,42 @@
+slug: slow-roasted-coffee
+name: Slow Roasted Coffee
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: null
+  suburb: null
+  city: George
+  postal_code: null
+  full: N2, Knysna Ward 2, Garden Route District Municipality, 6573
+  latitude: -34.010415
+  longitude: 22.780179
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: https://www.slowroastedcoffee.co.za
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Slow+Roasted+Coffee+George
+hours:
+- Mo-Fr 07:30-16:00; Sa 07:30-14:00
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - OpenStreetMap (Overpass, node: Slow Roasted Coffee)
+  - Official website (slowroastedcoffee.co.za)
+  - Google Maps place listing (query-based)
+  score: 82
+  publish_ready: true
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Confirmed name, coordinates, website, and opening hours from OSM + official
+  site presence. Uncertainty: no verifiable public phone/email found on the captured source
+  pages.'

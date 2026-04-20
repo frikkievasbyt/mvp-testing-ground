@@ -1,0 +1,38 @@
+slug: red-shed
+name: Red Shed
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: null
+  suburb: null
+  city: George
+  postal_code: null
+  full: Montagu Street, George Ward 22, Garden Route District Municipality
+  latitude: -33.958296
+  longitude: 22.382509
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Red+Shed+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: low
+  sources:
+  - https://www.google.com/maps/search/?api=1&query=Red+Shed+George
+  - https://www.openstreetmap.org/
+  score: 42
+  publish_ready: false
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: false
+notes: 'QA: Re-checked discoverability and retained only map-backed baseline location. Uncertainties: likely name ambiguity (multiple businesses called "Red Shed"); no confidently matched official website/social/contact or hours for this George coffee venue.'

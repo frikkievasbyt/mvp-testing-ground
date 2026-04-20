@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .Title }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
+  <meta name="description" content="Local business directory for {{ .Site.Params.town }} with quality-scored listings.">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="/">
+        <span class="brand-mark">📍</span>
+        <span>
+          <strong>{{ .Site.Title }}</strong>
+          <small>{{ .Site.Params.town }}</small>
+        </span>
+      </a>
+
+      <nav class="top-nav" aria-label="Main navigation">
+        <a class="nav-link {{ if eq .RelPermalink "/" }}active{{ end }}" href="/">Home</a>
+        <a class="nav-link {{ if hasPrefix .RelPermalink "/coffee/" }}active{{ end }}" href="/coffee/">Coffee</a>
+        <a class="nav-link {{ if hasPrefix .RelPermalink "/bicycle/" }}active{{ end }}" href="/bicycle/">Bicycle</a>
+        <a class="nav-link {{ if hasPrefix .RelPermalink "/medical/" }}active{{ end }}" href="/medical/">Medical</a>
+        <a class="nav-link {{ if hasPrefix .RelPermalink "/animal-services/" }}active{{ end }}" href="/animal-services/">Animal Services</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-shell">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <small>Built for {{ .Site.Params.town }}</small>
+      <small>Quality-first local listings</small>
+    </div>
+  </footer>
+
+  <script src="/js/site.js" defer></script>
+</body>
+</html>

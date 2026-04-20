@@ -1,0 +1,38 @@
+slug: drs-augustyn-de-la-bat-ferreira
+name: 'Drs. Augustyn / De la Bat / Ferreira'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'General Practitioner'
+address:
+  street: 'Knysna Street'
+  suburb: 'Levallia'
+  city: 'George'
+  postal_code: '6529'
+  full: '2 Knysna Street, George'
+  latitude: -33.9663102
+  longitude: 22.4855252
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: 'https://drs-augustyn-de-la-bat-ferreira.business.site'
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Drs.+Augustyn+%2F+De+la+Bat+%2F+Ferreira+George'
+hours:
+- 'Mo-Fr 08:00-18:00; Sa 08:00-13:00'
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 72
+  publish_ready: true
+  sources:
+  - 'https://www.openstreetmap.org/node/8984221675'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Drs.+Augustyn+%2F+De+la+Bat+%2F+Ferreira+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Drs.+Augustyn+%2F+De+la+Bat+%2F+Ferreira+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

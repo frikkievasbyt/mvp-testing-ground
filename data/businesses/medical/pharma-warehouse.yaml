@@ -1,0 +1,38 @@
+slug: pharma-warehouse
+name: 'Pharma Warehouse'
+category: medical_service
+subcategories:
+- pharmacy
+expertise: 'Pharmacy Services'
+address:
+  street: 'Olienhout Road'
+  suburb: 'Golfpark 1'
+  city: 'George'
+  postal_code: '6530'
+  full: 'Olienhout Road, George'
+  latitude: -33.9509344
+  longitude: 22.4327589
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Pharma+Warehouse+George'
+hours:
+- 'Mo-Fr 08:00-18:00; Sa 08:30-14:00; Su 09:00-12:00; PH 09:00-14:00'
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 64
+  publish_ready: false
+  sources:
+  - 'https://www.openstreetmap.org/node/3250950045'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Pharma+Warehouse+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Pharma+Warehouse+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

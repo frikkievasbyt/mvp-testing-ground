@@ -1,0 +1,41 @@
+slug: the-daily-george
+name: The Daily
+category: coffee_shop
+subcategories:
+- cafe
+address:
+  street: Cradock Peak Street
+  suburb: null
+  city: George
+  postal_code: '6546'
+  full: Cradock Peak Street, George, 6546
+  latitude: -33.979994
+  longitude: 22.494843
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=The+Daily,+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: low
+  sources:
+  - OpenStreetMap (Overpass, node: The Daily)
+  - Google Maps place listing (query-based)
+  - Nominatim geocoding lookup (The Daily, George)
+  score: 56
+  publish_ready: false
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Location point and basic street-level address retained from OSM/Nominatim.
+  Uncertainty: no verified direct contact details, website, socials, or opening hours located
+  in this pass.'

@@ -1,0 +1,38 @@
+slug: willie-marx-cycles
+name: Willie Marx Cycles
+category: bicycle_shop
+subcategories:
+- bicycle
+address:
+  street: Doneriale Street
+  suburb: George Central
+  city: George
+  postal_code: '6530'
+  full: Willie Marx Cycles, Doneriale Street, Bishops Lea, George Central, George
+    Local Municipality, Garden Route District Municipality, Western Cape, 6530, South
+    Africa
+  latitude: -33.9612168
+  longitude: 22.4553681
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Willie%20Marx%20Cycles%20Willie%20Marx%20Cycles%2C%20Doneriale%20Street%2C%20Bishops%20Lea%2C%20George%20Central%2C%20George%20Local%20Municipality%2C%20Garden%20Route%20District%20Municipality%2C%20Western%20Cape%2C%206530%2C%20South%20Africa
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  score: 80
+  publish_ready: true
+  sources:
+  - OpenStreetMap node 2250789929
+  - Nominatim reverse geocode (2026-04-19)
+  - Google Maps listing match (name + Doneriale Street)
+notes: >-
+  QA: Filled street, suburb, and postal_code from OSM/Nominatim. OSM has recent check_date (2026-01-02). No verified phone/email/website/hours found from accessible sources.

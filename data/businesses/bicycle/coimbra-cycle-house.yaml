@@ -1,0 +1,37 @@
+slug: coimbra-cycle-house
+name: Coimbra Cycle House
+category: bicycle_shop
+subcategories:
+- bicycle
+address:
+  street: York Street
+  suburb: Dormehls Drift
+  city: George
+  postal_code: '6530'
+  full: Coimbra Cycle House, York Street, Bishops Lea, Dormehls Drift, George Local
+    Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa
+  latitude: -33.9625004
+  longitude: 22.4532641
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Coimbra%20Cycle%20House%20Coimbra%20Cycle%20House%2C%20York%20Street%2C%20Bishops%20Lea%2C%20Dormehls%20Drift%2C%20George%20Local%20Municipality%2C%20Garden%20Route%20District%20Municipality%2C%20Western%20Cape%2C%206530%2C%20South%20Africa
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  score: 78
+  publish_ready: true
+  sources:
+  - OpenStreetMap node 2233742481
+  - Nominatim reverse geocode (2026-04-19)
+  - Google Maps listing match (name + coordinates)
+notes: >-
+  QA: Filled street, suburb, and postal_code from OSM/Nominatim. No phone/email/website/hours found in verified sources. Listing appears distinct but adjacent to Thule at near-identical coordinates.

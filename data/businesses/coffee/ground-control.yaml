@@ -1,0 +1,38 @@
+slug: ground-control
+name: Ground Control
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: York Street
+  suburb: Dormehls Drift
+  city: George
+  postal_code: '6530'
+  full: Ground Control, York Street, Dormehls Drift, George, 6530
+  latitude: -33.956778
+  longitude: 22.457691
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Ground+Control+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - https://overpass-api.de/api/interpreter (OSM node 12084431068)
+  - https://nominatim.openstreetmap.org/search?format=jsonv2&q=Ground+Control+George
+  score: 78
+  publish_ready: true
+  checks:
+    nominatim_match: true
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Address components improved from OSM/Nominatim. No phone, email, website, or hours found in sources. Uncertainty: business type appears as shop=coffee in OSM, not amenity=cafe.'

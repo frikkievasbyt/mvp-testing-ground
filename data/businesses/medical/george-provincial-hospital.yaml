@@ -1,0 +1,37 @@
+slug: george-provincial-hospital
+name: 'George Provincial Hospital'
+category: medical_service
+subcategories:
+- hospital
+expertise: 'Internal Medicine;Paediatrics & Neonatology;Surgery(Only General);Family Medicine & Emergency Unit;Orthopaedics;Anaesthetics;Obstetrics & Gynaecology;Psychiatry;Ophthalmology'
+address:
+  street: 'Corner of Davidson and Langenhoven Road'
+  suburb: 'Heatherlands'
+  city: 'George'
+  postal_code: '6530'
+  full: 'Corner of Davidson and Langenhoven Road, George'
+  latitude: -33.9531091
+  longitude: 22.4506590
+contact:
+  phone: '+27 44 802 4528'
+  whatsapp: null
+  email: null
+links:
+  website: 'www.georgehospital.co.za'
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=George+Provincial+Hospital+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 72
+  publish_ready: true
+  sources:
+  - 'https://www.openstreetmap.org/way/791723315'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+George+Provincial+Hospital+George'
+  - 'https://www.google.com/maps/search/?api=1&query=George+Provincial+Hospital+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

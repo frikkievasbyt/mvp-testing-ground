@@ -1,0 +1,41 @@
+slug: trail-kiosk-cafe
+name: Trail Kiosk Cafe
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: null
+  suburb: null
+  city: George
+  postal_code: null
+  full: Ground Zero, George Ward 3, Garden Route District Municipality, 6530
+  latitude: -33.946889
+  longitude: 22.457318
+contact:
+  phone: +27 83 311 6969
+  whatsapp: null
+  email: team@trailkiosk.co.za
+links:
+  website: https://trailkiosk.co.za
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Trail+Kiosk+Cafe+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - OpenStreetMap (Overpass, node: Trail Kiosk Cafe)
+  - Official website (trailkiosk.co.za)
+  - Google Maps place listing (query-based)
+  score: 80
+  publish_ready: true
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Confirmed name, coordinates, website, and OSM-listed phone; website provides
+  contact email. Uncertainty: website also shows a different phone number at org level,
+  so branch-specific primary number may vary.'

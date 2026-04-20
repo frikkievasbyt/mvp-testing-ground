@@ -1,0 +1,38 @@
+slug: la-rosa-blu-vintage-cafe
+name: La Rosa Blu - Vintage Café
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: N9;N12
+  suburb: null
+  city: George
+  postal_code: null
+  full: La Rosa Blu - Vintage Café, N9;N12, George
+  latitude: -33.865762
+  longitude: 22.361565
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=La+Rosa+Blu+-+Vintage+Caf%C3%A9+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - https://overpass-api.de/api/interpreter (OSM node 13338039330)
+  - https://nominatim.openstreetmap.org/search?format=jsonv2&q=La+Rosa+Blu+Vintage+Caf%C3%A9+George
+  score: 74
+  publish_ready: true
+  checks:
+    nominatim_match: true
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Name and coordinates match OSM/Nominatim. Only road-level address is available, with no contact data or hours in source tags. Uncertainty: exact street number/locality detail not provided.'

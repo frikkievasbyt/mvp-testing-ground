@@ -1,0 +1,38 @@
+slug: garden-route-animal-hospital
+name: 'Garden Route Animal Hospital'
+category: medical_service
+subcategories:
+- veterinary
+expertise: 'Veterinary Care'
+address:
+  street: 'Mann Street'
+  suburb: 'George East'
+  city: 'George'
+  postal_code: '6519'
+  full: 'Mann Street, George'
+  latitude: -33.9643437
+  longitude: 22.4867471
+contact:
+  phone: '+27 44 8710002'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Garden+Route+Animal+Hospital+George'
+hours:
+- 'Mo-Fr 08:00-12:30,15:00-17:30; Sa 09:00-12:00'
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 72
+  publish_ready: true
+  sources:
+  - 'https://www.openstreetmap.org/way/971012750'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Garden+Route+Animal+Hospital+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Garden+Route+Animal+Hospital+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

@@ -1,0 +1,37 @@
+slug: a-coetzee
+name: 'A. Coetzee'
+category: medical_service
+subcategories:
+- dentist
+expertise: 'Dentist'
+address:
+  street: 'Moodie Street'
+  suburb: 'George Ward 22'
+  city: 'George'
+  postal_code: '6530'
+  full: 'Moodie Street, George'
+  latitude: -33.9496116
+  longitude: 22.4588407
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=A.+Coetzee+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 64
+  publish_ready: false
+  sources:
+  - 'https://www.openstreetmap.org/node/3665871016'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+A.+Coetzee+George'
+  - 'https://www.google.com/maps/search/?api=1&query=A.+Coetzee+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

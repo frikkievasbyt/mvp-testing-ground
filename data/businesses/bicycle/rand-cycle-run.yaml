@@ -1,0 +1,37 @@
+slug: rand-cycle-run
+name: Rand Cycle&Run
+category: bicycle_shop
+subcategories:
+- bicycle
+address:
+  street: Market Street
+  suburb: George Ward 19
+  city: George
+  postal_code: '6530'
+  full: Rand Cycle&Run, Market Street, George Ward 19, George Local Municipality,
+    Garden Route District Municipality, Western Cape, 6530, South Africa
+  latitude: -33.9657368
+  longitude: 22.4661134
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Rand%20Cycle%26Run%20Rand%20Cycle%26Run%2C%20Market%20Street%2C%20George%20Ward%2019%2C%20George%20Local%20Municipality%2C%20Garden%20Route%20District%20Municipality%2C%20Western%20Cape%2C%206530%2C%20South%20Africa
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  score: 76
+  publish_ready: true
+  sources:
+  - OpenStreetMap node 13321295352
+  - Nominatim reverse geocode (2026-04-19)
+  - Google Maps listing match (name + Market Street)
+notes: >-
+  QA: Filled street, suburb, and postal_code from OSM/Nominatim. No verified phone/email/social/website/hours found from accessible sources.

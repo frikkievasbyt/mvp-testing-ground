@@ -1,0 +1,41 @@
+slug: root-coffee-wellington-square
+name: Root Coffee - Wellington Square
+category: coffee_shop
+subcategories:
+- cafe
+- roastery
+address:
+  street: Wellington Street
+  suburb: Bodorp
+  city: George
+  postal_code: '6529'
+  full: Wellington Square, Wellington Street, Bodorp, George, 6529
+  latitude: null
+  longitude: null
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: https://rootcoffee.co.za/
+  facebook: https://www.facebook.com/rootcoffeegeorge/
+  instagram: https://www.instagram.com/rootcoffeegeorge/
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Wellington+Square+Wellington+Street+Bodorp+George+6529
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - https://rootcoffee.co.za/contact-page/
+  - https://www.facebook.com/rootcoffeegeorge/
+  - https://www.instagram.com/rootcoffeegeorge/
+  - https://www.google.com/maps/search/?api=1&query=Wellington+Square+Wellington+Street+Bodorp+George+6529
+  score: 68
+  publish_ready: true
+  checks:
+    nominatim_match: false
+    overpass_match: false
+    address_consistent: true
+notes: 'QA: Added official Root Coffee channels and retained branch location; Root contact page includes a Wellington Square branch. Uncertainties: branch phone/email/hours were not clearly published in accessible structured text during this verification pass.'

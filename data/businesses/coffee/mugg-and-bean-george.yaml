@@ -1,0 +1,38 @@
+slug: mugg-and-bean-george
+name: Mugg & Bean
+category: coffee_shop
+subcategories:
+- franchise
+address:
+  street: Morris Avenue
+  suburb: null
+  city: George
+  postal_code: '6530'
+  full: Mugg & Bean, Morris Avenue, George, 6530
+  latitude: -33.956519
+  longitude: 22.460901
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: https://www.muggandbean.co.za/
+  facebook: null
+  instagram: null
+  menu: https://www.muggandbean.co.za/menu
+  google_maps: https://www.google.com/maps/search/?api=1&query=Mugg+%26+Bean,+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - https://overpass-api.de/api/interpreter (OSM nodes 12084431007 and 2233742490)
+  - https://nominatim.openstreetmap.org/search?format=jsonv2&q=Mugg+%26+Bean+George
+  score: 68
+  publish_ready: false
+  checks:
+    nominatim_match: true
+    overpass_match: true
+    address_consistent: false
+notes: 'QA: Confirmed at least two George-area OSM matches for Mugg & Bean (Morris Avenue and N2), creating branch ambiguity. Kept this record on Morris Avenue coordinates but marked not publish-ready until branch identity is confirmed. Uncertainty: duplicate branch mapping in same city.'

@@ -1,0 +1,40 @@
+slug: plato-coffee
+name: Platō Coffee
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: null
+  suburb: null
+  city: George
+  postal_code: null
+  full: 74 Knysna Street, George
+  latitude: -33.957518
+  longitude: 22.464797
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: https://plato.coffee/
+  facebook: https://www.facebook.com/platocoffeegeorge/
+  instagram: https://www.instagram.com/plato.coffee/
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Platō+Coffee+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - https://plato.coffee/
+  - https://www.instagram.com/plato.coffee/
+  - https://www.facebook.com/platocoffeegeorge/
+  - https://www.google.com/maps/search/?api=1&query=Platō+Coffee+George
+  score: 72
+  publish_ready: true
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Added official website and social links; retained existing mapped address/coordinates. Uncertainties: operating hours and direct contact details not confirmed from open sources in this pass.'

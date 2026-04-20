@@ -1,0 +1,41 @@
+slug: roer-koffiewinkel
+name: Roer Koffiewinkel
+category: coffee_shop
+subcategories:
+- cafe
+address:
+  street: 31 Airway Road
+  suburb: Heather Park
+  city: George
+  postal_code: '6529'
+  full: 31 Airway Road, Heather Park, George, 6529
+  latitude: null
+  longitude: null
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: https://www.facebook.com/roerkoffiewinkel/
+  instagram: https://www.instagram.com/roerkoffiewinkel/
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=31+Airway+Road+Heather+Park+George+6529
+hours:
+- 'Mon-Fri: 07:30-14:00'
+- 'Sat/Sun/Public Holidays: Closed'
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - https://www.facebook.com/roerkoffiewinkel/
+  - https://www.instagram.com/roerkoffiewinkel/
+  - https://www.google.com/maps/search/?api=1&query=31+Airway+Road+Heather+Park+George+6529
+  score: 68
+  publish_ready: true
+  checks:
+    nominatim_match: false
+    overpass_match: false
+    address_consistent: true
+notes: 'QA: Added official Facebook and Instagram links and retained structured address plus existing service hours. Uncertainties: phone/email and map coordinates were not confidently recoverable from open sources in this pass.'

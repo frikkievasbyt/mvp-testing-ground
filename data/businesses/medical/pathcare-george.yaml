@@ -1,0 +1,37 @@
+slug: pathcare-george
+name: 'Pathcare George'
+category: medical_service
+subcategories:
+- hospital
+expertise: 'Medical Test;Clinical Laboratory'
+address:
+  street: 'York Street'
+  suburb: 'George Ward 19'
+  city: 'George'
+  postal_code: '6529'
+  full: '112 York Street, George'
+  latitude: -33.9579977
+  longitude: 22.4579829
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Pathcare+George+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 64
+  publish_ready: false
+  sources:
+  - 'https://www.openstreetmap.org/node/6382556385'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Pathcare+George+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Pathcare+George+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

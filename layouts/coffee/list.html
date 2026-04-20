@@ -1,0 +1,99 @@
+{{ define "main" }}
+  {{ $files := readDir "data/businesses/coffee" }}
+  {{ $shops := slice }}
+  {{ range $files }}
+    {{ $path := printf "data/businesses/coffee/%s" .Name }}
+    {{ $shop := transform.Unmarshal (readFile $path) }}
+    {{ $shops = $shops | append $shop }}
+  {{ end }}
+
+  {{ .Scratch.Set "publishReady" 0 }}
+  {{ range $shops }}
+    {{ if .verification.publish_ready }}{{ $.Scratch.Add "publishReady" 1 }}{{ end }}
+  {{ end }}
+
+  {{ $total := len $shops }}
+  {{ $publishReady := .Scratch.Get "publishReady" }}
+  {{ $needsReview := sub $total $publishReady }}
+
+  <section class="page-intro">
+    <p class="eyebrow">Directory</p>
+    <h1>{{ .Title }}</h1>
+    <div class="lead">{{ .Content }}</div>
+  </section>
+
+  <section class="kpi-grid">
+    <article><span class="stat">{{ $total }}</span><span class="label">Total listings</span></article>
+    <article><span class="stat">{{ $publishReady }}</span><span class="label">Publish-ready</span></article>
+    <article><span class="stat">{{ $needsReview }}</span><span class="label">Needs review</span></article>
+    <article><span class="stat">{{ now.Format "2006-01-02" }}</span><span class="label">Updated date</span></article>
+  </section>
+
+  <section class="directory-toolbar" data-target="#coffee-listings">
+    <input type="search" class="control js-filter-text" placeholder="Search by name or address">
+    <select class="control js-filter-status" aria-label="Filter by quality status">
+      <option value="all">All quality statuses</option>
+      <option value="ready">Publish-ready</option>
+      <option value="review">Needs review</option>
+    </select>
+    <select class="control js-filter-confidence" aria-label="Filter by confidence">
+      <option value="all">All confidence levels</option>
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low</option>
+      <option value="unknown">Unknown</option>
+    </select>
+    <p class="muted filter-count">Showing <span class="js-visible-count">{{ $total }}</span> of <span class="js-total-count">{{ $total }}</span></p>
+  </section>
+
+  <section id="coffee-listings" class="listing-grid">
+    {{ range sort $shops "name" "asc" }}
+      {{ $address := "Address not listed" }}
+      {{ if .address.full }}
+        {{ $address = .address.full }}
+      {{ else if or .address.street .address.city }}
+        {{ $address = printf "%s%s%s" (or .address.street "") (cond (and .address.street .address.city) ", " "") (or .address.city "") }}
+      {{ end }}
+      {{ $confidence := lower (or .verification.confidence "unknown") }}
+      <article
+        class="listing-card"
+        data-name="{{ lower .name }}"
+        data-address="{{ lower $address }}"
+        data-status="{{ if .verification.publish_ready }}ready{{ else }}review{{ end }}"
+        data-confidence="{{ $confidence }}"
+      >
+        <div class="card-top">
+          <h2>{{ .name }}</h2>
+          <span class="quality-pill {{ if .verification.publish_ready }}good{{ else }}warn{{ end }}">{{ if .verification.publish_ready }}Publish-ready{{ else }}Needs review{{ end }}</span>
+        </div>
+
+        <p class="muted scoreline">Score {{ or .verification.score "n/a" }} · Confidence {{ or .verification.confidence "unknown" }}</p>
+
+        <ul class="meta">
+          <li><strong>Address</strong><span>{{ $address }}</span></li>
+          <li><strong>Phone</strong><span>{{ or .contact.phone "Not listed" }}</span></li>
+          <li><strong>Last verified</strong><span>{{ or .verification.last_verified_at "Unverified" }}</span></li>
+        </ul>
+
+        <p class="action-row">
+          {{ with .links.website }}<a class="btn-link" href="{{ . }}" target="_blank" rel="noopener">Website</a>{{ end }}
+          {{ with .links.facebook }}<a class="btn-link" href="{{ . }}" target="_blank" rel="noopener">Facebook</a>{{ end }}
+          {{ with .links.instagram }}<a class="btn-link" href="{{ . }}" target="_blank" rel="noopener">Instagram</a>{{ end }}
+          {{ with .links.menu }}<a class="btn-link" href="{{ . }}" target="_blank" rel="noopener">Menu</a>{{ end }}
+          {{ with .links.google_maps }}<a class="btn-link btn-map" href="{{ . }}" target="_blank" rel="noopener">Map</a>{{ end }}
+        </p>
+
+        {{ if .photos }}
+          {{ $photo := index .photos 0 }}
+          {{ if $photo.url }}<img src="{{ $photo.url }}" alt="{{ .name }}" loading="lazy">{{ end }}
+        {{ end }}
+      </article>
+    {{ end }}
+  </section>
+
+  <section class="feedback-box">
+    <h3>Found incorrect info?</h3>
+    <p>Feedback form wiring is still being added. For now, send corrections directly to the project inbox.</p>
+    <p class="muted">Prioritize listings marked Needs review.</p>
+  </section>
+{{ end }}

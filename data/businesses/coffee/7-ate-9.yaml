@@ -1,0 +1,39 @@
+slug: 7-ate-9
+name: 7 ate 9
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: Merriman Street
+  suburb: George Central
+  city: George
+  postal_code: '6530'
+  full: Merriman Street, George Central, George, 6530
+  latitude: -33.966538
+  longitude: 22.463576
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=7+ate+9+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: low
+  sources:
+  - https://www.openstreetmap.org/way/1203770914
+  - https://overpass-api.de/api/interpreter (OSM element way/1203770914, name match near George)
+  score: 52
+  publish_ready: false
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: OSM confirms venue name and point in George Central; no independently verified phone,
+  website, or opening hours found. Uncertainty: listing could be seasonal or recently changed.'

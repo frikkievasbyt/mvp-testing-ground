@@ -1,0 +1,41 @@
+slug: yellow-bird-cafe
+name: Yellow Bird Cafe
+category: coffee_shop
+subcategories:
+- cafe
+address:
+  street: 1 Witfontein Road
+  suburb: Heather Park
+  city: George
+  postal_code: null
+  full: Heather Park Shopping Center, 1 Witfontein Road, George
+  latitude: -33.950836
+  longitude: 22.43295
+contact:
+  phone: +27 62 112 3883
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Yellow+Bird+Cafe,+George
+hours:
+- Mo-Fr 07:30-16:00; Sa 07:30-13:00
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: medium
+  sources:
+  - OpenStreetMap (Overpass, node: Yellow Bird Cafe)
+  - Google Maps place listing (query-based)
+  - Nominatim geocoding lookup (Yellow Bird Cafe, George)
+  score: 78
+  publish_ready: true
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Confirmed street/location, phone number, and opening hours from OSM tags.
+  Uncertainty: no official website/social profile confidently matched in this pass.'

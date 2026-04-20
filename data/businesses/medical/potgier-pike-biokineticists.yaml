@@ -1,0 +1,38 @@
+slug: potgier-pike-biokineticists
+name: 'Potgier & Pike Biokineticists'
+category: medical_service
+subcategories:
+- medical_service
+expertise: 'Biokinetics'
+address:
+  street: 'Stander Street'
+  suburb: 'Genevafontein'
+  city: 'George'
+  postal_code: '6530'
+  full: '106 Stander Street, George'
+  latitude: -33.9602653
+  longitude: 22.4886777
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: 'http://cawbio.co.za'
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Potgier+%26+Pike+Biokineticists+George'
+hours:
+- 'Mo-Fr 06:00-19:00; Sa 08:00-13:00; PH off'
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 72
+  publish_ready: true
+  sources:
+  - 'https://www.openstreetmap.org/node/8991378228'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Potgier+%26+Pike+Biokineticists+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Potgier+%26+Pike+Biokineticists+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

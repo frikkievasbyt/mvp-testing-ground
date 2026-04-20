@@ -1,0 +1,39 @@
+slug: bean-tree-cafe
+name: Bean Tree Cafe
+category: coffee_shop
+subcategories:
+- coffee_shop
+address:
+  street: Kaaimans Road
+  suburb: null
+  city: George
+  postal_code: '6546'
+  full: Kaaimans Road, George, 6546
+  latitude: -33.983081
+  longitude: 22.502185
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=Bean+Tree+Cafe+George
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-19'
+  confidence: low
+  sources:
+  - https://www.openstreetmap.org/node/12458885760
+  - https://overpass-api.de/api/interpreter (OSM element node/12458885760, name match near George)
+  score: 50
+  publish_ready: false
+  checks:
+    nominatim_match: false
+    overpass_match: true
+    address_consistent: true
+notes: 'QA: Name and location confirmed via OSM node near Kaaimans Road; no verified contact,
+  social links, or trading hours found. Uncertainty: exact street number/suburb not published in sources.'

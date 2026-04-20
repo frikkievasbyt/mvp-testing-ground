@@ -1,0 +1,21 @@
+baseURL: "/"
+languageCode: "en-za"
+title: "George Business Directory"
+
+enableRobotsTXT: true
+
+params:
+  town: "George, Western Cape"
+  feedbackFormUrl: ""
+  ownerEmail: ""
+
+permalinks:
+  coffee: "/coffee/:slug/"
+  bicycle: "/bicycle/:slug/"
+  medical: "/medical/:slug/"
+  animal-services: "/animal-services/:slug/"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

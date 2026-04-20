@@ -1,0 +1,38 @@
+slug: mediclinic-george
+name: 'Mediclinic George'
+category: medical_service
+subcategories:
+- hospital
+expertise: 'Hospital Services'
+address:
+  street: 'Cnr Gloucester & York Street'
+  suburb: 'Dormehls Drift'
+  city: 'George'
+  postal_code: '6530'
+  full: 'Cnr Gloucester & York Street, George'
+  latitude: -33.9571959
+  longitude: 22.4564926
+contact:
+  phone: '+27 44 803 2000'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Mediclinic+George+George'
+hours:
+- '24/7'
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 72
+  publish_ready: true
+  sources:
+  - 'https://www.openstreetmap.org/way/213720592'
+  - OpenStreetMap Overpass query (George bounding box)
+  - 'https://www.google.com/search?q=site%3Amedpages.info+Mediclinic+George+George'
+  - 'https://www.google.com/maps/search/?api=1&query=Mediclinic+George+George'
+notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'

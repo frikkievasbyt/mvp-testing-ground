@@ -1,0 +1,86 @@
+{{ define "main" }}
+  {{ if eq .RelPermalink "/" }}
+    {{ $coffeeCount := 0 }}
+    {{ if fileExists "data/businesses/coffee" }}
+      {{ range (readDir "data/businesses/coffee") }}
+        {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}{{ $coffeeCount = add $coffeeCount 1 }}{{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ $bicycleCount := 0 }}
+    {{ if fileExists "data/businesses/bicycle" }}
+      {{ range (readDir "data/businesses/bicycle") }}
+        {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}{{ $bicycleCount = add $bicycleCount 1 }}{{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ $medicalCount := 0 }}
+    {{ if fileExists "data/businesses/medical" }}
+      {{ range (readDir "data/businesses/medical") }}
+        {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}{{ $medicalCount = add $medicalCount 1 }}{{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ $animalCount := 0 }}
+    {{ if fileExists "data/businesses/animal-services" }}
+      {{ range (readDir "data/businesses/animal-services") }}
+        {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}{{ $animalCount = add $animalCount 1 }}{{ end }}
+      {{ end }}
+    {{ end }}
+
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Local Discovery</p>
+        <h1>{{ .Title }}</h1>
+        <div class="lead">{{ .Content }}</div>
+        <p class="muted">Last refreshed {{ now.Format "2006-01-02 15:04" }}</p>
+      </div>
+      <div class="hero-stats">
+        <article>
+          <span class="stat">{{ $coffeeCount }}</span>
+          <span class="label">Coffee listings</span>
+        </article>
+        <article>
+          <span class="stat">{{ $bicycleCount }}</span>
+          <span class="label">Bicycle listings</span>
+        </article>
+        <article>
+          <span class="stat">{{ $medicalCount }}</span>
+          <span class="label">Medical listings</span>
+        </article>
+        <article>
+          <span class="stat">{{ $animalCount }}</span>
+          <span class="label">Animal services listings</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature-grid">
+      <article class="feature-card">
+        <h2>☕ Coffee Shops</h2>
+        <p>Specialty cafes and neighborhood favorites with quality score, confidence, and direct links.</p>
+        <a class="btn" href="/coffee/">Browse coffee directory</a>
+      </article>
+      <article class="feature-card">
+        <h2>🚴 Bicycle Shops</h2>
+        <p>Bike stores, service points, and gear outlets with verification metadata and map links.</p>
+        <a class="btn" href="/bicycle/">Browse bicycle directory</a>
+      </article>
+      <article class="feature-card">
+        <h2>🏥 Medical Services</h2>
+        <p>Split into Doctors, Pharmacies, and Service Providers with expertise fields and ongoing enrichment.</p>
+        <a class="btn" href="/medical/">Browse medical directory</a>
+      </article>
+      <article class="feature-card">
+        <h2>🐾 Animal Services</h2>
+        <p>Animal health providers including vets and related care services.</p>
+        <a class="btn" href="/animal-services/">Browse animal services</a>
+      </article>
+    </section>
+  {{ else }}
+    <section class="page-intro">
+      <h1>{{ .Title }}</h1>
+      <div class="lead">{{ .Content }}</div>
+    </section>
+  {{ end }}
+{{ end }}
