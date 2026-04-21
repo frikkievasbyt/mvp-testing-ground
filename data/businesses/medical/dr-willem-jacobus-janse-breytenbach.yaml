@@ -1,0 +1,36 @@
+slug: dr-willem-jacobus-janse-breytenbach
+name: 'Dr Willem Jacobus Janse Breytenbach'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Paediatrician'
+address:
+  street: 'Davidson Road'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Davidson Road, George, 6529'
+  latitude: -33.9518439
+  longitude: 22.4521201
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Willem+Jacobus+Janse+Breytenbach+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-21'
+  confidence: medium
+  score: 60
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=person&personcode=74634'
+  - 'https://www.medpages.info/sf/index.php?page=newsearchresults&q=george+paediatrician'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Willem+Jacobus+Janse+Breytenbach+George'
+notes: 'Medpages person profile confirms Dr Willem Jacobus Janse Breytenbach as a paediatrician in George with address and map coordinates. Public profile withholds telephone details.'

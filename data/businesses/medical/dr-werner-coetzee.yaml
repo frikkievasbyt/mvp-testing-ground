@@ -1,0 +1,36 @@
+slug: dr-werner-coetzee
+name: 'Dr Werner Coetzee'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Surgery (Gastroenterology)'
+address:
+  street: '2nd Floor Room 215 New George Mediclinic, 2 Heron Street'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: '2nd Floor Room 215 New George Mediclinic, 2 Heron Street, George, 6529'
+  latitude: -33.9814997
+  longitude: 22.4402488
+contact:
+  phone: '+27 44 873 2726'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Werner+Coetzee+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-21'
+  confidence: medium
+  score: 72
+  publish_ready: true
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=1832681'
+  - 'https://www.medpages.info/sf/index.php?page=newsearchresults&q=doctor+george+western+cape'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Werner+Coetzee+George'
+notes: 'Medpages organisation listing confirms specialist surgery practice in George with telephone, street address, and map coordinates.'

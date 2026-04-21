@@ -11,6 +11,9 @@
   {{ end }}
 
   {{ $doctors := slice }}
+  {{ $dentists := slice }}
+  {{ $general := slice }}
+  {{ $specialists := slice }}
   {{ $pharmacies := slice }}
   {{ $services := slice }}
 
@@ -29,6 +32,24 @@
     {{ end }}
   {{ end }}
 
+  {{ range $doctors }}
+    {{ $primary := "" }}
+    {{ if and .subcategories (gt (len .subcategories) 0) }}
+      {{ $primary = lower (index .subcategories 0) }}
+    {{ end }}
+    {{ $expertise := lower (or .expertise "") }}
+    {{ $isDentist := or (eq $primary "dentist") (in $expertise "dentist") }}
+    {{ $isGeneral := or (in $expertise "general practitioner") (in $expertise "family physician") (in $expertise "family medicine") (in $expertise "general practice") (eq $expertise "gp") }}
+
+    {{ if $isDentist }}
+      {{ $dentists = $dentists | append . }}
+    {{ else if $isGeneral }}
+      {{ $general = $general | append . }}
+    {{ else }}
+      {{ $specialists = $specialists | append . }}
+    {{ end }}
+  {{ end }}
+
   {{ $total := add (add (len $doctors) (len $pharmacies)) (len $services) }}
 
   {{ .Scratch.Set "publishReady" 0 }}
@@ -43,7 +64,9 @@
   </section>
 
   <section class="kpi-grid">
-    <article><span class="stat">{{ len $doctors }}</span><span class="label">Doctors</span></article>
+    <article><span class="stat">{{ len $dentists }}</span><span class="label">Dentists</span></article>
+    <article><span class="stat">{{ len $general }}</span><span class="label">General</span></article>
+    <article><span class="stat">{{ len $specialists }}</span><span class="label">Specialists</span></article>
     <article><span class="stat">{{ len $pharmacies }}</span><span class="label">Pharmacies</span></article>
     <article><span class="stat">{{ len $services }}</span><span class="label">Service providers</span></article>
     <article><span class="stat">{{ $total }}</span><span class="label">Total medical listings</span></article>
@@ -51,10 +74,40 @@
     <article><span class="stat">{{ now.Format "2006-01-02" }}</span><span class="label">Updated date</span></article>
   </section>
 
-  {{ if gt (len $doctors) 0 }}
-    <section class="page-intro"><h2>Doctors</h2><p class="muted">General practitioners, dentists, and specialists.</p></section>
+  {{ if gt (len $dentists) 0 }}
+    <section class="page-intro"><h2>Dentists</h2><p class="muted">Dental practitioners and oral health specialists.</p></section>
     <section class="listing-grid">
-      {{ range sort $doctors "name" "asc" }}
+      {{ range sort $dentists "name" "asc" }}
+        {{ $address := "Address not listed" }}
+        {{ if .address.full }}{{ $address = .address.full }}{{ else if or .address.street .address.city }}{{ $address = printf "%s%s%s" (or .address.street "") (cond (and .address.street .address.city) ", " "") (or .address.city "") }}{{ end }}
+        {{ $confidence := lower (or .verification.confidence "unknown") }}
+        <article class="listing-card" data-name="{{ lower (or .name "unknown") }}" data-address="{{ lower $address }}" data-status="{{ if .verification.publish_ready }}ready{{ else }}review{{ end }}" data-confidence="{{ $confidence }}">
+          <div class="card-top">
+            <h2>{{ or .name "Unnamed provider" }}</h2>
+            <span class="quality-pill {{ if .verification.publish_ready }}good{{ else }}warn{{ end }}">{{ if .verification.publish_ready }}Publish-ready{{ else }}Needs review{{ end }}</span>
+          </div>
+          <p class="muted scoreline">Score {{ or .verification.score "n/a" }} · Confidence {{ or .verification.confidence "unknown" }}</p>
+          <ul class="meta">
+            <li><strong>Expertise</strong><span>{{ or .expertise "Dentist" }}</span></li>
+            <li><strong>Address</strong><span>{{ $address }}</span></li>
+            <li><strong>Phone</strong><span>{{ or .contact.phone "Not listed" }}</span></li>
+            <li><strong>Email</strong><span>{{ or .contact.email "Not listed" }}</span></li>
+            <li><strong>Last verified</strong><span>{{ or .verification.last_verified_at "Unverified" }}</span></li>
+          </ul>
+          <p class="action-row">
+            {{ with .links.website }}<a class="btn-link" href="{{ . }}" target="_blank" rel="noopener">Website</a>{{ end }}
+            {{ with .links.facebook }}<a class="btn-link" href="{{ . }}" target="_blank" rel="noopener">Facebook</a>{{ end }}
+            {{ with .links.google_maps }}<a class="btn-link btn-map" href="{{ . }}" target="_blank" rel="noopener">Map</a>{{ end }}
+          </p>
+        </article>
+      {{ end }}
+    </section>
+  {{ end }}
+
+  {{ if gt (len $general) 0 }}
+    <section class="page-intro"><h2>General</h2><p class="muted">General practitioners and family medicine providers.</p></section>
+    <section class="listing-grid">
+      {{ range sort $general "name" "asc" }}
         {{ $address := "Address not listed" }}
         {{ if .address.full }}{{ $address = .address.full }}{{ else if or .address.street .address.city }}{{ $address = printf "%s%s%s" (or .address.street "") (cond (and .address.street .address.city) ", " "") (or .address.city "") }}{{ end }}
         {{ $confidence := lower (or .verification.confidence "unknown") }}
@@ -66,6 +119,36 @@
           <p class="muted scoreline">Score {{ or .verification.score "n/a" }} · Confidence {{ or .verification.confidence "unknown" }}</p>
           <ul class="meta">
             <li><strong>Expertise</strong><span>{{ or .expertise "General Practitioner" }}</span></li>
+            <li><strong>Address</strong><span>{{ $address }}</span></li>
+            <li><strong>Phone</strong><span>{{ or .contact.phone "Not listed" }}</span></li>
+            <li><strong>Email</strong><span>{{ or .contact.email "Not listed" }}</span></li>
+            <li><strong>Last verified</strong><span>{{ or .verification.last_verified_at "Unverified" }}</span></li>
+          </ul>
+          <p class="action-row">
+            {{ with .links.website }}<a class="btn-link" href="{{ . }}" target="_blank" rel="noopener">Website</a>{{ end }}
+            {{ with .links.facebook }}<a class="btn-link" href="{{ . }}" target="_blank" rel="noopener">Facebook</a>{{ end }}
+            {{ with .links.google_maps }}<a class="btn-link btn-map" href="{{ . }}" target="_blank" rel="noopener">Map</a>{{ end }}
+          </p>
+        </article>
+      {{ end }}
+    </section>
+  {{ end }}
+
+  {{ if gt (len $specialists) 0 }}
+    <section class="page-intro"><h2>Specialists</h2><p class="muted">Specialist doctors outside general practice and dentistry.</p></section>
+    <section class="listing-grid">
+      {{ range sort $specialists "name" "asc" }}
+        {{ $address := "Address not listed" }}
+        {{ if .address.full }}{{ $address = .address.full }}{{ else if or .address.street .address.city }}{{ $address = printf "%s%s%s" (or .address.street "") (cond (and .address.street .address.city) ", " "") (or .address.city "") }}{{ end }}
+        {{ $confidence := lower (or .verification.confidence "unknown") }}
+        <article class="listing-card" data-name="{{ lower (or .name "unknown") }}" data-address="{{ lower $address }}" data-status="{{ if .verification.publish_ready }}ready{{ else }}review{{ end }}" data-confidence="{{ $confidence }}">
+          <div class="card-top">
+            <h2>{{ or .name "Unnamed provider" }}</h2>
+            <span class="quality-pill {{ if .verification.publish_ready }}good{{ else }}warn{{ end }}">{{ if .verification.publish_ready }}Publish-ready{{ else }}Needs review{{ end }}</span>
+          </div>
+          <p class="muted scoreline">Score {{ or .verification.score "n/a" }} · Confidence {{ or .verification.confidence "unknown" }}</p>
+          <ul class="meta">
+            <li><strong>Expertise</strong><span>{{ or .expertise "Specialist" }}</span></li>
             <li><strong>Address</strong><span>{{ $address }}</span></li>
             <li><strong>Phone</strong><span>{{ or .contact.phone "Not listed" }}</span></li>
             <li><strong>Email</strong><span>{{ or .contact.email "Not listed" }}</span></li>

@@ -1,0 +1,36 @@
+slug: dr-lourine-raubenheimer
+name: 'Dr Lourine Raubenheimer'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Family Physician'
+address:
+  street: 'Mediclinic George - Theatre, Cnr Gloucester Avenue & York Street'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Mediclinic George - Theatre, Cnr Gloucester Avenue & York Street, George, 6529'
+  latitude: -33.9562965
+  longitude: 22.4549824
+contact:
+  phone: '+27 44 803 2039'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Lourine+Raubenheimer+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-21'
+  confidence: medium
+  score: 73
+  publish_ready: true
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=person&personcode=107415'
+  - 'https://www.medpages.info/sf/index.php?page=newsearchresults&q=physician+george+western+cape'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Lourine+Raubenheimer+George'
+notes: 'Medpages person listing confirms Family Physician specialty in George, with telephone, Mediclinic George address, and map coordinates.'

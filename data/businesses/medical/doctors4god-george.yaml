@@ -1,0 +1,36 @@
+slug: doctors4god-george
+name: 'Doctors4God - George'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'General Practitioner'
+address:
+  street: 'Shop 29 Multi Centre, Market Street'
+  suburb: null
+  city: 'George'
+  postal_code: null
+  full: 'Shop 29 Multi Centre, Market Street, George'
+  latitude: null
+  longitude: null
+contact:
+  phone: '044 874 3963'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Doctors4God+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-20'
+  confidence: medium
+  score: 60
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=1988997'
+  - 'https://www.medpages.info/sf/index.php?page=newsearchresults&q=george+doctor'
+  - 'https://www.google.com/maps/search/?api=1&query=Doctors4God+George'
+notes: 'Medpages organisation listing confirms a general practice in George with a phone number and street address. Coordinates and postal code were not published in the verified source, so those fields remain null.'

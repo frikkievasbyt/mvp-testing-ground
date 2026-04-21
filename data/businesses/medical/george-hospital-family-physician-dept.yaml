@@ -1,0 +1,36 @@
+slug: george-hospital-family-physician-dept
+name: 'George Hospital - Family Physician Dept'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Family Medicine'
+address:
+  street: 'King George Park, Cnr Davidson Road & Langenhoven Road'
+  suburb: 'Heatherlands'
+  city: 'George'
+  postal_code: '6529'
+  full: 'King George Park, Cnr Davidson Road & Langenhoven Road, Heatherlands, George'
+  latitude: -33.9519804
+  longitude: 22.452109
+contact:
+  phone: '+27 44 802 4597'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=George+Hospital+Family+Physician+Dept+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-21'
+  confidence: medium
+  score: 63
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=350571'
+  - 'https://www.medpages.info/sf/index.php?page=newsearchresults&q=george+family+physician'
+  - 'https://www.google.com/maps/search/?api=1&query=George+Hospital+Family+Physician+Dept+George'
+notes: 'Medpages lists this George Hospital family physician department with direct telephone, suburb, postal code, and map coordinates. No public website or email was provided in source, so those fields remain null.'
