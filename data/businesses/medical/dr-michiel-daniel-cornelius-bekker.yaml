@@ -1,0 +1,36 @@
+slug: dr-michiel-daniel-cornelius-bekker
+name: 'Dr Michiel Daniel Cornelius Bekker'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'General Practitioner (GP)'
+address:
+  street: 'Davidson Road'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Davidson Road, George, 6529'
+  latitude: -33.9519614
+  longitude: 22.452083
+contact:
+  phone: '+27 44 802 4433'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Michiel+Daniel+Cornelius+Bekker+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-21'
+  confidence: medium
+  score: 72
+  publish_ready: true
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=person&personcode=103696'
+  - 'https://www.medpages.info/sf/index.php?page=newsearchresults&q=george+general+practitioner'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Michiel+Daniel+Cornelius+Bekker+George'
+notes: 'Medpages person listing confirms GP specialty in George with telephone, street address, postcode, and map coordinates.'

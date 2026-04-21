@@ -1,0 +1,36 @@
+slug: dr-johann-hercules-smit
+name: 'Dr Johann Hercules Smit'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'Paediatrician'
+address:
+  street: 'Room G01 Mediclinic George, York Street'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Room G01 Mediclinic George, York Street, George, 6529'
+  latitude: -33.9573553
+  longitude: 22.4567497
+contact:
+  phone: '+27 44 874 3840'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Johann+Hercules+Smit+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-21'
+  confidence: medium
+  score: 66
+  publish_ready: false
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=person&personcode=27507'
+  - 'https://www.medpages.info/sf/index.php?page=newsearchresults&q=george+paediatrician'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Johann+Hercules+Smit+George'
+notes: 'Medpages person profile confirms Dr Johann Hercules Smit as a paediatrician in George with listed phone, address, and map coordinates.'

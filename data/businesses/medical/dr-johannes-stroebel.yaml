@@ -1,0 +1,36 @@
+slug: dr-johannes-stroebel
+name: 'Dr Johannes Stroebel'
+category: medical_service
+subcategories:
+- doctor
+expertise: 'General Practice (GP)'
+address:
+  street: 'Suite 111 Mediclinic George, 2 Heron Street'
+  suburb: null
+  city: 'George'
+  postal_code: '6529'
+  full: 'Suite 111 Mediclinic George, 2 Heron Street, George, 6529'
+  latitude: -33.9792400
+  longitude: 22.4401415
+contact:
+  phone: '+27 44 803 2498'
+  whatsapp: null
+  email: null
+links:
+  website: null
+  facebook: null
+  instagram: null
+  menu: null
+  google_maps: 'https://www.google.com/maps/search/?api=1&query=Dr+Johannes+Stroebel+George'
+hours: []
+photos: []
+verification:
+  last_verified_at: '2026-04-21'
+  confidence: medium
+  score: 72
+  publish_ready: true
+  sources:
+  - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=1988128'
+  - 'https://www.medpages.info/sf/index.php?page=newsearchresults&q=doctor+george+western+cape'
+  - 'https://www.google.com/maps/search/?api=1&query=Dr+Johannes+Stroebel+George'
+notes: 'Medpages organisation listing confirms GP practice in George with telephone, street address, and map coordinates.'
