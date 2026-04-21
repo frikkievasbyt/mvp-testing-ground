@@ -1,0 +1,64 @@
+{{ define "main" }}
+  {{ $stations := slice }}
+  {{ if fileExists "data/businesses/fuel" }}
+    {{ range (readDir "data/businesses/fuel") }}
+      {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}
+        {{ $path := printf "data/businesses/fuel/%s" .Name }}
+        {{ $station := transform.Unmarshal (readFile $path) }}
+        {{ $stations = $stations | append $station }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ $total := len $stations }}
+  {{ .Scratch.Set "publishReady" 0 }}
+  {{ range $stations }}
+    {{ if .verification.publish_ready }}{{ $.Scratch.Add "publishReady" 1 }}{{ end }}
+  {{ end }}
+
+  <section class="page-intro">
+    <p class="eyebrow">Directory</p>
+    <h1>{{ .Title }}</h1>
+    <div class="lead">{{ .Content }}</div>
+  </section>
+
+  <section class="kpi-grid">
+    <article><span class="stat">{{ $total }}</span><span class="label">Total listings</span></article>
+    <article><span class="stat">{{ .Scratch.Get "publishReady" }}</span><span class="label">Publish-ready</span></article>
+    <article><span class="stat">{{ sub $total (.Scratch.Get "publishReady") }}</span><span class="label">Needs review</span></article>
+    <article><span class="stat">{{ now.Format "2006-01-02" }}</span><span class="label">Updated date</span></article>
+  </section>
+
+  {{ if gt $total 0 }}
+    <section class="listing-grid">
+      {{ range sort $stations "name" "asc" }}
+        {{ $address := "Address not listed" }}
+        {{ if .address.full }}{{ $address = .address.full }}{{ else if or .address.street .address.city }}{{ $address = printf "%s%s%s" (or .address.street "") (cond (and .address.street .address.city) ", " "") (or .address.city "") }}{{ end }}
+        {{ $confidence := lower (or .verification.confidence "unknown") }}
+        <article class="listing-card" data-name="{{ lower (or .name "unknown") }}" data-address="{{ lower $address }}" data-status="{{ if .verification.publish_ready }}ready{{ else }}review{{ end }}" data-confidence="{{ $confidence }}">
+          <div class="card-top">
+            <h2>{{ or .name "Unnamed station" }}</h2>
+            <span class="quality-pill {{ if .verification.publish_ready }}good{{ else }}warn{{ end }}">{{ if .verification.publish_ready }}Publish-ready{{ else }}Needs review{{ end }}</span>
+          </div>
+          <p class="muted scoreline">Score {{ or .verification.score "n/a" }} · Confidence {{ or .verification.confidence "unknown" }}</p>
+          <ul class="meta">
+            <li><strong>Brand</strong><span>{{ or .brand "Unknown" }}</span></li>
+            <li><strong>Address</strong><span>{{ $address }}</span></li>
+            <li><strong>Phone</strong><span>{{ or .contact.phone "Not listed" }}</span></li>
+            <li><strong>Hours</strong><span>{{ or .hours "Not listed" }}</span></li>
+            <li><strong>Last verified</strong><span>{{ or .verification.last_verified_at "Unverified" }}</span></li>
+          </ul>
+          <p class="action-row">
+            {{ with .links.website }}<a class="btn-link" href="{{ . }}" target="_blank" rel="noopener">Website</a>{{ end }}
+            {{ with .links.google_maps }}<a class="btn-link btn-map" href="{{ . }}" target="_blank" rel="noopener">Map</a>{{ end }}
+          </p>
+        </article>
+      {{ end }}
+    </section>
+  {{ else }}
+    <section class="feedback-box">
+      <h3>No fuel station listings yet</h3>
+      <p>Discovery is running. Fuel stations will appear here first, then be enriched with complete contact, map, and service details.</p>
+    </section>
+  {{ end }}
+{{ end }}

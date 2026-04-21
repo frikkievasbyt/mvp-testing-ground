@@ -1,26 +1,14 @@
 {
-  "lastRunAt": "2026-04-21T19:40:09Z",
-  "batchSize": 10,
-  "changedFiles": [
-    "data/businesses/medical/clicks-2.yaml",
-    "data/businesses/medical/clicks-3.yaml",
-    "data/businesses/medical/clicks.yaml",
-    "data/businesses/medical/dis-chem-pharmacy-2.yaml",
-    "data/businesses/medical/dis-chem-pharmacy.yaml",
-    "data/businesses/medical/intercare-george.yaml",
-    "data/businesses/medical/mediclinic-george.yaml",
-    "data/businesses/medical/pathcare-george.yaml",
-    "data/businesses/medical/pharma-warehouse.yaml",
-    "data/businesses/medical/western-cape-blood-service-george-regional-office.yaml"
-  ],
-  "sampledFiles": [
-    "data/businesses/medical/clicks-2.yaml",
-    "data/businesses/medical/pathcare-george.yaml",
-    "data/businesses/medical/western-cape-blood-service-george-regional-office.yaml",
-    "data/businesses/medical/pharma-warehouse.yaml"
-  ],
-  "avgConfidence": 0.72,
+  "version": 2,
+  "domain": "fuel",
+  "phase": "discovery",
+  "lastRunAt": null,
+  "batchSize": 12,
+  "changedFiles": [],
+  "sampledFiles": [],
+  "avgConfidence": 0,
   "escalatedCount": 0,
-  "lastCommit": "9eba675",
-  "nextBatchHint": "Enrich next 12 low-score doctor profiles with direct practice websites/phones from Medpages or official practice domains; keep unknown contacts null."
+  "lastCommit": null,
+  "nextBatchHint": "state/fuel_station_inventory.yaml",
+  "notes": "Phase 1 is discovery and inventory. After inventory reaches good coverage, switch phase to enrichment and write listing cards to data/businesses/fuel/*.yaml."
 }

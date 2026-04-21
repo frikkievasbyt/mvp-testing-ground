@@ -17,7 +17,15 @@
     {{ $medicalCount := 0 }}
     {{ if fileExists "data/businesses/medical" }}
       {{ range (readDir "data/businesses/medical") }}
-        {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}{{ $medicalCount = add $medicalCount 1 }}{{ end }}
+        {{ $nameLower := lower .Name }}
+        {{ if and (in (slice ".yaml" ".yml") (lower (path.Ext .Name))) (not (strings.HasPrefix $nameLower "doctor-profiles")) }}{{ $medicalCount = add $medicalCount 1 }}{{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ $fuelCount := 0 }}
+    {{ if fileExists "data/businesses/fuel" }}
+      {{ range (readDir "data/businesses/fuel") }}
+        {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}{{ $fuelCount = add $fuelCount 1 }}{{ end }}
       {{ end }}
     {{ end }}
 
@@ -49,6 +57,10 @@
           <span class="label">Medical listings</span>
         </article>
         <article>
+          <span class="stat">{{ $fuelCount }}</span>
+          <span class="label">Fuel listings</span>
+        </article>
+        <article>
           <span class="stat">{{ $animalCount }}</span>
           <span class="label">Animal services listings</span>
         </article>
@@ -70,6 +82,11 @@
         <h2>🏥 Medical Services</h2>
         <p>Split into Doctors, Pharmacies, and Service Providers with expertise fields and ongoing enrichment.</p>
         <a class="btn" href="{{ "medical/" | relURL }}">Browse medical directory</a>
+      </article>
+      <article class="feature-card">
+        <h2>⛽ Fuel Filling Stations</h2>
+        <p>Petrol stations in and around George with map links, contact details, and enriched service data.</p>
+        <a class="btn" href="{{ "fuel/" | relURL }}">Browse fuel stations</a>
       </article>
       <article class="feature-card">
         <h2>🐾 Animal Services</h2>
