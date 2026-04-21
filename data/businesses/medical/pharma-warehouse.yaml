@@ -17,7 +17,7 @@ contact:
   whatsapp: null
   email: null
 links:
-  website: null
+  website: 'https://pharmawarehouse.co.za/'
   facebook: null
   instagram: null
   menu: null
@@ -26,13 +26,14 @@ hours:
 - 'Mo-Fr 08:00-18:00; Sa 08:30-14:00; Su 09:00-12:00; PH 09:00-14:00'
 photos: []
 verification:
-  last_verified_at: '2026-04-20'
+  last_verified_at: '2026-04-21'
   confidence: medium
-  score: 64
-  publish_ready: false
+  score: 72
+  publish_ready: true
   sources:
   - 'https://www.openstreetmap.org/node/3250950045'
   - OpenStreetMap Overpass query (George bounding box)
+  - 'https://pharmawarehouse.co.za/'
   - 'https://www.google.com/search?q=site%3Amedpages.info+Pharma+Warehouse+George'
   - 'https://www.google.com/maps/search/?api=1&query=Pharma+Warehouse+George'
-notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'
+notes: 'Phase enrich update: added official provider website and retained nulls for unverified direct contacts.'

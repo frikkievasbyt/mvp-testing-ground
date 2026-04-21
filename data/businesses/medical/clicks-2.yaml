@@ -17,7 +17,7 @@ contact:
   whatsapp: null
   email: null
 links:
-  website: null
+  website: 'https://clicks.co.za/'
   facebook: null
   instagram: null
   menu: null
@@ -25,13 +25,14 @@ links:
 hours: []
 photos: []
 verification:
-  last_verified_at: '2026-04-20'
+  last_verified_at: '2026-04-21'
   confidence: medium
-  score: 64
-  publish_ready: false
+  score: 72
+  publish_ready: true
   sources:
   - 'https://www.openstreetmap.org/node/11961047413'
   - OpenStreetMap Overpass query (George bounding box)
+  - 'https://clicks.co.za/'
   - 'https://www.google.com/search?q=site%3Amedpages.info+Clicks+George'
   - 'https://www.google.com/maps/search/?api=1&query=Clicks+George'
-notes: 'Phase enrich: source-backed card generated from OSM, with Medpages lookup link included for manual profile verification.'
+notes: 'Phase enrich update: added official provider website and retained nulls for unverified direct contacts.'
