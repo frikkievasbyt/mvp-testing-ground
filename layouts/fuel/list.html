@@ -33,7 +33,7 @@
     <section class="listing-grid">
       {{ range sort $stations "name" "asc" }}
         {{ $address := "Address not listed" }}
-        {{ if .address.full }}{{ $address = .address.full }}{{ else if or .address.street .address.city }}{{ $address = printf "%s%s%s" (or .address.street "") (cond (and .address.street .address.city) ", " "") (or .address.city "") }}{{ end }}
+        {{ if .address.full }}{{ $address = .address.full }}{{ else if or .address.street .address.city }}{{ $address = printf "%s%s%s" (or .address.street "") (cond (and .address.street .address.city) ", " "") (or .address.city "") }}{{ else if .location }}{{ $address = .location }}{{ end }}
         {{ $confidence := lower (or .verification.confidence "unknown") }}
         <article class="listing-card" data-name="{{ lower (or .name "unknown") }}" data-address="{{ lower $address }}" data-status="{{ if .verification.publish_ready }}ready{{ else }}review{{ end }}" data-confidence="{{ $confidence }}">
           <div class="card-top">
@@ -44,7 +44,7 @@
           <ul class="meta">
             <li><strong>Brand</strong><span>{{ or .brand "Unknown" }}</span></li>
             <li><strong>Address</strong><span>{{ $address }}</span></li>
-            <li><strong>Phone</strong><span>{{ or .contact.phone "Not listed" }}</span></li>
+            <li><strong>Phone</strong><span>{{ or .contact.phone (or .phone "Not listed") }}</span></li>
             <li><strong>Hours</strong><span>{{ or .hours "Not listed" }}</span></li>
             <li><strong>Last verified</strong><span>{{ or .verification.last_verified_at "Unverified" }}</span></li>
           </ul>

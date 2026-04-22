@@ -1,12 +1,22 @@
 name: "TotalEnergies"
 brand: "TotalEnergies"
 location: "George"
+address:
+  full: "George"
+  street: null
+  city: "George"
+  postal_code: null
+
 source: "https://www.openstreetmap.org/node/12269704118"
 confidence: 0.9
 links:
   google_maps: "https://maps.google.com/?q=-33.9564017,22.4610516"
   openstreetmap: "https://www.openstreetmap.org/node/12269704118"
 phone: null
+contact:
+  phone: null
+  email: null
+
 website: "https://store.totalenergies.fr/en_EN/ZA111S0168"
 hours: null
 coords:

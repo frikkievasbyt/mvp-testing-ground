@@ -1,12 +1,22 @@
 name: "Total"
 brand: "Total"
 location: "George"
+address:
+  full: "George"
+  street: null
+  city: "George"
+  postal_code: null
+
 source: "https://www.openstreetmap.org/way/1070236308"
 confidence: 0.82
 links:
   google_maps: "https://maps.google.com/?q=-33.9630499,22.4540132"
   openstreetmap: "https://www.openstreetmap.org/way/1070236308"
 phone: null
+contact:
+  phone: null
+  email: null
+
 website: null
 hours: null
 coords:

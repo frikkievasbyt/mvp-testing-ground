@@ -1,12 +1,22 @@
 name: "Astron Energy"
 brand: "Astron Energy"
 location: "Courtenay Street, George Central"
+address:
+  full: "Courtenay Street, George Central"
+  street: "Courtenay Street"
+  city: "George"
+  postal_code: null
+
 source: "https://www.openstreetmap.org/node/12193969173"
 confidence: 0.9
 links:
   google_maps: "https://www.google.com/maps/search/?api=1&query=-33.9600145,22.4677188"
   openstreetmap: "https://www.openstreetmap.org/node/12193969173"
 phone: "+27 44 873 5689"
+contact:
+  phone: "+27 44 873 5689"
+  email: null
+
 website: null
 hours: "Mo-Su 00:00-24:00"
 coords:
