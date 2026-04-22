@@ -1,1 +1,14 @@
-{"phase":"enrichment","batchSize":12,"discoveredCount":12,"changedCount":13,"sampledCount":3,"avgConfidence":0.77,"escalatedCount":0,"committed":true,"blocker":null}
+{
+  "phase": "enrichment",
+  "batchSize": 12,
+  "discoveredCount": 12,
+  "changedCount": 13,
+  "sampledCount": 3,
+  "avgConfidence": 0.89,
+  "escalatedCount": 0,
+  "committed": true,
+  "blocker": null,
+  "lastRunAtUtc": "2026-04-22T06:22:00Z",
+  "lastCommit": "5d8819b",
+  "notes": "Discovery inventory refreshed from Overpass nearest George fuel POIs, then enrichment applied for same 12 sources from OSM tags only."
+}
