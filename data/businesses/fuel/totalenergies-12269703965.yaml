@@ -1,26 +1,30 @@
 ---
 name: TotalEnergies
 brand: TotalEnergies
-location: Beach Road, Londt Motors, George
+location: Beach Road, Pacaltsdorp, George
 address:
-  full: TotalEnergies, Beach Road, George, 6529, South Africa
+  full: TotalEnergies, Beach Road, Seaview, Pacaltsdorp, George Local Municipality,
+    Garden Route District Municipality, Western Cape, 6529, South Africa
   street: Beach Road
   city: George
   postal_code: '6529'
+  suburb: Seaview
 source: https://www.openstreetmap.org/node/12269703965
 confidence: 0.79
 links:
   google_maps: https://www.google.com/maps/search/?api=1&query=-34.0122783,22.4501933
   openstreetmap: https://www.openstreetmap.org/node/12269703965
-phone: null
+phone: 
 contact:
-  phone: null
-  email: null
+  phone: 
+  email: 
 website: https://store.totalenergies.fr/en_EN/ZA111S0514
-hours: null
+hours: 
 coords:
   lat: -34.0122783
   lon: 22.4501933
 services:
-  - diesel
-  - petrol
+- diesel
+- petrol
+- backup_generator
+- fuel_cards

@@ -1,11 +1,14 @@
+---
 name: Engen
 brand: Engen
 location: Knysna Road, Multi Motors, George
 address:
-  full: Engen, Knysna Road, George, 6529, South Africa
+  full: Engen, Knysna Road, Levallia, George Ward 5, George Local Municipality, Garden
+    Route District Municipality, Western Cape, 6529, South Africa
   street: Knysna Road
   city: George
   postal_code: '6529'
+  suburb: Levallia
 source: https://www.openstreetmap.org/node/12289683509
 confidence: 0.91
 links:
@@ -14,11 +17,11 @@ links:
 phone: "+27 44 871 1516"
 contact:
   phone: "+27 44 871 1516"
-  email: null
-website: null
-hours: null
+  email: 
+website: 
+hours: 
 coords:
   lat: -33.9649386
   lon: 22.4802395
 services:
-  - bitcoin_payments
+- bitcoin_payments
