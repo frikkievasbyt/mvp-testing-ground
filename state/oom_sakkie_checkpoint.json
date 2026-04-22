@@ -1,14 +1,14 @@
 {
   "phase": "enrichment",
   "batchSize": 12,
-  "discoveredCount": 12,
-  "changedCount": 13,
+  "discoveredCount": 0,
+  "changedCount": 12,
   "sampledCount": 3,
-  "avgConfidence": 0.89,
+  "avgConfidence": 0.84,
   "escalatedCount": 0,
   "committed": true,
   "blocker": null,
-  "lastRunAtUtc": "2026-04-22T06:22:00Z",
-  "lastCommit": "5d8819b",
-  "notes": "Discovery inventory refreshed from Overpass nearest George fuel POIs, then enrichment applied for same 12 sources from OSM tags only."
+  "lastRunAtUtc": "2026-04-22T07:13:01Z",
+  "lastCommit": "a362f4c",
+  "notes": "Enriched 12 existing George fuel entries with Nominatim-backed locality detail and standardized Google Maps pin URLs; added LPG service where OSM explicitly tagged it."
 }

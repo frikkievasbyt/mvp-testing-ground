@@ -1,10 +1,10 @@
 name: "Engen"
 brand: "Engen"
-location: "George"
+location: "CJ Langenhoven Street, Golfpark 1"
 source: "https://www.openstreetmap.org/node/12289683707"
 confidence: 0.77
 links:
-  google_maps: "https://maps.google.com/?q=-33.949743,22.434268"
+  google_maps: "https://www.google.com/maps/search/?api=1&query=-33.949743,22.434268"
   openstreetmap: "https://www.openstreetmap.org/node/12289683707"
 phone: "+27 44 873 0805"
 website: null

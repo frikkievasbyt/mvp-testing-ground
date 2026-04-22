@@ -1,10 +1,10 @@
 name: "Engen"
 brand: "Engen"
-location: "Knysna Road"
+location: "Casanie Crescent, Levallia"
 source: "https://www.openstreetmap.org/node/12289683509"
 confidence: 0.9
 links:
-  google_maps: "https://maps.google.com/?q=-33.9649386,22.4802395"
+  google_maps: "https://www.google.com/maps/search/?api=1&query=-33.9649386,22.4802395"
   openstreetmap: "https://www.openstreetmap.org/node/12289683509"
 phone: "+27 44 871 1516"
 website: null

@@ -1,10 +1,10 @@
 name: "Engen"
 brand: "Engen"
-location: "Courtenay Street"
+location: "Courtenay Street, George Ward 19"
 source: "https://www.openstreetmap.org/way/644594921"
 confidence: 0.9
 links:
-  google_maps: "https://maps.google.com/?q=-33.9586111,22.4651036"
+  google_maps: "https://www.google.com/maps/search/?api=1&query=-33.9586111,22.4651036"
   openstreetmap: "https://www.openstreetmap.org/way/644594921"
 phone: null
 website: null

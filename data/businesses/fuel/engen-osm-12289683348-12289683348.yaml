@@ -1,10 +1,10 @@
 name: "Engen"
 brand: "Engen"
-location: "George"
+location: "Discovery, George Ward 23"
 source: "https://www.openstreetmap.org/node/12289683348"
 confidence: 0.72
 links:
-  google_maps: "https://maps.google.com/?q=-33.99439,22.443147"
+  google_maps: "https://www.google.com/maps/search/?api=1&query=-33.99439,22.443147"
   openstreetmap: "https://www.openstreetmap.org/node/12289683348"
 phone: "+27 44 802 7000"
 website: null

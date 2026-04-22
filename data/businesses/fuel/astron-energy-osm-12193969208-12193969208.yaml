@@ -1,10 +1,10 @@
 name: "Astron Energy"
 brand: "Astron Energy"
-location: "George"
+location: "Courtenay Street, George Ward 22"
 source: "https://www.openstreetmap.org/node/12193969208"
 confidence: 0.9
 links:
-  google_maps: "https://maps.google.com/?q=-33.9554646,22.460249"
+  google_maps: "https://www.google.com/maps/search/?api=1&query=-33.9554646,22.460249"
   openstreetmap: "https://www.openstreetmap.org/node/12193969208"
 phone: "+27 44 874 4734"
 website: null

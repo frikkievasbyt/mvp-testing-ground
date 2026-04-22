@@ -1,10 +1,10 @@
 name: "Astron Energy"
 brand: "Astron Energy"
-location: "George"
+location: "N2, Wilderness East"
 source: "https://www.openstreetmap.org/node/305657519"
 confidence: 0.77
 links:
-  google_maps: "https://maps.google.com/?q=-33.9981158,22.6155621"
+  google_maps: "https://www.google.com/maps/search/?api=1&query=-33.9981158,22.6155621"
   openstreetmap: "https://www.openstreetmap.org/node/305657519"
 phone: "+27 44 877 1122"
 website: null
