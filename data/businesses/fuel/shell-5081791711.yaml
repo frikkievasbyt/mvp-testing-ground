@@ -1,25 +1,26 @@
-name: "Shell"
-brand: "Shell"
-location: "Kraaibosch"
+name: Shell
+brand: Shell
+location: Kraaibosch
 address:
-  full: "Kraaibosch"
-  street: null
-  city: "George"
+  full: Shell, Knysna Street, George Ward 11, George Local Municipality, Garden Route
+    District Municipality, Western Cape, 6530, South Africa
+  street: Knysna Street
+  city: George
   postal_code: null
-
-source: "https://www.openstreetmap.org/node/5081791711"
+source: https://www.openstreetmap.org/node/5081791711
 confidence: 0.87
 links:
-  google_maps: "https://maps.google.com/?q=-33.9832677,22.5018288"
-  openstreetmap: "https://www.openstreetmap.org/node/5081791711"
-phone: "+27 44 887 0480"
+  google_maps: https://www.google.com/maps/search/?api=1&query=-33.9832677,22.5018288
+  openstreetmap: https://www.openstreetmap.org/node/5081791711
+phone: +27 44 887 0480
 contact:
-  phone: "+27 44 887 0480"
+  phone: +27 44 887 0480
   email: null
-
-website: "https://find.shell.com/za/fuel/12244668-shell-kraaibosch"
-hours: "Mo-Su 00:00-24:00"
+website: https://find.shell.com/za/fuel/12244668-shell-kraaibosch
+hours: Mo-Su 00:00-24:00
 coords:
   lat: -33.9832677
   lon: 22.5018288
-services: [atm, toilets]
+services:
+- atm
+- toilets

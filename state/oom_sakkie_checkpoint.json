@@ -1,14 +1,14 @@
 {
   "phase": "enrichment",
-  "batchSize": 12,
+  "batchSize": 10,
   "discoveredCount": 0,
-  "changedCount": 12,
+  "changedCount": 10,
   "sampledCount": 3,
   "avgConfidence": 0.84,
   "escalatedCount": 0,
   "committed": true,
   "blocker": null,
-  "lastRunAtUtc": "2026-04-22T07:13:01Z",
-  "lastCommit": "a362f4c",
-  "notes": "Enriched 12 existing George fuel entries with Nominatim-backed locality detail and standardized Google Maps pin URLs; added LPG service where OSM explicitly tagged it."
+  "lastRunAtUtc": "2026-04-22T07:32:05Z",
+  "lastCommit": "5c0b4a3",
+  "notes": "Enriched 10 existing George fuel entries with reverse-geocoded full addresses plus street/city, refreshed Google Maps pin links, and kept contact/site/hours/services only where OSM tags supported updates."
 }
