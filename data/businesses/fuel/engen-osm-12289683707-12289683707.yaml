@@ -1,0 +1,15 @@
+name: "Engen (OSM 12289683707)"
+brand: "Engen"
+location: "George"
+source: "https://www.openstreetmap.org/node/12289683707"
+confidence: 0.77
+links:
+  google_maps: "https://maps.google.com/?q=-33.949743,22.434268"
+  openstreetmap: "https://www.openstreetmap.org/node/12289683707"
+phone: "+27 44 873 0805"
+website: null
+hours: "24/7"
+coords:
+  lat: -33.949743
+  lon: 22.434268
+services: null

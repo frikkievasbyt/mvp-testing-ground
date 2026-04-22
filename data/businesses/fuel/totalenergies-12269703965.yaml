@@ -1,0 +1,15 @@
+name: "TotalEnergies"
+brand: "TotalEnergies"
+location: "Beach Road"
+source: "https://www.openstreetmap.org/node/12269703965"
+confidence: 0.77
+links:
+  google_maps: "https://maps.google.com/?q=-34.0122783,22.4501933"
+  openstreetmap: "https://www.openstreetmap.org/node/12269703965"
+phone: null
+website: "https://store.totalenergies.fr/en_EN/ZA111S0514"
+hours: null
+coords:
+  lat: -34.0122783
+  lon: 22.4501933
+services: [diesel]

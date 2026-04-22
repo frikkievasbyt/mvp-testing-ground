@@ -1,0 +1,15 @@
+name: "Astron Energy (OSM 305657519)"
+brand: "Astron Energy"
+location: "George"
+source: "https://www.openstreetmap.org/node/305657519"
+confidence: 0.77
+links:
+  google_maps: "https://maps.google.com/?q=-33.9981158,22.6155621"
+  openstreetmap: "https://www.openstreetmap.org/node/305657519"
+phone: "+27 44 877 1122"
+website: null
+hours: "24/7"
+coords:
+  lat: -33.9981158
+  lon: 22.6155621
+services: null

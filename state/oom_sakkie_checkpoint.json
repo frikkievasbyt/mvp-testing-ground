@@ -1,14 +1,1 @@
-{
-  "version": 2,
-  "domain": "fuel",
-  "phase": "discovery",
-  "lastRunAt": null,
-  "batchSize": 12,
-  "changedFiles": [],
-  "sampledFiles": [],
-  "avgConfidence": 0,
-  "escalatedCount": 0,
-  "lastCommit": null,
-  "nextBatchHint": "state/fuel_station_inventory.yaml",
-  "notes": "Phase 1 is discovery and inventory. After inventory reaches good coverage, switch phase to enrichment and write listing cards to data/businesses/fuel/*.yaml."
-}
+{"phase":"enrichment","batchSize":12,"discoveredCount":12,"changedCount":13,"sampledCount":3,"avgConfidence":0.77,"escalatedCount":0,"committed":true,"blocker":null}

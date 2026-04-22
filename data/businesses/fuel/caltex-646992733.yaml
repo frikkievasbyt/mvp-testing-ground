@@ -1,0 +1,15 @@
+name: "Caltex"
+brand: "Caltex"
+location: "Discovery"
+source: "https://www.openstreetmap.org/way/646992733"
+confidence: 0.67
+links:
+  google_maps: "https://maps.google.com/?q=-33.9938136,22.4429045"
+  openstreetmap: "https://www.openstreetmap.org/way/646992733"
+phone: null
+website: null
+hours: null
+coords:
+  lat: -33.9938136
+  lon: 22.4429045
+services: null

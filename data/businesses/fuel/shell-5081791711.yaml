@@ -1,0 +1,15 @@
+name: "Shell"
+brand: "Shell"
+location: "Kraaibosch"
+source: "https://www.openstreetmap.org/node/5081791711"
+confidence: 0.87
+links:
+  google_maps: "https://maps.google.com/?q=-33.9832677,22.5018288"
+  openstreetmap: "https://www.openstreetmap.org/node/5081791711"
+phone: "+27 44 887 0480"
+website: "https://find.shell.com/za/fuel/12244668-shell-kraaibosch"
+hours: "Mo-Su 00:00-24:00"
+coords:
+  lat: -33.9832677
+  lon: 22.5018288
+services: [atm, toilets]
