@@ -1,0 +1,15 @@
+name: "Astron Energy"
+brand: "Astron Energy"
+location: "George"
+source: "https://www.openstreetmap.org/node/1446143170"
+confidence: 0.9
+links:
+  google_maps: "https://maps.google.com/?q=-33.9714435,22.4464748"
+  openstreetmap: "https://www.openstreetmap.org/node/1446143170"
+phone: "+27 44 874 4118"
+website: null
+hours: "Mo-Su 00:00-24:00"
+coords:
+  lat: -33.9714435
+  lon: 22.4464748
+services: null

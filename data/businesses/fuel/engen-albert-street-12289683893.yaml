@@ -1,8 +1,8 @@
-name: "Engen (Albert Street)"
+name: "Engen"
 brand: "Engen"
 location: "Albert Street"
 source: "https://www.openstreetmap.org/node/12289683893"
-confidence: 0.72
+confidence: 0.9
 links:
   google_maps: "https://maps.google.com/?q=-33.966132,22.457762"
   openstreetmap: "https://www.openstreetmap.org/node/12289683893"

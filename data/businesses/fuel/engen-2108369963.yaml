@@ -1,0 +1,15 @@
+name: "Engen"
+brand: "Engen"
+location: "George"
+source: "https://www.openstreetmap.org/node/2108369963"
+confidence: 0.82
+links:
+  google_maps: "https://maps.google.com/?q=-33.9710069,22.4475076"
+  openstreetmap: "https://www.openstreetmap.org/node/2108369963"
+phone: null
+website: null
+hours: null
+coords:
+  lat: -33.9710069
+  lon: 22.4475076
+services: null

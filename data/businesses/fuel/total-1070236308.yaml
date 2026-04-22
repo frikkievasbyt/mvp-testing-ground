@@ -1,0 +1,15 @@
+name: "Total"
+brand: "Total"
+location: "George"
+source: "https://www.openstreetmap.org/way/1070236308"
+confidence: 0.82
+links:
+  google_maps: "https://maps.google.com/?q=-33.9630499,22.4540132"
+  openstreetmap: "https://www.openstreetmap.org/way/1070236308"
+phone: null
+website: null
+hours: null
+coords:
+  lat: -33.9630499
+  lon: 22.4540132
+services: null

@@ -1,8 +1,8 @@
-name: "Engen (Knysna Road)"
+name: "Engen"
 brand: "Engen"
 location: "Knysna Road"
 source: "https://www.openstreetmap.org/node/12289683509"
-confidence: 0.72
+confidence: 0.9
 links:
   google_maps: "https://maps.google.com/?q=-33.9649386,22.4802395"
   openstreetmap: "https://www.openstreetmap.org/node/12289683509"

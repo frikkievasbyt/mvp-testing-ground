@@ -1,8 +1,8 @@
-name: "Astron Energy (OSM 12193969208)"
+name: "Astron Energy"
 brand: "Astron Energy"
 location: "George"
 source: "https://www.openstreetmap.org/node/12193969208"
-confidence: 0.77
+confidence: 0.9
 links:
   google_maps: "https://maps.google.com/?q=-33.9554646,22.460249"
   openstreetmap: "https://www.openstreetmap.org/node/12193969208"

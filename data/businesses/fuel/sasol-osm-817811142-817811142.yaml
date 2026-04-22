@@ -1,8 +1,8 @@
-name: "Sasol (OSM 817811142)"
+name: "Sasol"
 brand: "Sasol"
 location: "George"
 source: "https://www.openstreetmap.org/node/817811142"
-confidence: 0.82
+confidence: 0.9
 links:
   google_maps: "https://maps.google.com/?q=-33.9732564,22.470126"
   openstreetmap: "https://www.openstreetmap.org/node/817811142"
@@ -12,4 +12,4 @@ hours: null
 coords:
   lat: -33.9732564
   lon: 22.470126
-services: [diesel, atm]
+services: [atm, diesel, petrol]
