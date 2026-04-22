@@ -5,8 +5,7 @@ address:
   full: "Astron Energy, Courtenay Street, George Ward 22, George Local Municipality, Garden Route District Municipality, Western Cape, 6530"
   street: Courtenay Street
   city: George
-  postal_code: null
-
+  postal_code: '6530'
 source: "https://www.openstreetmap.org/node/12193969208"
 confidence: 0.9
 links:
@@ -16,7 +15,6 @@ phone: +27 44 874 4734
 contact:
   phone: +27 44 874 4734
   email: null
-
 website: null
 hours: "Mo-Su 00:00-24:00"
 coords:

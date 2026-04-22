@@ -2,13 +2,12 @@ name: Astron Energy
 brand: Astron Energy
 location: "Courtenay Street, George Central"
 address:
-  full: "Astron Energy, Courtenay Street, George Central, George Local Municipality, Garden Route District Municipality, Western Cape, 6530"
+  full: "Astron Energy, Courtenay Street, George Central, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa"
   street: Courtenay Street
   city: George
-  postal_code: null
-
+  postal_code: '6530'
 source: "https://www.openstreetmap.org/node/12193969173"
-confidence: 0.9
+confidence: 0.92
 links:
   google_maps: "https://www.google.com/maps/search/?api=1&query=-33.9600145,22.4677188"
   openstreetmap: "https://www.openstreetmap.org/node/12193969173"
@@ -16,7 +15,6 @@ phone: +27 44 873 5689
 contact:
   phone: +27 44 873 5689
   email: null
-
 website: null
 hours: "Mo-Su 00:00-24:00"
 coords:

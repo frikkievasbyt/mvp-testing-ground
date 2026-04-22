@@ -1,12 +1,12 @@
+---
 name: Total
 brand: Total
-location: George
+location: York Street, George Central
 address:
-  full: York Street, George Central, George Local Municipality, Garden Route District
-    Municipality, Western Cape, 6530, South Africa
+  full: Total, York Street, George, 6530, South Africa
   street: York Street
   city: George
-  postal_code: null
+  postal_code: '6530'
 source: https://www.openstreetmap.org/way/1070236308
 confidence: 0.82
 links:

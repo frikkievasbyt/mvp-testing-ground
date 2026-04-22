@@ -2,13 +2,13 @@
   "phase": "enrichment",
   "batchSize": 10,
   "discoveredCount": 0,
-  "changedCount": 9,
+  "changedCount": 10,
   "sampledCount": 3,
-  "avgConfidence": 0.83,
+  "avgConfidence": 0.82,
   "escalatedCount": 0,
   "committed": true,
   "blocker": null,
-  "lastRunAtUtc": "2026-04-22T07:45:10Z",
-  "lastCommit": "4d6d23d",
-  "notes": "Enriched 10 existing George fuel entries (9 updated) with source-backed addresses, refreshed map pins/coords, and conservative contact/hours/service updates from OSM/Nominatim."
+  "lastRunAtUtc": "2026-04-22T12:15:24Z",
+  "notes": "Applied one-batch address.full quality normalization for 10 Miss Gwen recommended George fuel files; map/address completeness remains 100%.",
+  "usedMissGwenHandoff": true
 }

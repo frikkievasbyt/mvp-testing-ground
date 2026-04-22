@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-04-22T12:15:24Z",
+  "source": "oom-sakkie",
+  "usedMissGwenHandoff": true,
+  "touchedFiles": [
+    "data/businesses/fuel/caltex-646992733.yaml",
+    "data/businesses/fuel/engen-2108369963.yaml",
+    "data/businesses/fuel/engen-644594921.yaml",
+    "data/businesses/fuel/total-1070236308.yaml",
+    "data/businesses/fuel/totalenergies-12269703965.yaml",
+    "data/businesses/fuel/totalenergies-12269704118.yaml",
+    "data/businesses/fuel/totalenergies-12269704122.yaml",
+    "data/businesses/fuel/engen-albert-street-12289683893.yaml",
+    "data/businesses/fuel/engen-knysna-road-12289683509.yaml",
+    "data/businesses/fuel/engen-osm-12289683348-12289683348.yaml"
+  ],
+  "remainingGaps": {
+    "phone": 7,
+    "hours": 11,
+    "address": 0,
+    "map": 0
+  },
+  "notes": "Used fresh Miss Gwen batch and standardized source-backed address.full formatting across 10 George fuel entries."
+}

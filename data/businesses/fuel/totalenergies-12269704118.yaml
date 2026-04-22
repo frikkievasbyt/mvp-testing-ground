@@ -1,12 +1,11 @@
 name: TotalEnergies
 brand: TotalEnergies
-location: George
+location: Courtenay Street, Total Courtenay, George
 address:
-  full: TotalEnergies, Courtenay Street, George Ward 19, George Local Municipality,
-    Garden Route District Municipality, Western Cape, 6529, South Africa
+  full: TotalEnergies, Courtenay Street, George, 6529, South Africa
   street: Courtenay Street
   city: George
-  postal_code: null
+  postal_code: '6529'
 source: https://www.openstreetmap.org/node/12269704118
 confidence: 0.9
 links:
@@ -22,6 +21,8 @@ coords:
   lat: -33.9564017
   lon: 22.4610516
 services:
-- car_wash
-- diesel
-- petrol
+  - car_wash
+  - air
+  - diesel
+  - petrol
+  - wifi

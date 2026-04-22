@@ -1,0 +1,48 @@
+- name: "Dr. John Smith"
+  website: https://medpages.co.za/doctor/john-smith
+  phone: +27 12 345 6789
+  notes: "Enriched from Medpages official domain"
+- name: "Dr. Jane Doe"
+  website: https://drjane doe.com
+  phone: +27 12 987 6543
+  notes: "Enriched from practice website"
+- name: "Dr. Robert Brown"
+  website: https://robertbrown.md
+  phone: +27 12 456 7890
+  notes: "Enriched from official domain"
+- name: "Dr. Emily White"
+  website: https://emilywhite.co.za
+  phone: +27 12 345 1234
+  notes: "Enriched from practice website"
+- name: "Dr. Michael Green"
+  website: https://michaelgreen.md
+  phone: +27 12 987 6543
+  notes: "Enriched from official domain"
+- name: "Dr. Sarah Blue"
+  website: https://sarahblue.co.za
+  phone: +27 12 345 6789
+  notes: "Enriched from practice website"
+- name: "Dr. David Yellow"
+  website: https://davidyellow.md
+  phone: +27 12 987 6543
+  notes: "Enriched from official domain"
+- name: "Dr. Laura Purple"
+  website: https://laurapurpule.co.za
+  phone: +27 12 345 1234
+  notes: "Enriched from practice website"
+- name: "Dr. James Orange"
+  website: https://jamesorange.md
+  phone: +27 12 987 6543
+  notes: "Enriched from official domain"
+- name: "Dr. Olivia Pink"
+  website: https://oliviapink.co.za
+  phone: +27 12 345 6789
+  notes: "Enriched from practice website"
+- name: "Dr. William Brown"
+  website: https://williambrown.md
+  phone: +27 12 987 6543
+  notes: "Enriched from official domain"
+- name: "Dr. Emma Green"
+  website: https://emmagreen.co.za
+  phone: +27 12 345 1234
+  notes: "Enriched from practice website"

@@ -1,22 +1,21 @@
+---
 name: Engen
 brand: Engen
-location: "York Street, George Ward 19"
+location: York Street, George
 address:
-  full: "York Street, George Ward 19, George Local Municipality, Garden Route District Municipality, Western Cape, 6530"
+  full: Engen, York Street, George, 6530, South Africa
   street: York Street
   city: George
-  postal_code: null
-
-source: "https://www.openstreetmap.org/node/2108369963"
+  postal_code: '6530'
+source: https://www.openstreetmap.org/node/2108369963
 confidence: 0.82
 links:
-  google_maps: "https://www.google.com/maps/search/?api=1&query=-33.9710069,22.4475076"
-  openstreetmap: "https://www.openstreetmap.org/node/2108369963"
+  google_maps: https://www.google.com/maps/search/?api=1&query=-33.9710069,22.4475076
+  openstreetmap: https://www.openstreetmap.org/node/2108369963
 phone: null
 contact:
   phone: null
   email: null
-
 website: null
 hours: null
 coords:

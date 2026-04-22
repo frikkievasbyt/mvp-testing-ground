@@ -1,13 +1,11 @@
 name: TotalEnergies
 brand: TotalEnergies
-location: George
+location: Nelson Mandela Boulevard, Total Sandkraal, George
 address:
-  full: TotalEnergies, Nelson Mandela Boulevard, George Industria, Borcherds, George
-    Ward 20, George Local Municipality, Garden Route District Municipality, Western
-    Cape, 6529, South Africa
+  full: TotalEnergies, Nelson Mandela Boulevard, George, 6529, South Africa
   street: Nelson Mandela Boulevard
   city: George
-  postal_code: null
+  postal_code: '6529'
 source: https://www.openstreetmap.org/node/12269704122
 confidence: 0.9
 links:
@@ -23,5 +21,6 @@ coords:
   lat: -33.9850511
   lon: 22.4725953
 services:
-- diesel
-- petrol
+  - diesel
+  - petrol
+  - wifi
