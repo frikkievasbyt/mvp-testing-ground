@@ -1,24 +1,22 @@
-# Oom Sakkie + Gwen onboarding (fuel rollout)
+# Oom Sakkie onboarding (fuel rollout)
 
 Environment
-- Primary model: `ollama/qwen3:latest`
+- Primary model: `openai-codex/gpt-5.3-codex`
 - Work repo: `/Users/frikkievasbyt/Documents/git-repos/mvp-testing-ground`
 - Checkpoint: `state/oom_sakkie_checkpoint.json`
 
 Mission
-1) Phase 1 (Discovery): find and list fuel filling stations in/around George.
-2) Phase 2 (Enrichment): make station entries as complete as possible with map links and verified metadata.
+1) Enrich George fuel filling station entries first.
+2) Discover/add new stations only when enrichment work is exhausted.
 
-Phase 1 outputs
-- Keep a deduped inventory in `state/fuel_station_inventory.yaml`.
-- Include station name, likely brand, rough location/address, source links, and confidence.
-- Do not invent details.
-
-Phase 2 outputs
-- Create/update one YAML file per station under `data/businesses/fuel/*.yaml`.
-- Keep unknown fields null.
-- Prioritize `links.google_maps`, address quality, phone, website, and opening hours.
+Run policy
+- One batch per run (10-12 stations).
+- Addresses are mandatory on touched entries (`address.full`, `address.street`, `address.city` when source-backed).
+- Keep map pin links and coordinates up to date.
+- Improve phone, website, hours, and services where source-backed.
+- Keep unknown fields null, never invent data.
+- Keep titles clean: no OSM IDs in `name`; keep IDs only in source/openstreetmap links.
 
 Checkpoint discipline
-- Keep fields: `phase`, `lastRunAt`, `batchSize`, `changedFiles`, `sampledFiles`, `avgConfidence`, `escalatedCount`, `lastCommit`, `nextBatchHint`.
-- Merge/update checkpoint values; do not replace file with run output summary.
+- Keep/merge fields: `phase`, `lastRunAt`, `batchSize`, `changedFiles`, `sampledFiles`, `avgConfidence`, `escalatedCount`, `lastCommit`, `nextBatchHint`.
+- Never replace the checkpoint file with plain summary output.
