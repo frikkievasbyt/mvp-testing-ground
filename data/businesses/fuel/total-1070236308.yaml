@@ -3,22 +3,25 @@ name: Total
 brand: Total
 location: York Street, George Central
 address:
-  full: Total, York Street, George, 6530, South Africa
+  full: York Street, Bishops Lea, George Central, George Local Municipality, Garden
+    Route District Municipality, Western Cape, 6530, South Africa
   street: York Street
   city: George
   postal_code: '6530'
+  suburb: George Central
 source: https://www.openstreetmap.org/way/1070236308
 confidence: 0.82
 links:
   google_maps: https://www.google.com/maps/search/?api=1&query=-33.9630499,22.4540132
   openstreetmap: https://www.openstreetmap.org/way/1070236308
-phone: null
+phone: 
 contact:
-  phone: null
-  email: null
-website: null
-hours: null
+  phone: 
+  email: 
+website: 
+hours: 
 coords:
   lat: -33.9630499
   lon: 22.4540132
-services: null
+services: 
+operator: Total

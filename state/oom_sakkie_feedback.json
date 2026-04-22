@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T12:15:24Z",
+  "generatedAt": "2026-04-22T15:44:12Z",
   "source": "oom-sakkie",
   "usedMissGwenHandoff": true,
   "touchedFiles": [
@@ -20,5 +20,5 @@
     "address": 0,
     "map": 0
   },
-  "notes": "Used fresh Miss Gwen batch and standardized source-backed address.full formatting across 10 George fuel entries."
+  "notes": "Used Miss Gwen recommended batch; improved address granularity and source-backed location/operator details while preserving null unknowns."
 }

@@ -8,7 +8,7 @@
   "escalatedCount": 0,
   "committed": true,
   "blocker": null,
-  "lastRunAtUtc": "2026-04-22T12:15:24Z",
-  "notes": "Applied one-batch address.full quality normalization for 10 Miss Gwen recommended George fuel files; map/address completeness remains 100%.",
+  "lastRunAtUtc": "2026-04-22T15:44:12Z",
+  "notes": "Applied Miss Gwen recommended batch; tightened address/map quality and operator/location consistency for 10 fuel entries.",
   "usedMissGwenHandoff": true
 }

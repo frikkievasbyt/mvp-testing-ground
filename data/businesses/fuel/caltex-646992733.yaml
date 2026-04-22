@@ -3,22 +3,25 @@ name: Caltex
 brand: Caltex
 location: Discovery, Pacaltsdorp Industria, George
 address:
-  full: Caltex, Discovery, George, 6534, South Africa
+  full: Caltex, Discovery, Pacaltsdorp Industria, George Ward 23, George Local Municipality,
+    Garden Route District Municipality, Western Cape, 6534, South Africa
   street: Discovery
   city: George
   postal_code: '6534'
+  suburb: Pacaltsdorp Industria
 source: https://www.openstreetmap.org/way/646992733
 confidence: 0.62
 links:
   google_maps: https://www.google.com/maps/search/?api=1&query=-33.9938136,22.4429045
   openstreetmap: https://www.openstreetmap.org/way/646992733
-phone: null
+phone: 
 contact:
-  phone: null
-  email: null
-website: null
-hours: null
+  phone: 
+  email: 
+website: 
+hours: 
 coords:
   lat: -33.9938136
   lon: 22.4429045
-services: null
+services: 
+operator: Caltex
