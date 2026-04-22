@@ -1,0 +1,25 @@
+name: Engen
+brand: Engen
+location: "Casanie Crescent, Levallia"
+address:
+  full: "Engen, Casanie Crescent, Levallia, George Ward 5, George Local Municipality, Garden Route District Municipality, Western Cape, 6519"
+  street: Knysna Road
+  city: George
+  postal_code: null
+
+source: "https://www.openstreetmap.org/node/12289683509"
+confidence: 0.9
+links:
+  google_maps: "https://www.google.com/maps/search/?api=1&query=-33.9649386,22.4802395"
+  openstreetmap: "https://www.openstreetmap.org/node/12289683509"
+phone: +27 44 871 1516
+contact:
+  phone: +27 44 871 1516
+  email: null
+
+website: null
+hours: null
+coords:
+  lat: -33.9649386
+  lon: 22.4802395
+services: null

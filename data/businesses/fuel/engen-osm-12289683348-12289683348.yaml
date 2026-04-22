@@ -1,0 +1,25 @@
+name: Engen
+brand: Engen
+location: "Discovery, George Ward 23"
+address:
+  full: "Engen, Discovery, Pacaltsdorp Industria, George Ward 23, George Local Municipality, Garden Route District Municipality, Western Cape, 6534"
+  street: Discovery
+  city: George
+  postal_code: null
+
+source: "https://www.openstreetmap.org/node/12289683348"
+confidence: 0.72
+links:
+  google_maps: "https://www.google.com/maps/search/?api=1&query=-33.99439,22.443147"
+  openstreetmap: "https://www.openstreetmap.org/node/12289683348"
+phone: +27 44 802 7000
+contact:
+  phone: +27 44 802 7000
+  email: null
+
+website: null
+hours: null
+coords:
+  lat: -33.99439
+  lon: 22.443147
+services: null

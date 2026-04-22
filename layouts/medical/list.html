@@ -2,7 +2,8 @@
   {{ $all := slice }}
   {{ if fileExists "data/businesses/medical" }}
     {{ range (readDir "data/businesses/medical") }}
-      {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}
+      {{ $nameLower := lower .Name }}
+      {{ if and (in (slice ".yaml" ".yml") (lower (path.Ext .Name))) (not (strings.HasPrefix $nameLower "doctor-profiles")) }}
         {{ $path := printf "data/businesses/medical/%s" .Name }}
         {{ $shop := transform.Unmarshal (readFile $path) }}
         {{ $all = $all | append $shop }}

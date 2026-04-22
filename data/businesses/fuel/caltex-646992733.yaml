@@ -1,0 +1,25 @@
+name: Caltex
+brand: Caltex
+location: "Discovery, George Ward 23"
+address:
+  full: "Caltex, Discovery, Pacaltsdorp Industria, George Ward 23, George Local Municipality, Garden Route District Municipality, Western Cape, 6534"
+  street: Discovery
+  city: George
+  postal_code: null
+
+source: "https://www.openstreetmap.org/way/646992733"
+confidence: 0.67
+links:
+  google_maps: "https://www.google.com/maps/search/?api=1&query=-33.9938136,22.4429045"
+  openstreetmap: "https://www.openstreetmap.org/way/646992733"
+phone: null
+contact:
+  phone: null
+  email: null
+
+website: null
+hours: null
+coords:
+  lat: -33.9938136
+  lon: 22.4429045
+services: null

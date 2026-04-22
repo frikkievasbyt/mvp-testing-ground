@@ -1,0 +1,62 @@
+## Deduped working inventory for Oom Sakkie fuel discovery phase
+stations:
+  - name: "Engen"
+    brand: "Engen"
+    location: "Albert Street"
+    source: "https://www.openstreetmap.org/node/12289683893"
+    confidence: 0.9
+  - name: "Engen"
+    brand: "Engen"
+    location: "Courtenay Street"
+    source: "https://www.openstreetmap.org/way/644594921"
+    confidence: 0.9
+  - name: "TotalEnergies"
+    brand: "TotalEnergies"
+    location: "George"
+    source: "https://www.openstreetmap.org/node/12269704118"
+    confidence: 0.9
+  - name: "Astron Energy"
+    brand: "Astron Energy"
+    location: "George"
+    source: "https://www.openstreetmap.org/node/12193969173"
+    confidence: 0.9
+  - name: "Astron Energy"
+    brand: "Astron Energy"
+    location: "George"
+    source: "https://www.openstreetmap.org/node/12193969208"
+    confidence: 0.9
+  - name: "Total"
+    brand: "Total"
+    location: "George"
+    source: "https://www.openstreetmap.org/way/1070236308"
+    confidence: 0.82
+  - name: "Sasol"
+    brand: "Sasol"
+    location: "George"
+    source: "https://www.openstreetmap.org/way/455663826"
+    confidence: 0.9
+  - name: "Sasol"
+    brand: "Sasol"
+    location: "George"
+    source: "https://www.openstreetmap.org/node/817811142"
+    confidence: 0.9
+  - name: "Engen"
+    brand: "Engen"
+    location: "George"
+    source: "https://www.openstreetmap.org/node/2108369963"
+    confidence: 0.82
+  - name: "Astron Energy"
+    brand: "Astron Energy"
+    location: "George"
+    source: "https://www.openstreetmap.org/node/1446143170"
+    confidence: 0.9
+  - name: "Engen"
+    brand: "Engen"
+    location: "Knysna Road"
+    source: "https://www.openstreetmap.org/node/12289683509"
+    confidence: 0.9
+  - name: "TotalEnergies"
+    brand: "TotalEnergies"
+    location: "George"
+    source: "https://www.openstreetmap.org/node/12269704122"
+    confidence: 0.9

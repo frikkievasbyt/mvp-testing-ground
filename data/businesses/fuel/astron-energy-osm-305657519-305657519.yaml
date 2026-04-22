@@ -1,0 +1,25 @@
+name: Astron Energy
+brand: Astron Energy
+location: "N2, Wilderness East"
+address:
+  full: "Astron Energy, N2, Wilderness Garden Estate, Wilderness East, George Ward 4, George Local Municipality, Garden Route District Municipality, Western Cape, 6560"
+  street: N2
+  city: Wilderness
+  postal_code: null
+
+source: "https://www.openstreetmap.org/node/305657519"
+confidence: 0.77
+links:
+  google_maps: "https://www.google.com/maps/search/?api=1&query=-33.9981158,22.6155621"
+  openstreetmap: "https://www.openstreetmap.org/node/305657519"
+phone: +27 44 877 1122
+contact:
+  phone: +27 44 877 1122
+  email: null
+
+website: null
+hours: 24/7
+coords:
+  lat: -33.9981158
+  lon: 22.6155621
+services: null
