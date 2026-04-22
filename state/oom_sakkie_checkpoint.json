@@ -9,6 +9,6 @@
   "committed": true,
   "blocker": null,
   "lastRunAtUtc": "2026-04-22T07:32:05Z",
-  "lastCommit": "5c0b4a3",
+  "lastCommit": "e78a78a",
   "notes": "Enriched 10 existing George fuel entries with reverse-geocoded full addresses plus street/city, refreshed Google Maps pin links, and kept contact/site/hours/services only where OSM tags supported updates."
 }
