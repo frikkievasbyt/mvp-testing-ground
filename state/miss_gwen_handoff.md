@@ -1,0 +1,6 @@
+- generatedAt: 2026-04-22T12:22:41.450427Z
+- totalFiles: 18
+- topBlocker: Missing hours in 11/18 files
+- recommendedBatch: caltex-646992733.yaml, engen-2108369963.yaml, engen-644594921.yaml, total-1070236308.yaml, totalenergies-12269703965.yaml, totalenergies-12269704118.yaml, totalenergies-12269704122.yaml, engen-albert-street-12289683893.yaml, engen-knysna-road-12289683509.yaml, engen-osm-12289683348-12289683348.yaml
+- risk: Visit-planning quality remains weak while hours are missing
+- confidence: high

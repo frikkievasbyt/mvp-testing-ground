@@ -1,25 +1,25 @@
-name: "Engen"
-brand: "Engen"
-location: "CJ Langenhoven Street, Golfpark 1"
+---
+name: Engen
+brand: Engen
+location: CJ Langenhoven Street, Golfpark 1
 address:
-  full: "CJ Langenhoven Street, Golfpark 1"
-  street: "CJ Langenhoven Street"
-  city: "George"
-  postal_code: null
-
-source: "https://www.openstreetmap.org/node/12289683707"
-confidence: 0.77
+  full: Engen, CJ Langenhoven Street, Golfpark 1, George Ward 3, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa
+  street: CJ Langenhoven Street
+  city: George
+  postal_code: '6530'
+source: https://www.openstreetmap.org/node/12289683707
+confidence: 0.82
 links:
-  google_maps: "https://www.google.com/maps/search/?api=1&query=-33.949743,22.434268"
-  openstreetmap: "https://www.openstreetmap.org/node/12289683707"
+  google_maps: https://www.google.com/maps/search/?api=1&query=-33.949743,22.434268
+  openstreetmap: https://www.openstreetmap.org/node/12289683707
 phone: "+27 44 873 0805"
 contact:
   phone: "+27 44 873 0805"
   email: null
-
 website: null
-hours: "24/7"
+hours: 24/7
 coords:
   lat: -33.949743
   lon: 22.434268
-services: null
+services:
+- air

@@ -1,0 +1,11 @@
+{
+  "batch_size": 12,
+  "changed_count": 12,
+  "avg_conf": 0.6416666666666667,
+  "escalated": 0,
+  "sampled": [
+    "data/businesses/medical/a-coetzee.yaml",
+    "data/businesses/medical/chris-du-preez.yaml",
+    "data/businesses/medical/clicks-2.yaml"
+  ]
+}
