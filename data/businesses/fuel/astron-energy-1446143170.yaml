@@ -1,16 +1,22 @@
 ---
 name: Astron Energy
 brand: Astron Energy
-location: York Street, George Ward 19
+location: 'York Street, George'
 address:
-  full: Astron Energy, York Street, George Ward 19, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa
+  full: 'Astron Energy, York Street, George, 6530, South Africa'
   street: York Street
   city: George
   postal_code: '6530'
+  suburb: George Ward 19
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
 source: https://www.openstreetmap.org/node/1446143170
 confidence: 0.9
 links:
   google_maps: https://www.google.com/maps/search/?api=1&query=-33.9714435,22.4464748
+  openstreetmap_map: https://www.openstreetmap.org/?mlat=-33.9714435&mlon=22.4464748#map=19/-33.9714435/22.4464748
   openstreetmap: https://www.openstreetmap.org/node/1446143170
 phone: "+27 44 874 4118"
 contact:
@@ -22,3 +28,5 @@ coords:
   lat: -33.9714435
   lon: 22.4464748
 services: null
+branch: York St
+operator: Astron Energy

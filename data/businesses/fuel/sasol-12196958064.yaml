@@ -1,0 +1,36 @@
+---
+name: Sasol
+brand: Sasol
+location: "N2, George Ward 11, George"
+address:
+  full: "N2, George, Western Cape, 6529"
+  street: N2
+  city: George
+  postal_code: 6529
+  suburb: George Ward 11
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
+source: https://www.openstreetmap.org/node/12196958064
+confidence: 0.9
+links:
+  google_maps: https://www.google.com/maps/search/?api=1&query=-33.9916994,22.5202895
+  openstreetmap_map: https://www.openstreetmap.org/node/12196958064#map=19/-33.9916994/22.5202895
+  openstreetmap: https://www.openstreetmap.org/node/12196958064
+phone: +27 44 889 0282
+contact:
+  phone: +27 44 889 0282
+  email: null
+website: "https://locator.sasol.com/#/station/8119"
+hours: "Mo-Su 00:00-24:00"
+coords:
+  lat: -33.9916994
+  lon: 22.5202895
+services:
+  - atm
+  - toilets
+  - diesel
+  - petrol
+operator: Sasol
+branch: George Highway

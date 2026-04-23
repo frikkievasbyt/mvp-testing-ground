@@ -1,27 +1,34 @@
 ---
 name: Engen
 brand: Engen
-location: Discovery, Stanmar Motors, George
+location: Discovery, Pacaltsdorp Industria, George Ward 23
 address:
-  full: Engen, Discovery, Pacaltsdorp Industria, George Ward 23, George Local Municipality,
-    Garden Route District Municipality, Western Cape, 6534, South Africa
+  full: Engen, Discovery, Pacaltsdorp Industria, George Ward 23, George Local Municipality, Garden Route District Municipality, Western Cape, 6534, South Africa
   street: Discovery
   city: George
   postal_code: '6534'
-  suburb: Pacaltsdorp Industria
+  suburb: George Ward 23
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
 source: https://www.openstreetmap.org/node/12289683348
 confidence: 0.78
 links:
-  google_maps: https://www.google.com/maps/search/?api=1&query=-33.99439,22.443147
+  google_maps: https://www.google.com/maps/search/?api=1&query=-33.9943900,22.4431470
+  openstreetmap_map: https://www.openstreetmap.org/node/12289683348#map=19/-33.9943900/22.4431470
   openstreetmap: https://www.openstreetmap.org/node/12289683348
 phone: "+27 44 802 7000"
 contact:
   phone: "+27 44 802 7000"
-  email: 
-website: 
-hours: 
+  email: null
+website: null
+hours: null
 coords:
   lat: -33.99439
   lon: 22.443147
 services:
 - bitcoin_payments
+- lightning_payments
+operator: Engen
+branch: Stanmar Motors

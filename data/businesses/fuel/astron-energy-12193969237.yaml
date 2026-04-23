@@ -1,0 +1,32 @@
+---
+name: Astron Energy
+brand: Astron Energy
+location: "Montagu Street, Blanco, George"
+address:
+  full: "Astron Energy, Montagu Street, Blanco, George Ward 26, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa"
+  street: Montagu Street
+  city: George
+  postal_code: 6530
+  suburb: Blanco
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
+source: https://www.openstreetmap.org/node/12193969237
+confidence: 0.8
+links:
+  google_maps: https://www.google.com/maps/search/?api=1&query=-33.9489797,22.408155
+  openstreetmap_map: https://www.openstreetmap.org/node/12193969237#map=19/-33.9489797/22.408155
+  openstreetmap: https://www.openstreetmap.org/node/12193969237
+phone: +27 44 870 7660
+contact:
+  phone: +27 44 870 7660
+  email: null
+website: null
+hours: "Mo-Su 00:00-24:00"
+coords:
+  lat: -33.9489797
+  lon: 22.408155
+services: null
+operator: Astron Energy
+branch: Blanco

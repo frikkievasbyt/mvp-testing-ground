@@ -1,0 +1,33 @@
+---
+name: BP
+brand: BP
+location: "R404, George Ward 23, George"
+address:
+  full: "BP, R404, George Ward 23, George Local Municipality, Garden Route District Municipality, Western Cape, South Africa"
+  street: R404
+  city: George
+  postal_code: null
+  suburb: George Ward 23
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
+source: https://www.openstreetmap.org/node/2122238906
+confidence: 0.9
+links:
+  google_maps: https://www.google.com/maps/search/?api=1&query=-34.0025872,22.3823563
+  openstreetmap_map: https://www.openstreetmap.org/node/2122238906#map=19/-34.0025872/22.3823563
+  openstreetmap: https://www.openstreetmap.org/node/2122238906
+phone: null
+contact:
+  phone: null
+  email: null
+website: null
+hours: null
+coords:
+  lat: -34.0025872
+  lon: 22.3823563
+services:
+  - avgas
+operator: BP
+branch: null

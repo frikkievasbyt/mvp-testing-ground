@@ -1,0 +1,32 @@
+---
+name: Astron Energy
+brand: Astron Energy
+location: "George Road, George Ward 4, Wilderness"
+address:
+  full: "Astron Energy, George Road, George Ward 4, Wilderness, Garden Route District Municipality, Western Cape, 6560, South Africa"
+  street: George Road
+  city: Wilderness
+  postal_code: 6560
+  suburb: George Ward 4
+  municipality: null
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
+source: https://www.openstreetmap.org/node/12193963366
+confidence: 0.9
+links:
+  google_maps: https://www.google.com/maps/search/?api=1&query=-33.9941853,22.5748846
+  openstreetmap_map: https://www.openstreetmap.org/node/12193963366#map=19/-33.9941853/22.5748846
+  openstreetmap: https://www.openstreetmap.org/node/12193963366
+phone: +27 44 877 0201
+contact:
+  phone: +27 44 877 0201
+  email: null
+website: null
+hours: "Mo-Su 00:00-24:00"
+coords:
+  lat: -33.9941853
+  lon: 22.5748846
+services: null
+operator: Astron Energy
+branch: N2 Wilderness

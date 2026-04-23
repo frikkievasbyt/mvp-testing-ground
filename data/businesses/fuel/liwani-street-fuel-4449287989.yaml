@@ -1,0 +1,33 @@
+---
+name: Fuel Station
+brand: null
+location: "Liwani Street, Thembalethu, George"
+address:
+  full: "5415, Liwani Street, Thembalethu, George Local Municipality, Garden Route District Municipality, Western Cape, 6519, South Africa"
+  street: Liwani Street
+  city: George
+  postal_code: 6519
+  suburb: Thembalethu
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
+source: https://www.openstreetmap.org/node/4449287989
+confidence: 0.8
+links:
+  google_maps: https://www.google.com/maps/search/?api=1&query=-34.0024319,22.4742593
+  openstreetmap_map: https://www.openstreetmap.org/node/4449287989#map=19/-34.0024319/22.4742593
+  openstreetmap: https://www.openstreetmap.org/node/4449287989
+phone: null
+contact:
+  phone: null
+  email: null
+website: null
+hours: 24/7
+coords:
+  lat: -34.0024319
+  lon: 22.4742593
+services:
+  - wifi
+operator: null
+branch: null

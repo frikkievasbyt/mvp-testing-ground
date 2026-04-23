@@ -1,17 +1,23 @@
 ---
 name: Sasol
 brand: Sasol
-location: Nelson Mandela Boulevard, George
+location: Nelson Mandela Blvd, George Ward 11, George
 address:
-  full: Sasol, Nelson Mandela Boulevard, George Industria, Conville, George Ward 17, George Local Municipality, Garden Route District Municipality, Western Cape, 6529, South Africa
-  street: Nelson Mandela Boulevard
+  full: Nelson Mandela Blvd, George, Western Cape, 6529
+  street: Nelson Mandela Blvd
   city: George
   postal_code: '6529'
+  suburb: George Ward 11
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
 source: https://www.openstreetmap.org/node/817811142
 confidence: 0.9
 links:
-  google_maps: https://www.google.com/maps/search/?api=1&query=-33.9732564,22.470126
+  google_maps: https://www.google.com/maps/search/?api=1&query=-33.9732564,22.4701260
   openstreetmap: https://www.openstreetmap.org/node/817811142
+  openstreetmap_map: https://www.openstreetmap.org/?mlat=-33.9732564&mlon=22.4701260#map=19/-33.9732564/22.4701260
 phone: "+27 44 873 4142"
 contact:
   phone: "+27 44 873 4142"
@@ -20,8 +26,9 @@ website: https://locator.sasol.com/#/station/8628
 hours: null
 coords:
   lat: -33.9732564
-  lon: 22.470126
+  lon: 22.4701260
 services:
-  - atm
-  - diesel
-  - petrol
+- atm
+- diesel
+- petrol
+branch: Roelf & Jacks
