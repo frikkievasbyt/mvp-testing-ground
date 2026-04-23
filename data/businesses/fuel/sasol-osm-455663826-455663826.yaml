@@ -1,16 +1,22 @@
 ---
 name: Sasol
 brand: Sasol
-location: Cnr Luven St & Nelson Mandela Blvd, George Industria
+location: 'Luven Street, George Industria, George'
 address:
-  full: Cnr Luven St & Nelson Mandela Blvd, George Industria, George, Western Cape, 6536, South Africa
+  full: 'Sasol, Luven Street, George Industria, George, 6536, South Africa'
   street: Luven Street
   city: George
   postal_code: '6536'
+  suburb: George Industria
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
 source: https://www.openstreetmap.org/way/455663826
 confidence: 0.95
 links:
   google_maps: https://www.google.com/maps/search/?api=1&query=-33.9712602,22.4679346
+  openstreetmap_map: https://www.openstreetmap.org/?mlat=-33.9712602&mlon=22.4679346#map=19/-33.9712602/22.4679346
   openstreetmap: https://www.openstreetmap.org/way/455663826
 phone: "+27 44 884 1316"
 contact:
@@ -27,3 +33,4 @@ services:
 - diesel
 - petrol
 - lpg
+branch: Oasis

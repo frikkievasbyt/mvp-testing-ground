@@ -1,18 +1,11 @@
 {
-  "generatedAt": "2026-04-22T15:44:12Z",
+  "generatedAt": "2026-04-23T08:22:41Z",
   "source": "oom-sakkie",
   "usedMissGwenHandoff": true,
   "touchedFiles": [
-    "data/businesses/fuel/caltex-646992733.yaml",
-    "data/businesses/fuel/engen-2108369963.yaml",
-    "data/businesses/fuel/engen-644594921.yaml",
-    "data/businesses/fuel/total-1070236308.yaml",
     "data/businesses/fuel/totalenergies-12269703965.yaml",
     "data/businesses/fuel/totalenergies-12269704118.yaml",
-    "data/businesses/fuel/totalenergies-12269704122.yaml",
-    "data/businesses/fuel/engen-albert-street-12289683893.yaml",
-    "data/businesses/fuel/engen-knysna-road-12289683509.yaml",
-    "data/businesses/fuel/engen-osm-12289683348-12289683348.yaml"
+    "data/businesses/fuel/totalenergies-12269704122.yaml"
   ],
   "remainingGaps": {
     "phone": 7,
@@ -20,5 +13,5 @@
     "address": 0,
     "map": 0
   },
-  "notes": "Used Miss Gwen recommended batch; improved address granularity and source-backed location/operator details while preserving null unknowns."
+  "notes": "Used Miss Gwen's fresh recommended batch; added source-backed contact.website entries and tightened address/location wording for TotalEnergies Sandkraal."
 }

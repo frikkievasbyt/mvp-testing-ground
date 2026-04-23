@@ -1,0 +1,170 @@
+{
+  "440823277": {
+    "lat": -33.9917681,
+    "lon": 22.5186236,
+    "display_name": "BP, N2, George Ward 11, George Local Municipality, Garden Route District Municipality, Western Cape, 6546, South Africa",
+    "address": {
+      "amenity": "BP",
+      "road": "N2",
+      "suburb": "George Ward 11",
+      "city_district": "George Local Municipality",
+      "city": "Garden Route District Municipality",
+      "state": "Western Cape",
+      "ISO3166-2-lvl4": "ZA-WC",
+      "postcode": "6546",
+      "country": "South Africa",
+      "country_code": "za"
+    }
+  },
+  "2122238906": {
+    "lat": -34.0025872,
+    "lon": 22.3823563,
+    "display_name": "BP, R404, George Ward 23, George Local Municipality, Garden Route District Municipality, Western Cape, South Africa",
+    "address": {
+      "amenity": "BP",
+      "road": "R404",
+      "suburb": "George Ward 23",
+      "city_district": "George Local Municipality",
+      "city": "Garden Route District Municipality",
+      "state": "Western Cape",
+      "ISO3166-2-lvl4": "ZA-WC",
+      "country": "South Africa",
+      "country_code": "za"
+    }
+  },
+  "4449287989": {
+    "lat": -34.0024319,
+    "lon": 22.4742593,
+    "display_name": "5415, Liwani Street, Thembalethu, George Local Municipality, Garden Route District Municipality, Western Cape, 6519, South Africa",
+    "address": {
+      "house_number": "5415",
+      "road": "Liwani Street",
+      "suburb": "Thembalethu",
+      "city_district": "George Local Municipality",
+      "city": "Garden Route District Municipality",
+      "state": "Western Cape",
+      "ISO3166-2-lvl4": "ZA-WC",
+      "postcode": "6519",
+      "country": "South Africa",
+      "country_code": "za"
+    }
+  },
+  "12193963366": {
+    "lat": -33.9941853,
+    "lon": 22.5748846,
+    "display_name": "Astron Energy, George Road, George Ward 4, Wilderness, Garden Route District Municipality, Western Cape, 6560, South Africa",
+    "address": {
+      "amenity": "Astron Energy",
+      "road": "George Road",
+      "suburb": "George Ward 4",
+      "village": "Wilderness",
+      "city": "Garden Route District Municipality",
+      "state": "Western Cape",
+      "ISO3166-2-lvl4": "ZA-WC",
+      "postcode": "6560",
+      "country": "South Africa",
+      "country_code": "za"
+    }
+  },
+  "12193969237": {
+    "lat": -33.9489797,
+    "lon": 22.408155,
+    "display_name": "Astron Energy, Montagu Street, Blanco, George Ward 26, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa",
+    "address": {
+      "amenity": "Astron Energy",
+      "road": "Montagu Street",
+      "suburb": "Blanco",
+      "city_district": "George Local Municipality",
+      "city": "Garden Route District Municipality",
+      "state": "Western Cape",
+      "ISO3166-2-lvl4": "ZA-WC",
+      "postcode": "6530",
+      "country": "South Africa",
+      "country_code": "za"
+    }
+  },
+  "12196958064": {
+    "lat": -33.9916994,
+    "lon": 22.5202895,
+    "display_name": "Sasol, N2, George Ward 11, George Local Municipality, Garden Route District Municipality, Western Cape, 6529, South Africa",
+    "address": {
+      "amenity": "Sasol",
+      "road": "N2",
+      "suburb": "George Ward 11",
+      "city_district": "George Local Municipality",
+      "city": "Garden Route District Municipality",
+      "state": "Western Cape",
+      "ISO3166-2-lvl4": "ZA-WC",
+      "postcode": "6529",
+      "country": "South Africa",
+      "country_code": "za"
+    }
+  },
+  "12343680995": {
+    "lat": -33.9831513,
+    "lon": 22.5018937,
+    "display_name": "Shell, Knysna Street, George Ward 11, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa",
+    "address": {
+      "amenity": "Shell",
+      "road": "Knysna Street",
+      "suburb": "George Ward 11",
+      "city_district": "George Local Municipality",
+      "city": "Garden Route District Municipality",
+      "state": "Western Cape",
+      "ISO3166-2-lvl4": "ZA-WC",
+      "postcode": "6530",
+      "country": "South Africa",
+      "country_code": "za"
+    }
+  },
+  "2108369963": {
+    "lat": -33.9710069,
+    "lon": 22.4475076,
+    "display_name": "York Street, George Ward 19, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa",
+    "address": {
+      "road": "York Street",
+      "suburb": "George Ward 19",
+      "city_district": "George Local Municipality",
+      "city": "Garden Route District Municipality",
+      "state": "Western Cape",
+      "ISO3166-2-lvl4": "ZA-WC",
+      "postcode": "6530",
+      "country": "South Africa",
+      "country_code": "za"
+    }
+  },
+  "644594921": {
+    "lat": -33.9586111,
+    "lon": 22.4651036,
+    "display_name": "Engen, Courtenay Street, George Ward 19, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa",
+    "address": {
+      "amenity": "Engen",
+      "road": "Courtenay Street",
+      "suburb": "George Ward 19",
+      "city_district": "George Local Municipality",
+      "city": "Garden Route District Municipality",
+      "state": "Western Cape",
+      "ISO3166-2-lvl4": "ZA-WC",
+      "postcode": "6530",
+      "country": "South Africa",
+      "country_code": "za"
+    }
+  },
+  "1070236308": {
+    "lat": -33.9630499,
+    "lon": 22.4540132,
+    "display_name": "York Street, Bishops Lea, George Central, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa",
+    "address": {
+      "road": "York Street",
+      "neighbourhood": "Bishops Lea",
+      "suburb": "George Central",
+      "city_district": "George Local Municipality",
+      "city": "Garden Route District Municipality",
+      "state": "Western Cape",
+      "ISO3166-2-lvl4": "ZA-WC",
+      "postcode": "6530",
+      "country": "South Africa",
+      "country_code": "za"
+    }
+  }
+}

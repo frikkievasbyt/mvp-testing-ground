@@ -1,26 +1,33 @@
 ---
 name: Engen
 brand: Engen
-location: Albert Street, Albertstraat Motors, George
+location: 42 Albert Street, George Ward 19
 address:
-  full: Engen, 42, Albert Street, George Ward 19, George Local Municipality, Garden
-    Route District Municipality, Western Cape, 6530, South Africa
-  street: 42 Albert Street
+  full: Engen, 42, Albert Street, George Ward 19, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa
+  house_number: '42'
+  street: Albert Street
   city: George
   postal_code: '6530'
   suburb: George Ward 19
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
 source: https://www.openstreetmap.org/node/12289683893
 confidence: 0.9
 links:
-  google_maps: https://www.google.com/maps/search/?api=1&query=-33.966132,22.457762
+  google_maps: https://www.google.com/maps/search/?api=1&query=-33.9661320,22.4577620
+  openstreetmap_map: https://www.openstreetmap.org/node/12289683893#map=19/-33.9661320/22.4577620
   openstreetmap: https://www.openstreetmap.org/node/12289683893
 phone: "+27 44 874 2376"
 contact:
   phone: "+27 44 874 2376"
-  email: 
-website: 
-hours: 
+  email: null
+website: null
+hours: null
 coords:
   lat: -33.966132
   lon: 22.457762
-services: 
+services: null
+operator: Engen
+branch: Albertstraat Motors

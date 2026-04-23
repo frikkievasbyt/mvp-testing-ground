@@ -3,23 +3,28 @@ name: TotalEnergies
 brand: TotalEnergies
 location: Beach Road, Pacaltsdorp, George
 address:
-  full: TotalEnergies, Beach Road, Seaview, Pacaltsdorp, George Local Municipality,
-    Garden Route District Municipality, Western Cape, 6529, South Africa
+  full: TotalEnergies, Beach Road, Pacaltsdorp, George Local Municipality, Garden Route District Municipality, Western Cape, 6529, South Africa
   street: Beach Road
   city: George
   postal_code: '6529'
-  suburb: Seaview
+  suburb: Pacaltsdorp
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
 source: https://www.openstreetmap.org/node/12269703965
 confidence: 0.79
 links:
   google_maps: https://www.google.com/maps/search/?api=1&query=-34.0122783,22.4501933
+  openstreetmap_map: https://www.openstreetmap.org/node/12269703965#map=19/-34.0122783/22.4501933
   openstreetmap: https://www.openstreetmap.org/node/12269703965
-phone: 
+phone: null
 contact:
-  phone: 
-  email: 
+  phone: null
+  email: null
+  website: https://store.totalenergies.fr/en_EN/ZA111S0514
 website: https://store.totalenergies.fr/en_EN/ZA111S0514
-hours: 
+hours: null
 coords:
   lat: -34.0122783
   lon: 22.4501933
@@ -28,3 +33,5 @@ services:
 - petrol
 - backup_generator
 - fuel_cards
+operator: TotalEnergies
+branch: LONDT MOTORS

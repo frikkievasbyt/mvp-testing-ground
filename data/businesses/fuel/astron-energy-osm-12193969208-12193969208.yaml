@@ -1,15 +1,21 @@
 name: Astron Energy
 brand: Astron Energy
-location: "Courtenay Street, George Ward 22"
+location: 'Courtenay Street, George, 6530'
 address:
-  full: "Astron Energy, Courtenay Street, George Ward 22, George Local Municipality, Garden Route District Municipality, Western Cape, 6530"
+  full: 'Astron Energy, Courtenay Street, George, 6530, South Africa'
   street: Courtenay Street
   city: George
   postal_code: '6530'
+  suburb: George Ward 22
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
 source: "https://www.openstreetmap.org/node/12193969208"
 confidence: 0.9
 links:
   google_maps: "https://www.google.com/maps/search/?api=1&query=-33.9554646,22.460249"
+  openstreetmap_map: https://www.openstreetmap.org/?mlat=-33.9554646&mlon=22.460249#map=19/-33.9554646/22.460249
   openstreetmap: "https://www.openstreetmap.org/node/12193969208"
 phone: +27 44 874 4734
 contact:
@@ -22,3 +28,4 @@ coords:
   lon: 22.460249
 services:
   - air
+branch: Bodorp

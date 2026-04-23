@@ -6,10 +6,16 @@ address:
   street: Knysna Street
   city: George
   postal_code: "6530"
+  suburb: Kraaibosch
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
 source: https://www.openstreetmap.org/node/5081791711
 confidence: 0.9
 links:
   google_maps: https://www.google.com/maps/search/?api=1&query=-33.9832677,22.5018288
+  openstreetmap_map: https://www.openstreetmap.org/?mlat=-33.9832677&mlon=22.5018288#map=19/-33.9832677/22.5018288
   openstreetmap: https://www.openstreetmap.org/node/5081791711
 phone: +27 44 887 0480
 contact:
@@ -24,3 +30,9 @@ services:
   - atm
   - toilets
   - wifi
+  - bitcoin_payments
+  - lightning_payments
+  - hgv_diesel
+  - wheelchair_access
+operator: Shell
+branch: Kraaibosch

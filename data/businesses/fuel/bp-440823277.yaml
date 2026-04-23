@@ -1,0 +1,32 @@
+---
+name: BP
+brand: BP
+location: "N2, George Ward 11, George"
+address:
+  full: "BP, N2, George Ward 11, George Local Municipality, Garden Route District Municipality, Western Cape, 6546, South Africa"
+  street: N2
+  city: George
+  postal_code: 6546
+  suburb: George Ward 11
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
+source: https://www.openstreetmap.org/node/440823277
+confidence: 0.9
+links:
+  google_maps: https://www.google.com/maps/search/?api=1&query=-33.9917681,22.5186236
+  openstreetmap_map: https://www.openstreetmap.org/node/440823277#map=19/-33.9917681/22.5186236
+  openstreetmap: https://www.openstreetmap.org/node/440823277
+phone: null
+contact:
+  phone: null
+  email: null
+website: null
+hours: null
+coords:
+  lat: -33.9917681
+  lon: 22.5186236
+services: null
+operator: Engen
+branch: null

@@ -1,5 +1,60 @@
-## Deduped working inventory for Oom Sakkie fuel discovery phase
+## Deduped working inventory for Oom Sakkie fuel coverage + enrichment phase
+knownStations: 25
+coveredStations: 25
+missingStationsEstimate: 0
+progressPct: 100
+blocker: null
+lastVerifiedAtUtc: "2026-04-23T13:08:00Z"
+verificationEvidence:
+  - "https://overpass-api.de/api/interpreter (nwr amenity=fuel around 20km, George center -33.9649,22.4617)"
+  - "https://www.openstreetmap.org (node/way presence and per-station source link checks)"
+  - "https://nominatim.openstreetmap.org (address completeness sampling used in prior enrichment set)"
 stations:
+  - name: "Astron Energy"
+    brand: "Astron Energy"
+    location: "Blanco"
+    source: "https://www.openstreetmap.org/node/12193969237"
+    confidence: 0.8
+  - name: "Astron Energy"
+    brand: "Astron Energy"
+    location: "Bodorp"
+    source: "https://www.openstreetmap.org/node/12193969208"
+    confidence: 0.9
+  - name: "Astron Energy"
+    brand: "Astron Energy"
+    location: "George Central"
+    source: "https://www.openstreetmap.org/node/12193969173"
+    confidence: 0.9
+  - name: "Astron Energy"
+    brand: "Astron Energy"
+    location: "N2 Wilderness"
+    source: "https://www.openstreetmap.org/node/12193963366"
+    confidence: 0.9
+  - name: "Astron Energy"
+    brand: "Astron Energy"
+    location: "The Waves"
+    source: "https://www.openstreetmap.org/node/305657519"
+    confidence: 0.9
+  - name: "Astron Energy"
+    brand: "Astron Energy"
+    location: "York St"
+    source: "https://www.openstreetmap.org/node/1446143170"
+    confidence: 0.8
+  - name: "BP"
+    brand: "BP"
+    location: "George"
+    source: "https://www.openstreetmap.org/node/2122238906"
+    confidence: 0.9
+  - name: "BP"
+    brand: "BP"
+    location: "George"
+    source: "https://www.openstreetmap.org/node/440823277"
+    confidence: 0.9
+  - name: "Caltex"
+    brand: "Caltex"
+    location: "Discovery"
+    source: "https://www.openstreetmap.org/way/646992733"
+    confidence: 0.9
   - name: "Engen"
     brand: "Engen"
     location: "Albert Street"
@@ -10,53 +65,73 @@ stations:
     location: "Courtenay Street"
     source: "https://www.openstreetmap.org/way/644594921"
     confidence: 0.9
-  - name: "TotalEnergies"
-    brand: "TotalEnergies"
-    location: "George"
-    source: "https://www.openstreetmap.org/node/12269704118"
-    confidence: 0.9
-  - name: "Astron Energy"
-    brand: "Astron Energy"
-    location: "George"
-    source: "https://www.openstreetmap.org/node/12193969173"
-    confidence: 0.9
-  - name: "Astron Energy"
-    brand: "Astron Energy"
-    location: "George"
-    source: "https://www.openstreetmap.org/node/12193969208"
-    confidence: 0.9
-  - name: "Total"
-    brand: "Total"
-    location: "George"
-    source: "https://www.openstreetmap.org/way/1070236308"
-    confidence: 0.82
-  - name: "Sasol"
-    brand: "Sasol"
-    location: "George"
-    source: "https://www.openstreetmap.org/way/455663826"
-    confidence: 0.9
-  - name: "Sasol"
-    brand: "Sasol"
-    location: "George"
-    source: "https://www.openstreetmap.org/node/817811142"
-    confidence: 0.9
   - name: "Engen"
     brand: "Engen"
     location: "George"
     source: "https://www.openstreetmap.org/node/2108369963"
-    confidence: 0.82
-  - name: "Astron Energy"
-    brand: "Astron Energy"
-    location: "George"
-    source: "https://www.openstreetmap.org/node/1446143170"
+    confidence: 0.8
+  - name: "Engen"
+    brand: "Engen"
+    location: "George Eco Stop"
+    source: "https://www.openstreetmap.org/node/12289683707"
     confidence: 0.9
   - name: "Engen"
     brand: "Engen"
     location: "Knysna Road"
     source: "https://www.openstreetmap.org/node/12289683509"
     confidence: 0.9
+  - name: "Engen"
+    brand: "Engen"
+    location: "Stanmar Motors"
+    source: "https://www.openstreetmap.org/node/12289683348"
+    confidence: 0.9
+  - name: "Fuel Station"
+    brand: null
+    location: "Liwani Street"
+    source: "https://www.openstreetmap.org/node/4449287989"
+    confidence: 0.8
+  - name: "Sasol"
+    brand: "Sasol"
+    location: "George Highway"
+    source: "https://www.openstreetmap.org/node/12196958064"
+    confidence: 0.9
+  - name: "Sasol"
+    brand: "Sasol"
+    location: "Oasis"
+    source: "https://www.openstreetmap.org/way/455663826"
+    confidence: 0.9
+  - name: "Sasol"
+    brand: "Sasol"
+    location: "Roelf & Jacks"
+    source: "https://www.openstreetmap.org/node/817811142"
+    confidence: 0.8
+  - name: "Shell"
+    brand: "Shell"
+    location: "Kraaibosch"
+    source: "https://www.openstreetmap.org/node/12343680995"
+    confidence: 0.9
+  - name: "Shell"
+    brand: "Shell"
+    location: "Kraaibosch"
+    source: "https://www.openstreetmap.org/node/5081791711"
+    confidence: 0.9
+  - name: "Total"
+    brand: "Total"
+    location: "George"
+    source: "https://www.openstreetmap.org/way/1070236308"
+    confidence: 0.8
   - name: "TotalEnergies"
     brand: "TotalEnergies"
-    location: "George"
+    location: "Beach Road"
+    source: "https://www.openstreetmap.org/node/12269703965"
+    confidence: 0.9
+  - name: "TotalEnergies"
+    brand: "TotalEnergies"
+    location: "TOTAL COURTENAY"
+    source: "https://www.openstreetmap.org/node/12269704118"
+    confidence: 0.9
+  - name: "TotalEnergies"
+    brand: "TotalEnergies"
+    location: "TOTAL SANDKRAAL"
     source: "https://www.openstreetmap.org/node/12269704122"
     confidence: 0.9

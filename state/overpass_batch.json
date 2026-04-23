@@ -1,0 +1,243 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-23T05:45:14Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 817811142,
+  "lat": -33.9732564,
+  "lon": 22.4701260,
+  "tags": {
+    "addr:city": "George",
+    "addr:country": "ZA",
+    "addr:full": "Nelson Mandela Blvd, George, Western Cape, 6529",
+    "addr:postcode": "6529",
+    "addr:province": "Western Cape",
+    "amenity": "fuel",
+    "atm": "yes",
+    "branch": "Roelf & Jacks",
+    "brand": "Sasol",
+    "brand:wikidata": "Q905998",
+    "fuel:diesel": "yes",
+    "fuel:lpg": "no",
+    "fuel:octane_93": "no",
+    "fuel:octane_95": "yes",
+    "fuel:octane_98": "yes",
+    "name": "Sasol",
+    "phone": "+27 44 873 4142",
+    "website": "https://locator.sasol.com/#/station/8628"
+  }
+},
+{
+  "type": "node",
+  "id": 2108369963,
+  "lat": -33.9710069,
+  "lon": 22.4475076,
+  "tags": {
+    "amenity": "fuel",
+    "operator": "Engen"
+  }
+},
+{
+  "type": "node",
+  "id": 12269703965,
+  "lat": -34.0122783,
+  "lon": 22.4501933,
+  "tags": {
+    "addr:city": "George",
+    "addr:country": "ZA",
+    "addr:postcode": "6529",
+    "addr:street": "Beach Road",
+    "amenity": "fuel",
+    "backup_generator": "yes",
+    "branch": "LONDT MOTORS",
+    "brand": "TotalEnergies",
+    "brand:wikidata": "Q154037",
+    "check_date": "2024-10-12",
+    "fuel:diesel": "yes",
+    "fuel:octane_95": "yes",
+    "name": "TotalEnergies",
+    "payment:total_card": "yes",
+    "ref": "ZA111S0514",
+    "website": "https://store.totalenergies.fr/en_EN/ZA111S0514"
+  }
+},
+{
+  "type": "node",
+  "id": 12269704118,
+  "lat": -33.9564017,
+  "lon": 22.4610516,
+  "tags": {
+    "addr:city": "George",
+    "addr:country": "ZA",
+    "addr:postcode": "6529",
+    "amenity": "fuel",
+    "backup_generator": "yes",
+    "branch": "TOTAL COURTENAY",
+    "brand": "TotalEnergies",
+    "brand:wikidata": "Q154037",
+    "car_wash": "yes",
+    "check_date": "2024-10-12",
+    "compressed_air": "yes",
+    "fuel:diesel": "yes",
+    "fuel:octane_95": "yes",
+    "internet_access": "wlan",
+    "name": "TotalEnergies",
+    "payment:total_card": "yes",
+    "ref": "ZA111S0168",
+    "website": "https://store.totalenergies.fr/en_EN/ZA111S0168"
+  }
+},
+{
+  "type": "node",
+  "id": 12269704122,
+  "lat": -33.9850511,
+  "lon": 22.4725953,
+  "tags": {
+    "addr:city": "George",
+    "addr:country": "ZA",
+    "addr:postcode": "6529",
+    "amenity": "fuel",
+    "backup_generator": "yes",
+    "branch": "TOTAL SANDKRAAL",
+    "brand": "TotalEnergies",
+    "brand:wikidata": "Q154037",
+    "check_date": "2024-10-12",
+    "fuel:diesel": "yes",
+    "fuel:octane_95": "yes",
+    "internet_access": "wlan",
+    "name": "TotalEnergies",
+    "payment:total_card": "yes",
+    "ref": "ZA111S0162",
+    "website": "https://store.totalenergies.fr/en_EN/ZA111S0162"
+  }
+},
+{
+  "type": "node",
+  "id": 12289683348,
+  "lat": -33.9943900,
+  "lon": 22.4431470,
+  "tags": {
+    "addr:city": "George",
+    "addr:country": "ZA",
+    "amenity": "fuel",
+    "branch": "Stanmar Motors",
+    "brand": "Engen",
+    "brand:wikidata": "Q3054251",
+    "check_date": "2024-10-22",
+    "check_date:currency:XBT": "2026-04-03",
+    "currency:XBT": "yes",
+    "name": "Engen",
+    "payment:lightning:companion_app_url": "https://www.moneybadger.co.za/pay",
+    "payment:lightning:requires_companion_app": "yes",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "no",
+    "phone": "+27 44 802 7000",
+    "ref": "2DQM"
+  }
+},
+{
+  "type": "node",
+  "id": 12289683509,
+  "lat": -33.9649386,
+  "lon": 22.4802395,
+  "tags": {
+    "addr:city": "George",
+    "addr:country": "ZA",
+    "addr:street": "Knysna Road",
+    "amenity": "fuel",
+    "branch": "Multi Motors",
+    "brand": "Engen",
+    "brand:wikidata": "Q3054251",
+    "check_date": "2025-01-07",
+    "check_date:currency:XBT": "2026-04-03",
+    "currency:XBT": "yes",
+    "name": "Engen",
+    "payment:lightning:companion_app_url": "https://www.moneybadger.co.za/pay",
+    "payment:lightning:requires_companion_app": "yes",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "no",
+    "phone": "+27 44 871 1516",
+    "ref": "8BHF"
+  }
+},
+{
+  "type": "node",
+  "id": 12289683893,
+  "lat": -33.9661320,
+  "lon": 22.4577620,
+  "tags": {
+    "addr:city": "George",
+    "addr:country": "ZA",
+    "addr:housenumber": "42",
+    "addr:street": "Albert Street",
+    "amenity": "fuel",
+    "branch": "Albertstraat Motors",
+    "brand": "Engen",
+    "brand:wikidata": "Q3054251",
+    "check_date": "2024-10-22",
+    "name": "Engen",
+    "phone": "+27 44 874 2376",
+    "ref": "2DFL"
+  }
+},
+{
+  "type": "way",
+  "id": 644594921,
+  "center": {
+    "lat": -33.9586111,
+    "lon": 22.4651036
+  },
+  "tags": {
+    "addr:street": "Courtenay Street",
+    "amenity": "fuel",
+    "brand": "Engen",
+    "brand:wikidata": "Q3054251",
+    "building": "roof",
+    "check_date": "2025-01-07",
+    "compressed_air": "yes",
+    "name": "Engen"
+  }
+},
+{
+  "type": "way",
+  "id": 646992733,
+  "center": {
+    "lat": -33.9938136,
+    "lon": 22.4429045
+  },
+  "tags": {
+    "addr:city": "George",
+    "addr:street": "Discovery",
+    "amenity": "fuel",
+    "brand": "Caltex",
+    "brand:wikidata": "Q277470",
+    "building": "roof",
+    "check_date": "2018-11-20",
+    "layer": "1",
+    "name": "Caltex",
+    "operator": "Caltex",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 1070236308,
+  "center": {
+    "lat": -33.9630499,
+    "lon": 22.4540132
+  },
+  "tags": {
+    "amenity": "fuel",
+    "building": "roof",
+    "operator": "Total"
+  }
+}
+
+  ]
+}
