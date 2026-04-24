@@ -1,0 +1,69 @@
+{{ define "main" }}
+  {{ $files := readDir "data/businesses/estate-agents" }}
+  {{ $agencies := slice }}
+  {{ range $files }}
+    {{ $path := printf "data/businesses/estate-agents/%s" .Name }}
+    {{ $agency := transform.Unmarshal (readFile $path) }}
+    {{ $agencies = $agencies | append $agency }}
+  {{ end }}
+
+  <section class="page-intro">
+    <p class="eyebrow">Directory</p>
+    <h1>{{ .Title }}</h1>
+    <div class="lead">{{ .Content }}</div>
+  </section>
+
+  <section class="kpi-grid">
+    <article><span class="stat">{{ len $agencies }}</span><span class="label">Total listings</span></article>
+    <article><span class="stat">{{ now.Format "2006-01-02" }}</span><span class="label">Updated date</span></article>
+  </section>
+
+  <section class="directory-toolbar" data-target="#estate-listings">
+    <input type="search" class="control js-filter-text" placeholder="Search by name or address">
+    <select class="control js-filter-confidence" aria-label="Filter by confidence">
+      <option value="all">All confidence levels</option>
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low</option>
+      <option value="unknown">Unknown</option>
+    </select>
+    <p class="muted filter-count">Showing <span class="js-visible-count">{{ len $agencies }}</span> of <span class="js-total-count">{{ len $agencies }}</span></p>
+  </section>
+
+  <section id="estate-listings" class="listing-grid">
+    {{ range sort $agencies "name" "asc" }}
+      {{ $address := "Address not listed" }}
+      {{ if .address.full }}
+        {{ $address = .address.full }}
+      {{ else if or .address.street .address.city }}
+        {{ $address = printf "%s%s%s" (or .address.street "") (cond (and .address.street .address.city) ", " "") (or .address.city "") }}
+      {{ end }}
+      {{ $confidence := lower (or .verification.confidence "unknown") }}
+      <article class="listing-card" data-name="{{ lower .name }}" data-address="{{ lower $address }}" data-confidence="{{ $confidence }}">
+        <div class="card-top">
+          <h2>{{ .name }}</h2>
+        </div>
+
+        <p class="muted scoreline">Confidence {{ or .verification.confidence "unknown" }}</p>
+
+        <ul class="meta">
+          <li><strong>Address</strong><span>{{ $address }}</span></li>
+          <li><strong>Phone</strong><span>{{ or .contact.phone "Not listed" }}</span></li>
+          <li><strong>Last verified</strong><span>{{ or .verification.last_verified_at "Unverified" }}</span></li>
+        </ul>
+
+        <p class="action-row">
+          {{ with .links.website }}<a class="btn-link" href="{{ . }}" target="_blank" rel="noopener">Website</a>{{ end }}
+          {{ with .links.facebook }}<a class="btn-link" href="{{ . }}" target="_blank" rel="noopener">Facebook</a>{{ end }}
+          {{ with .links.instagram }}<a class="btn-link" href="{{ . }}" target="_blank" rel="noopener">Instagram</a>{{ end }}
+          {{ with .links.google_maps }}<a class="btn-link btn-map" href="{{ . }}" target="_blank" rel="noopener">Map</a>{{ end }}
+        </p>
+      </article>
+    {{ end }}
+  </section>
+
+  <section class="feedback-box">
+    <h3>Found incorrect info?</h3>
+    <p>Feedback form wiring is still being added. For now, send corrections directly to the project inbox.</p>
+  </section>
+{{ end }}

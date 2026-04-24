@@ -1,0 +1,29 @@
+slug: remax-outeniqua-george
+name: RE/MAX Outeniqua George
+category: estate_agent
+subcategories: [residential_sales, commercial]
+address:
+  street: null
+  suburb: null
+  city: "George"
+  postal_code: "6529"
+  full: "George, Western Cape"
+  latitude: null
+  longitude: null
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: "https://www.remax.co.za/"
+  facebook: null
+  instagram: null
+  google_maps: "https://www.google.com/maps/search/?api=1&query=REMAX+Outeniqua+George"
+hours: []
+photos: []
+verification:
+  last_verified_at: "2026-04-24"
+  confidence: "low"
+  sources:
+    - "Seeded entry, needs branch-level verification"
+notes: "Seeded top-five estate agent list for George, contact details still to confirm."

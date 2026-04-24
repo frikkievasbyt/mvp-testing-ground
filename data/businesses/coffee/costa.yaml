@@ -24,7 +24,7 @@ links:
 hours: []
 photos: []
 verification:
-  last_verified_at: '2026-04-19'
+  last_verified_at: '2026-04-23'
   confidence: low
   sources:
   - https://www.openstreetmap.org/node/12437629618
@@ -36,5 +36,4 @@ verification:
     nominatim_match: false
     overpass_match: true
     address_consistent: true
-notes: 'QA: OSM confirms a Costa-branded cafe at the mapped George location; chain-level site/social
-  links added as brand references only. Uncertainty: branch-specific phone, hours, and local page not confirmed.'
+notes: 'QA: OSM confirms a Costa-branded cafe at the mapped George location; chain-level site/social links remain reachable and are kept as brand references only. Uncertainty: branch-specific phone, hours, and local page not confirmed.'

@@ -1,0 +1,204 @@
+{
+  "generatedAtUtc": "2026-04-23T22:30:52Z",
+  "phase": "fuel-quality-pass",
+  "batchSize": 14,
+  "files": [
+    {
+      "file": "data/businesses/fuel/bp-2122238906.yaml",
+      "needs": {
+        "hours": true,
+        "phone": true
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": null
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/bp-440823277.yaml",
+      "needs": {
+        "hours": true,
+        "phone": true
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": null
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/caltex-646992733.yaml",
+      "needs": {
+        "hours": true,
+        "phone": true
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": null
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/engen-2108369963.yaml",
+      "needs": {
+        "hours": true,
+        "phone": true
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": null
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/engen-644594921.yaml",
+      "needs": {
+        "hours": true,
+        "phone": true
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": null
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/engen-albert-street-12289683893.yaml",
+      "needs": {
+        "hours": true,
+        "phone": false
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": "+27 44 874 2376"
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/engen-knysna-road-12289683509.yaml",
+      "needs": {
+        "hours": true,
+        "phone": false
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": "+27 44 871 1516"
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/engen-osm-12289683348-12289683348.yaml",
+      "needs": {
+        "hours": true,
+        "phone": false
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": "+27 44 802 7000"
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/liwani-street-fuel-4449287989.yaml",
+      "needs": {
+        "hours": false,
+        "phone": true
+      },
+      "source_found": {
+        "opening_hours": "24/7",
+        "phone": null
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/sasol-osm-817811142-817811142.yaml",
+      "needs": {
+        "hours": true,
+        "phone": false
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": "+27 44 873 4142"
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/total-1070236308.yaml",
+      "needs": {
+        "hours": true,
+        "phone": true
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": null
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/totalenergies-12269703965.yaml",
+      "needs": {
+        "hours": true,
+        "phone": true
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": null
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/totalenergies-12269704118.yaml",
+      "needs": {
+        "hours": true,
+        "phone": true
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": null
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    },
+    {
+      "file": "data/businesses/fuel/totalenergies-12269704122.yaml",
+      "needs": {
+        "hours": true,
+        "phone": true
+      },
+      "source_found": {
+        "opening_hours": null,
+        "phone": null
+      },
+      "can_fill_hours": false,
+      "can_fill_phone": false,
+      "error": null
+    }
+  ],
+  "fillableCount": 0
+}

@@ -1,0 +1,31 @@
+{
+  "generatedAtUtc": "2026-04-23T23:00:00Z",
+  "source": "state/miss_gwen_sitewide_audit_validated.json",
+  "policy": "confirmed duplicate candidates only, no auto-merge",
+  "candidates": [
+    {
+      "files": [
+        "data/businesses/medical/dr-fouche-incorporated.yaml",
+        "data/businesses/medical/dr-heinrich-van-rensburg.yaml"
+      ],
+      "confidence": 0.95,
+      "reason": "sameBranch=true and sameCoords=true in validated audit"
+    },
+    {
+      "files": [
+        "data/businesses/medical/dr-j-l-van-heerden.yaml",
+        "data/businesses/medical/the-sports-doc.yaml"
+      ],
+      "confidence": 0.95,
+      "reason": "sameBranch=true and sameCoords=true in validated audit"
+    },
+    {
+      "files": [
+        "data/businesses/medical/dr-nicke-theron.yaml",
+        "data/businesses/medical/swart-a-l-partner-incorporated.yaml"
+      ],
+      "confidence": 0.95,
+      "reason": "sameBranch=true and sameCoords=true in validated audit"
+    }
+  ]
+}
