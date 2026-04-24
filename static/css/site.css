@@ -454,6 +454,10 @@ h1 {
   margin-top: 0;
 }
 
+.fuel-feedback-box {
+  margin-top: 18px;
+}
+
 .muted {
   color: var(--muted);
   font-size: 0.9rem;

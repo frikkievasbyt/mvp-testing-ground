@@ -27,6 +27,10 @@
   {{ end }}
 
   {{ $total := len $stations }}
+  {{ $feedbackDefault := .Site.Params.feedbackFormUrl }}
+  {{ $feedbackPrice := or .Site.Params.feedbackPriceUpdateUrl $feedbackDefault }}
+  {{ $feedbackIncorrect := or .Site.Params.feedbackIncorrectListingUrl $feedbackDefault }}
+  {{ $feedbackAdd := or .Site.Params.feedbackAddStationUrl $feedbackDefault }}
 
   <section class="page-intro">
     <p class="eyebrow">Directory</p>
@@ -77,6 +81,19 @@
     <section class="feedback-box">
       <h3>No fuel station listings yet</h3>
       <p>Discovery is running. Fuel stations will appear here first, then be enriched with complete contact, map, and service details.</p>
+    </section>
+  {{ end }}
+
+  {{ if $feedbackDefault }}
+    <section class="feedback-box fuel-feedback-box">
+      <h3>Found something we should fix?</h3>
+      <p>Send feedback without exposing any email address. Choose the action below.</p>
+      <p class="action-row">
+        <a class="btn-link" href="{{ $feedbackPrice }}" target="_blank" rel="noopener">Update a diesel price</a>
+        <a class="btn-link" href="{{ $feedbackIncorrect }}" target="_blank" rel="noopener">Report incorrect listing</a>
+        <a class="btn-link" href="{{ $feedbackAdd }}" target="_blank" rel="noopener">Request station add</a>
+      </p>
+      <p class="muted">Tip: use prefilled Google Form links in config for each button if you want different defaults per action.</p>
     </section>
   {{ end }}
 {{ end }}

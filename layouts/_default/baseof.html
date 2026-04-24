@@ -42,5 +42,8 @@
   </footer>
 
   <script src="{{ "js/site.js" | relURL }}" defer></script>
+  {{ with .Site.Params.analytics.goatcounterDomain }}
+    <script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  {{ end }}
 </body>
 </html>

@@ -74,9 +74,23 @@ notes: Needs branch-level verification.
 5. Push branch, open PR
 6. Review, merge, deploy
 
-## Feedback form
+## Feedback form and traffic analytics
 
-Planned to wire to Google Form (end-user friendly). Placeholder currently shown on page.
+Fuel page feedback buttons are now wired from `config.yaml` params:
+
+- `params.feedbackFormUrl` (fallback for all feedback actions)
+- `params.feedbackPriceUpdateUrl`
+- `params.feedbackIncorrectListingUrl`
+- `params.feedbackAddStationUrl`
+
+Use Google Form links for these values. You can use one form URL for all buttons, or create prefilled URLs per action.
+
+Traffic analytics is supported with GoatCounter:
+
+- Set `params.analytics.goatcounterDomain` (example: `mygeorge`)
+- This injects GoatCounter pageview tracking script site-wide.
+
+If `goatcounterDomain` is blank, analytics stays disabled.
 
 ## Low-human-touch quality pipeline (free-first)
 

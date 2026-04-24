@@ -6,8 +6,13 @@ enableRobotsTXT: true
 
 params:
   town: "George, Western Cape"
-  feedbackFormUrl: ""
+  feedbackFormUrl: "https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/viewform"
+  feedbackPriceUpdateUrl: ""
+  feedbackIncorrectListingUrl: ""
+  feedbackAddStationUrl: ""
   ownerEmail: ""
+  analytics:
+    goatcounterDomain: ""
 
 permalinks:
   coffee: "/coffee/:slug/"
