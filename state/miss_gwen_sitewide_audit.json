@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-04-23T14:56:43Z",
+  "generatedAt": "2026-04-24T13:55:11Z",
   "categoriesAudited": [
     "animal-services",
     "bicycle",
     "coffee",
+    "estate-agents",
     "fuel",
     "medical"
   ],
@@ -35,6 +36,15 @@
       "missingPhone": 28,
       "missingHours": 27
     },
+    "estate-agents": {
+      "total": 5,
+      "missingName": 0,
+      "missingAddressFull": 0,
+      "missingSource": 0,
+      "missingCoords": 5,
+      "missingPhone": 5,
+      "missingHours": 5
+    },
     "fuel": {
       "total": 25,
       "missingName": 0,
@@ -49,12 +59,31 @@
       "missingName": 2,
       "missingAddressFull": 2,
       "missingSource": 2,
-      "missingCoords": 8,
+      "missingCoords": 2,
       "missingPhone": 26,
       "missingHours": 52
     }
   },
   "duplicateClusters": [
+    {
+      "confidence": 0.75,
+      "addressKey": "george western cape",
+      "files": [
+        "data/businesses/estate-agents/chas-everitt-george.yaml",
+        "data/businesses/estate-agents/pam-golding-george.yaml",
+        "data/businesses/estate-agents/rawson-george.yaml",
+        "data/businesses/estate-agents/remax-outeniqua-george.yaml",
+        "data/businesses/estate-agents/seeff-george.yaml"
+      ],
+      "names": [
+        "Chas Everitt George",
+        "Pam Golding Properties George",
+        "Rawson Properties George",
+        "RE/MAX Outeniqua George",
+        "Seeff George"
+      ],
+      "reason": "Near-same normalized address with different names"
+    },
     {
       "confidence": 0.75,
       "addressKey": "n2 george",
@@ -151,25 +180,25 @@
       "reason": "Near-same normalized address with different names"
     }
   ],
-  "duplicateClusterCount": 7,
+  "duplicateClusterCount": 8,
   "criticalFindings": [
-    "Missing coords in 13 entries",
+    "Missing coords in 12 entries",
     "Missing address.full in 2 entries",
     "Missing source in 2 entries"
   ],
   "globalSeverity": {
-    "critical": 17,
-    "high": 75,
-    "medium": 96,
+    "critical": 16,
+    "high": 81,
+    "medium": 101,
     "low": 0
   },
   "issueCounts": {
     "missingName": 2,
     "missingAddressFull": 2,
     "missingSource": 2,
-    "missingCoords": 13,
-    "missingPhone": 68,
-    "missingHours": 96
+    "missingCoords": 12,
+    "missingPhone": 73,
+    "missingHours": 101
   },
   "issueFiles": {
     "missingPhone": [
@@ -205,6 +234,11 @@
       "data/businesses/coffee/vida-e-caffe-george.yaml",
       "data/businesses/coffee/woodville-farmstall.yaml",
       "data/businesses/coffee/zesto.yaml",
+      "data/businesses/estate-agents/chas-everitt-george.yaml",
+      "data/businesses/estate-agents/pam-golding-george.yaml",
+      "data/businesses/estate-agents/rawson-george.yaml",
+      "data/businesses/estate-agents/remax-outeniqua-george.yaml",
+      "data/businesses/estate-agents/seeff-george.yaml",
       "data/businesses/fuel/bp-2122238906.yaml",
       "data/businesses/fuel/bp-440823277.yaml",
       "data/businesses/fuel/caltex-646992733.yaml",
@@ -274,6 +308,11 @@
       "data/businesses/coffee/vida-e-caffe-george.yaml",
       "data/businesses/coffee/woodville-farmstall.yaml",
       "data/businesses/coffee/zesto.yaml",
+      "data/businesses/estate-agents/chas-everitt-george.yaml",
+      "data/businesses/estate-agents/pam-golding-george.yaml",
+      "data/businesses/estate-agents/rawson-george.yaml",
+      "data/businesses/estate-agents/remax-outeniqua-george.yaml",
+      "data/businesses/estate-agents/seeff-george.yaml",
       "data/businesses/fuel/bp-2122238906.yaml",
       "data/businesses/fuel/bp-440823277.yaml",
       "data/businesses/fuel/caltex-646992733.yaml",
@@ -346,14 +385,13 @@
       "data/businesses/coffee/root-coffee-paddagat.yaml",
       "data/businesses/coffee/root-coffee-wellington-square.yaml",
       "data/businesses/coffee/rooted-york-street.yaml",
+      "data/businesses/estate-agents/chas-everitt-george.yaml",
+      "data/businesses/estate-agents/pam-golding-george.yaml",
+      "data/businesses/estate-agents/rawson-george.yaml",
+      "data/businesses/estate-agents/remax-outeniqua-george.yaml",
+      "data/businesses/estate-agents/seeff-george.yaml",
       "data/businesses/medical/doctor-profiles-low-score.yaml",
-      "data/businesses/medical/doctor-profiles.yaml",
-      "data/businesses/medical/doctors4god-george.yaml",
-      "data/businesses/medical/dr-fouche-incorporated.yaml",
-      "data/businesses/medical/dr-heinrich-van-rensburg.yaml",
-      "data/businesses/medical/dr-jan-de-waal-de-wet.yaml",
-      "data/businesses/medical/dr-margueri-burger.yaml",
-      "data/businesses/medical/dr-michiel-josiaa-prinsloo.yaml"
+      "data/businesses/medical/doctor-profiles.yaml"
     ],
     "missingName": [
       "data/businesses/medical/doctor-profiles-low-score.yaml",
@@ -369,10 +407,6 @@
     ]
   },
   "websitesToValidate": [
-    {
-      "file": "data/businesses/coffee/caloroso-roaster-eatery.yaml",
-      "url": "https://www.caloroso.co.za/"
-    },
     {
       "file": "data/businesses/coffee/costa.yaml",
       "url": "https://www.costacoffee.com/"
@@ -416,6 +450,26 @@
     {
       "file": "data/businesses/coffee/vida-e-caffe-george.yaml",
       "url": "https://www.vidaecaffe.com/"
+    },
+    {
+      "file": "data/businesses/estate-agents/chas-everitt-george.yaml",
+      "url": "https://www.chaseveritt.co.za/"
+    },
+    {
+      "file": "data/businesses/estate-agents/pam-golding-george.yaml",
+      "url": "https://www.pamgolding.co.za/"
+    },
+    {
+      "file": "data/businesses/estate-agents/rawson-george.yaml",
+      "url": "https://www.rawson.co.za/"
+    },
+    {
+      "file": "data/businesses/estate-agents/remax-outeniqua-george.yaml",
+      "url": "https://www.remax.co.za/"
+    },
+    {
+      "file": "data/businesses/estate-agents/seeff-george.yaml",
+      "url": "https://www.seeff.com/"
     },
     {
       "file": "data/businesses/fuel/sasol-12196958064.yaml",
@@ -536,7 +590,7 @@
       ]
     },
     {
-      "file": "data/businesses/coffee/root-coffee-market-street.yaml",
+      "file": "data/businesses/estate-agents/chas-everitt-george.yaml",
       "score": 7,
       "missing": [
         "coords",
@@ -545,7 +599,43 @@
       ]
     },
     {
-      "file": "data/businesses/coffee/rooted-york-street.yaml",
+      "file": "data/businesses/estate-agents/pam-golding-george.yaml",
+      "score": 7,
+      "missing": [
+        "coords",
+        "phone",
+        "hours"
+      ]
+    },
+    {
+      "file": "data/businesses/estate-agents/rawson-george.yaml",
+      "score": 7,
+      "missing": [
+        "coords",
+        "phone",
+        "hours"
+      ]
+    },
+    {
+      "file": "data/businesses/estate-agents/remax-outeniqua-george.yaml",
+      "score": 7,
+      "missing": [
+        "coords",
+        "phone",
+        "hours"
+      ]
+    },
+    {
+      "file": "data/businesses/estate-agents/seeff-george.yaml",
+      "score": 7,
+      "missing": [
+        "coords",
+        "phone",
+        "hours"
+      ]
+    },
+    {
+      "file": "data/businesses/coffee/root-coffee-market-street.yaml",
       "score": 7,
       "missing": [
         "coords",
@@ -563,7 +653,7 @@
       ]
     },
     {
-      "file": "data/businesses/coffee/root-coffee-wellington-square.yaml",
+      "file": "data/businesses/coffee/rooted-york-street.yaml",
       "score": 7,
       "missing": [
         "coords",
@@ -572,34 +662,11 @@
       ]
     },
     {
-      "file": "data/businesses/medical/dr-fouche-incorporated.yaml",
-      "score": 6,
+      "file": "data/businesses/coffee/root-coffee-wellington-square.yaml",
+      "score": 7,
       "missing": [
         "coords",
-        "hours"
-      ]
-    },
-    {
-      "file": "data/businesses/medical/dr-heinrich-van-rensburg.yaml",
-      "score": 6,
-      "missing": [
-        "coords",
-        "hours"
-      ]
-    },
-    {
-      "file": "data/businesses/medical/doctors4god-george.yaml",
-      "score": 6,
-      "missing": [
-        "coords",
-        "hours"
-      ]
-    },
-    {
-      "file": "data/businesses/medical/dr-michiel-josiaa-prinsloo.yaml",
-      "score": 6,
-      "missing": [
-        "coords",
+        "phone",
         "hours"
       ]
     },
@@ -612,18 +679,10 @@
       ]
     },
     {
-      "file": "data/businesses/medical/dr-margueri-burger.yaml",
-      "score": 6,
+      "file": "data/businesses/coffee/haleluja-shop.yaml",
+      "score": 2,
       "missing": [
-        "coords",
-        "hours"
-      ]
-    },
-    {
-      "file": "data/businesses/medical/dr-jan-de-waal-de-wet.yaml",
-      "score": 6,
-      "missing": [
-        "coords",
+        "phone",
         "hours"
       ]
     },
