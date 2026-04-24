@@ -1,11 +1,11 @@
 {
-  "phase": "fuel-quality-pass",
-  "batchSize": 13,
-  "changedCount": 0,
-  "committed": false,
+  "phase": "duplicate-verification-sweep",
+  "batchSize": 15,
+  "changedCount": 2,
+  "committed": true,
   "blocker": false,
-  "progressNote": "Processed 13 validated fuel files with missing phone/hours in strict order. Re-verified each against live OSM element tags; no new source-backed phone/hours were available to add in this batch.",
-  "lastRunAtUtc": "2026-04-24T06:57:00Z",
+  "progressNote": "Executed in strict order: fuel (14 files checked, no new source-backed hours/phone), coffee flagged URL verified reachable, medical sample check found no source-backed phone/geo backfills, and published confirmed duplicate candidates only.",
+  "lastRunAtUtc": "2026-04-24T07:41:21Z",
   "missionComplete": true,
   "usedMissGwenHandoff": true
 }
