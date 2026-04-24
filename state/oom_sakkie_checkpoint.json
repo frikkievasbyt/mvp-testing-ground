@@ -1,11 +1,11 @@
 {
-  "phase": "duplicate-verification-sweep",
-  "batchSize": 17,
-  "changedCount": 4,
+  "phase": "fuel-quality-pass",
+  "batchSize": 14,
+  "changedCount": 0,
   "committed": true,
-  "blocker": false,
-  "progressNote": "Validated ordered TODO batch on 17 files: fuel pass rechecked all 14 missing-field fuel files against OSM tags (no new source-backed phone/hours found), Costa website verified reachable (kept), medical minimum-publishability spot check on 2 flagged files found no source-backed backfills, confirmed-duplicate candidates output refreshed.",
-  "lastRunAtUtc": "2026-04-24T09:02:17Z",
+  "blocker": true,
+  "progressNote": "Verified all 14 fuel files with missing hours/phone directly against OSM API source objects in the covered set; no new source-backed hours/phone tags were available, so nulls were retained.",
+  "lastRunAtUtc": "2026-04-24T09:37:00Z",
   "missionComplete": true,
   "usedMissGwenHandoff": true
 }
