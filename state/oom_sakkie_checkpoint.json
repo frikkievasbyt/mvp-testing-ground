@@ -1,11 +1,11 @@
 {
   "phase": "fuel-quality-pass",
-  "batchSize": 14,
-  "changedCount": 1,
-  "committed": true,
+  "batchSize": 13,
+  "changedCount": 0,
+  "committed": false,
   "blocker": false,
-  "progressNote": "Processed all 14 flagged fuel files with null phone/hours against source URLs. Applied one verified update: Sasol Roelf & Jacks phone corrected from official Sasol station API; remaining nulls had no source-backed phone/hours available.",
-  "lastRunAtUtc": "2026-04-24T06:34:00Z",
+  "progressNote": "Processed 13 validated fuel files with missing phone/hours in strict order. Re-verified each against live OSM element tags; no new source-backed phone/hours were available to add in this batch.",
+  "lastRunAtUtc": "2026-04-24T06:57:00Z",
   "missionComplete": true,
   "usedMissGwenHandoff": true
 }
