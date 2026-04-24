@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-04-23T14:58:07Z",
+  "generatedAt": "2026-04-24T13:57:09Z",
   "validator": "Frikkie",
   "sourceAuditFile": "state/miss_gwen_sitewide_audit.json",
   "gwenRealWork": {
     "auditArtifactsPresent": true,
-    "categoriesAudited": 5,
-    "duplicateClustersReported": 7
+    "categoriesAudited": 6,
+    "duplicateClustersReported": 8
   },
   "claimValidation": [
     {
-      "claim": "Missing coords in 13 entries",
-      "auditValue": 13,
+      "claim": "Missing coords in 12 entries",
+      "auditValue": 12,
       "actualValue": 0,
       "status": "mismatch"
     },
     {
       "claim": "Broken coffee websites count",
       "auditValue": null,
-      "actualValue": 2,
+      "actualValue": 1,
       "status": "mismatch"
     },
     {
       "claim": "Medical required fields missing count",
       "auditValue": null,
-      "actualValue": 36,
+      "actualValue": 30,
       "status": "schema-sensitive"
     }
   ],
@@ -36,15 +36,9 @@
     },
     "coffee": {
       "total": 32,
-      "withWebsite": 12,
-      "brokenWebsiteCount": 2,
+      "withWebsite": 11,
+      "brokenWebsiteCount": 1,
       "brokenWebsites": [
-        {
-          "file": "data/businesses/coffee/caloroso-roaster-eatery.yaml",
-          "url": "https://www.caloroso.co.za/",
-          "status": "503",
-          "exitCode": 0
-        },
         {
           "file": "data/businesses/coffee/costa.yaml",
           "url": "https://www.costacoffee.com/",
@@ -57,10 +51,23 @@
       "total": 62,
       "missingPhone": 26,
       "missingSource": 2,
-      "missingGeo": 8
+      "missingGeo": 2
     },
     "duplicates": {
       "validatedClusters": [
+        {
+          "files": [
+            "data/businesses/estate-agents/chas-everitt-george.yaml",
+            "data/businesses/estate-agents/pam-golding-george.yaml",
+            "data/businesses/estate-agents/rawson-george.yaml",
+            "data/businesses/estate-agents/remax-outeniqua-george.yaml",
+            "data/businesses/estate-agents/seeff-george.yaml"
+          ],
+          "confidence": 0.95,
+          "sameCoords": true,
+          "sameBranch": true,
+          "status": "likely-duplicate"
+        },
         {
           "files": [
             "data/businesses/medical/dis-chem-pharmacy.yaml",
@@ -150,9 +157,8 @@
       "priority": 2,
       "task": "Coffee website reliability pass",
       "targets": {
-        "brokenWebsiteCount": 2,
+        "brokenWebsiteCount": 1,
         "files": [
-          "data/businesses/coffee/caloroso-roaster-eatery.yaml",
           "data/businesses/coffee/costa.yaml"
         ]
       }
@@ -163,14 +169,14 @@
       "targets": {
         "missingPhone": 26,
         "missingSource": 2,
-        "missingGeo": 8
+        "missingGeo": 2
       }
     },
     {
       "priority": 4,
       "task": "Duplicate verification sweep",
       "targets": {
-        "likelyDuplicates": 3,
+        "likelyDuplicates": 4,
         "needsManualReview": 4
       }
     }
