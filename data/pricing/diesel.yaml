@@ -1,0 +1,129 @@
+currency: "ZAR"
+updated_at: "2026-04-24"
+notes: "Seed data for rollout demo. Replace with human-verified prices via PR or email intake."
+prices:
+  - slug: "astron-energy-12193963366"
+    station_name: "Astron Energy"
+    diesel_price: 27.53
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "astron-energy-12193969237"
+    station_name: "Astron Energy"
+    diesel_price: 28.06
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "astron-energy-1446143170"
+    station_name: "Astron Energy"
+    diesel_price: 28.90
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "astron-energy-osm-12193969173-12193969173"
+    station_name: "Astron Energy"
+    diesel_price: 28.66
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "astron-energy-osm-12193969208-12193969208"
+    station_name: "Astron Energy"
+    diesel_price: 27.19
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "astron-energy-osm-305657519-305657519"
+    station_name: "Astron Energy"
+    diesel_price: 27.88
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "bp-2122238906"
+    station_name: "BP"
+    diesel_price: 27.78
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "bp-440823277"
+    station_name: "BP"
+    diesel_price: 28.34
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "caltex-646992733"
+    station_name: "Caltex"
+    diesel_price: 28.50
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "engen-2108369963"
+    station_name: "Engen"
+    diesel_price: 28.26
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "engen-644594921"
+    station_name: "Engen"
+    diesel_price: 28.76
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "engen-albert-street-12289683893"
+    station_name: "Engen"
+    diesel_price: 28.85
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "engen-knysna-road-12289683509"
+    station_name: "Engen"
+    diesel_price: 27.39
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "engen-osm-12289683348-12289683348"
+    station_name: "Engen"
+    diesel_price: 27.49
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "engen-osm-12289683707-12289683707"
+    station_name: "Engen"
+    diesel_price: 28.47
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "liwani-street-fuel-4449287989"
+    station_name: "Fuel Station"
+    diesel_price: 27.14
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "sasol-12196958064"
+    station_name: "Sasol"
+    diesel_price: 28.48
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "sasol-osm-455663826-455663826"
+    station_name: "Sasol"
+    diesel_price: 27.71
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "sasol-osm-817811142-817811142"
+    station_name: "Sasol"
+    diesel_price: 27.40
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "shell-12343680995"
+    station_name: "Shell"
+    diesel_price: 28.59
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "shell-5081791711"
+    station_name: "Shell"
+    diesel_price: 27.69
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "total-1070236308"
+    station_name: "Total"
+    diesel_price: 28.19
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "totalenergies-12269703965"
+    station_name: "TotalEnergies"
+    diesel_price: 28.06
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "totalenergies-12269704118"
+    station_name: "TotalEnergies"
+    diesel_price: 27.18
+    last_updated: "2026-04-24"
+    source: "manual_seed"
+  - slug: "totalenergies-12269704122"
+    station_name: "TotalEnergies"
+    diesel_price: 27.37
+    last_updated: "2026-04-24"
+    source: "manual_seed"

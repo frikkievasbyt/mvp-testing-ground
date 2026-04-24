@@ -1,11 +1,11 @@
 {
-  "phase": "coffee-website-reliability-pass",
-  "batchSize": 11,
+  "phase": "fuel-quality-pass",
+  "batchSize": 14,
   "changedCount": 0,
   "committed": false,
   "blocker": false,
-  "progressNote": "Verified all 11 flagged coffee websites with live HTTP checks; each currently returns 200, so no fix/replace/remove edits were warranted.",
-  "lastRunAtUtc": "2026-04-24T06:14:00Z",
+  "progressNote": "Processed remaining 14 fuel files with missing hours/phone and re-verified each OSM source record; no new source-backed values found, nulls retained per policy.",
+  "lastRunAtUtc": "2026-04-24T12:06:17Z",
   "missionComplete": true,
   "usedMissGwenHandoff": true
 }

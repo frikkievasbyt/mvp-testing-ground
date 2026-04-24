@@ -1,8 +1,19 @@
 {
-  "generatedAtUtc": "2026-04-23T23:00:00Z",
+  "generatedAtUtc": "2026-04-24T08:45:00Z",
   "source": "state/miss_gwen_sitewide_audit_validated.json",
   "policy": "confirmed duplicate candidates only, no auto-merge",
   "candidates": [
+    {
+      "files": [
+        "data/businesses/estate-agents/chas-everitt-george.yaml",
+        "data/businesses/estate-agents/pam-golding-george.yaml",
+        "data/businesses/estate-agents/rawson-george.yaml",
+        "data/businesses/estate-agents/remax-outeniqua-george.yaml",
+        "data/businesses/estate-agents/seeff-george.yaml"
+      ],
+      "confidence": 0.95,
+      "reason": "sameBranch=true and sameCoords=true in validated audit"
+    },
     {
       "files": [
         "data/businesses/medical/dr-fouche-incorporated.yaml",
