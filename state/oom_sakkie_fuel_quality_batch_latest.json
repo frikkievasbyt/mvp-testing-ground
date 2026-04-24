@@ -1,7 +1,7 @@
 {
-  "generatedAtUtc": "2026-04-24T08:45:00Z",
+  "generatedAtUtc": "2026-04-24T09:02:17Z",
   "phase": "fuel-quality-pass",
-  "batchSize": 12,
+  "batchSize": 14,
   "reviewedFiles": [
     "data/businesses/fuel/bp-2122238906.yaml",
     "data/businesses/fuel/bp-440823277.yaml",
@@ -14,9 +14,11 @@
     "data/businesses/fuel/liwani-street-fuel-4449287989.yaml",
     "data/businesses/fuel/sasol-osm-817811142-817811142.yaml",
     "data/businesses/fuel/total-1070236308.yaml",
-    "data/businesses/fuel/totalenergies-12269703965.yaml"
+    "data/businesses/fuel/totalenergies-12269703965.yaml",
+    "data/businesses/fuel/totalenergies-12269704118.yaml",
+    "data/businesses/fuel/totalenergies-12269704122.yaml"
   ],
-  "sourceCheck": "OSM API 0.6 node/way tag recheck",
+  "sourceCheck": "Overpass tag recheck against OSM IDs from source field",
   "results": {
     "hoursBackfilled": 0,
     "phoneBackfilled": 0,

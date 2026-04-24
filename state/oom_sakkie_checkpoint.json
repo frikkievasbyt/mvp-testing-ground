@@ -1,11 +1,11 @@
 {
   "phase": "duplicate-verification-sweep",
-  "batchSize": 12,
-  "changedCount": 3,
+  "batchSize": 17,
+  "changedCount": 4,
   "committed": true,
   "blocker": false,
-  "progressNote": "Ordered TODO batch executed: 12 fuel files rechecked against OSM tags (no source-backed hours/phone recoveries), Costa website revalidated as environment-TLS uncertain so left unchanged, medical minimum-publishability spot check found no source-backed phone/source/geo backfills, confirmed-duplicate output synced to validated high-confidence set.",
-  "lastRunAtUtc": "2026-04-24T08:46:00Z",
+  "progressNote": "Validated ordered TODO batch on 17 files: fuel pass rechecked all 14 missing-field fuel files against OSM tags (no new source-backed phone/hours found), Costa website verified reachable (kept), medical minimum-publishability spot check on 2 flagged files found no source-backed backfills, confirmed-duplicate candidates output refreshed.",
+  "lastRunAtUtc": "2026-04-24T09:02:17Z",
   "missionComplete": true,
   "usedMissGwenHandoff": true
 }
