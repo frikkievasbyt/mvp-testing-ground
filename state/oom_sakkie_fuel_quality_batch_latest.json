@@ -1,27 +1,103 @@
 {
-  "generatedAtUtc": "2026-04-24T09:02:17Z",
+  "generatedAtUtc": "2026-04-24T10:42:43Z",
   "phase": "fuel-quality-pass",
-  "batchSize": 14,
+  "batchSize": 11,
   "reviewedFiles": [
-    "data/businesses/fuel/bp-2122238906.yaml",
-    "data/businesses/fuel/bp-440823277.yaml",
-    "data/businesses/fuel/caltex-646992733.yaml",
-    "data/businesses/fuel/engen-2108369963.yaml",
-    "data/businesses/fuel/engen-644594921.yaml",
-    "data/businesses/fuel/engen-albert-street-12289683893.yaml",
-    "data/businesses/fuel/engen-knysna-road-12289683509.yaml",
-    "data/businesses/fuel/engen-osm-12289683348-12289683348.yaml",
-    "data/businesses/fuel/liwani-street-fuel-4449287989.yaml",
-    "data/businesses/fuel/sasol-osm-817811142-817811142.yaml",
-    "data/businesses/fuel/total-1070236308.yaml",
-    "data/businesses/fuel/totalenergies-12269703965.yaml",
-    "data/businesses/fuel/totalenergies-12269704118.yaml",
-    "data/businesses/fuel/totalenergies-12269704122.yaml"
+    "data/businesses/fuel/astron-energy-12193963366.yaml",
+    "data/businesses/fuel/astron-energy-12193969237.yaml",
+    "data/businesses/fuel/astron-energy-1446143170.yaml",
+    "data/businesses/fuel/astron-energy-osm-12193969173-12193969173.yaml",
+    "data/businesses/fuel/astron-energy-osm-12193969208-12193969208.yaml",
+    "data/businesses/fuel/astron-energy-osm-305657519-305657519.yaml",
+    "data/businesses/fuel/engen-osm-12289683707-12289683707.yaml",
+    "data/businesses/fuel/sasol-12196958064.yaml",
+    "data/businesses/fuel/sasol-osm-455663826-455663826.yaml",
+    "data/businesses/fuel/shell-12343680995.yaml",
+    "data/businesses/fuel/shell-5081791711.yaml"
   ],
-  "sourceCheck": "Overpass tag recheck against OSM IDs from source field",
+  "sourceCheck": "Validated remaining covered fuel files against live OSM element tags via source OSM IDs",
   "results": {
     "hoursBackfilled": 0,
     "phoneBackfilled": 0,
     "unknownRetainedNull": true
-  }
+  },
+  "verification": [
+    {
+      "file": "data/businesses/fuel/astron-energy-12193963366.yaml",
+      "phone": "+27 44 877 0201",
+      "hours": "\"Mo-Su 00:00-24:00\"",
+      "sourcePhone": null,
+      "sourceHours": null
+    },
+    {
+      "file": "data/businesses/fuel/astron-energy-12193969237.yaml",
+      "phone": "+27 44 870 7660",
+      "hours": "\"Mo-Su 00:00-24:00\"",
+      "sourcePhone": null,
+      "sourceHours": null
+    },
+    {
+      "file": "data/businesses/fuel/astron-energy-1446143170.yaml",
+      "phone": "\"+27 44 874 4118\"",
+      "hours": "Mo-Su 00:00-24:00",
+      "sourcePhone": null,
+      "sourceHours": null
+    },
+    {
+      "file": "data/businesses/fuel/astron-energy-osm-12193969173-12193969173.yaml",
+      "phone": "+27 44 873 5689",
+      "hours": "\"Mo-Su 00:00-24:00\"",
+      "sourcePhone": null,
+      "sourceHours": null
+    },
+    {
+      "file": "data/businesses/fuel/astron-energy-osm-12193969208-12193969208.yaml",
+      "phone": "+27 44 874 4734",
+      "hours": "\"Mo-Su 00:00-24:00\"",
+      "sourcePhone": null,
+      "sourceHours": null
+    },
+    {
+      "file": "data/businesses/fuel/astron-energy-osm-305657519-305657519.yaml",
+      "phone": "\"+27 44 877 1122\"",
+      "hours": "24/7",
+      "sourcePhone": null,
+      "sourceHours": null
+    },
+    {
+      "file": "data/businesses/fuel/engen-osm-12289683707-12289683707.yaml",
+      "phone": "\"+27 44 873 0805\"",
+      "hours": "24/7",
+      "sourcePhone": null,
+      "sourceHours": null
+    },
+    {
+      "file": "data/businesses/fuel/sasol-12196958064.yaml",
+      "phone": "+27 44 889 0282",
+      "hours": "\"Mo-Su 00:00-24:00\"",
+      "sourcePhone": null,
+      "sourceHours": null
+    },
+    {
+      "file": "data/businesses/fuel/sasol-osm-455663826-455663826.yaml",
+      "phone": "\"+27 44 884 1316\"",
+      "hours": "Mo-Su 00:00-24:00",
+      "sourcePhone": null,
+      "sourceHours": null
+    },
+    {
+      "file": "data/businesses/fuel/shell-12343680995.yaml",
+      "phone": "+27 44 887 0480",
+      "hours": "\"Mo-Su 00:00-24:00\"",
+      "sourcePhone": null,
+      "sourceHours": null
+    },
+    {
+      "file": "data/businesses/fuel/shell-5081791711.yaml",
+      "phone": "+27 44 887 0480",
+      "hours": "Mo-Su 00:00-24:00",
+      "sourcePhone": null,
+      "sourceHours": null
+    }
+  ]
 }

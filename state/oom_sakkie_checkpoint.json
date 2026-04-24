@@ -1,11 +1,11 @@
 {
-  "phase": "duplicate-verification-sweep",
-  "batchSize": 15,
-  "changedCount": 2,
-  "committed": true,
+  "phase": "fuel-quality-pass",
+  "batchSize": 11,
+  "changedCount": 0,
+  "committed": false,
   "blocker": false,
-  "progressNote": "Processed 14 fuel-gap files plus flagged coffee URL; updated one source-backed Sasol phone from station API and exported 4 confirmed duplicate candidates only.",
-  "lastRunAtUtc": "2026-04-24T10:08:00Z",
+  "progressNote": "Reviewed remaining 11/25 fuel files; source-backed OSM checks found no missing hours/phone values to backfill, nulls retained.",
+  "lastRunAtUtc": "2026-04-24T10:42:43Z",
   "missionComplete": true,
   "usedMissGwenHandoff": true
 }
