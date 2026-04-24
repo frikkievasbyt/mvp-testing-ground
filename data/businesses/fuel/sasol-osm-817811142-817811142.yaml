@@ -12,15 +12,15 @@ address:
   province: Western Cape
   country: South Africa
   country_code: ZA
-source: https://www.openstreetmap.org/node/817811142
+source: https://locator.sasol.com/api/station/8628.json
 confidence: 0.9
 links:
   google_maps: https://www.google.com/maps/search/?api=1&query=-33.9732564,22.4701260
   openstreetmap: https://www.openstreetmap.org/node/817811142
   openstreetmap_map: https://www.openstreetmap.org/?mlat=-33.9732564&mlon=22.4701260#map=19/-33.9732564/22.4701260
-phone: "+27 44 873 4142"
+phone: "+27 44 873 6611"
 contact:
-  phone: "+27 44 873 4142"
+  phone: "+27 44 873 6611"
   email: null
 website: https://locator.sasol.com/#/station/8628
 hours: null
