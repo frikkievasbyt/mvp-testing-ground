@@ -17,7 +17,7 @@ contact:
   whatsapp: null
   email: null
 links:
-  website: https://www.caloroso.co.za/
+  website: null
   facebook: https://www.facebook.com/CalorosoRoastery
   instagram: https://www.instagram.com/caloroso.cafe/
   menu: null
@@ -26,17 +26,16 @@ hours:
 - Mo-Fr 07:00-17:00; Sa 08:30-14:00
 photos: []
 verification:
-  last_verified_at: '2026-04-19'
-  confidence: high
+  last_verified_at: '2026-04-23'
+  confidence: medium
   sources:
   - https://www.openstreetmap.org/node/1848349302
-  - https://www.caloroso.co.za/
   - https://www.facebook.com/CalorosoRoastery
+  - https://www.instagram.com/caloroso.cafe/
   score: 92
   publish_ready: true
   checks:
     nominatim_match: false
     overpass_match: true
     address_consistent: true
-notes: 'QA: Address, phone, website, social handles, and hours align between OSM and official
-  brand channels. Uncertainty: Sunday/public-holiday hours not explicitly confirmed.'
+notes: 'QA: Address, phone, and hours still align with OSM + social channels. Official website returned HTTP 503 with Retry-After during validation and was removed pending recovery. Uncertainty: Sunday/public-holiday hours not explicitly confirmed.'

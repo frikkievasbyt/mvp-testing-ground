@@ -1,0 +1,51 @@
+{
+  "generatedAtUtc": "2026-04-23T21:05:00Z",
+  "scope": "george-20km-medical",
+  "confirmedDuplicateCandidates": [
+    {
+      "files": [
+        "data/businesses/medical/dr-fouche-incorporated.yaml",
+        "data/businesses/medical/dr-heinrich-van-rensburg.yaml"
+      ],
+      "evidence": {
+        "sameCoordinates": true,
+        "samePhone": true,
+        "coordinates": {
+          "lat": -33.9567263,
+          "lon": 22.4550681
+        },
+        "phone": "044 874 4644"
+      }
+    },
+    {
+      "files": [
+        "data/businesses/medical/dr-j-l-van-heerden.yaml",
+        "data/businesses/medical/the-sports-doc.yaml"
+      ],
+      "evidence": {
+        "sameCoordinates": true,
+        "samePhone": true,
+        "coordinates": {
+          "lat": -33.9777839,
+          "lon": 22.4953110
+        },
+        "phone": null
+      }
+    },
+    {
+      "files": [
+        "data/businesses/medical/dr-nicke-theron.yaml",
+        "data/businesses/medical/swart-a-l-partner-incorporated.yaml"
+      ],
+      "evidence": {
+        "sameCoordinates": true,
+        "samePhone": true,
+        "coordinates": {
+          "lat": -33.9573553,
+          "lon": 22.4567497
+        },
+        "phone": "044 874 3840"
+      }
+    }
+  ]
+}

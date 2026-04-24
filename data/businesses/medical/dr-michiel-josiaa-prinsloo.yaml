@@ -10,8 +10,8 @@ address:
   city: 'George'
   postal_code: '6529'
   full: '42 Victoria Street, George, 6529'
-  latitude: null
-  longitude: null
+  latitude: -33.9641818
+  longitude: 22.4585781
 contact:
   phone: '+27 44 871 5130'
   whatsapp: null

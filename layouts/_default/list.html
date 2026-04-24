@@ -29,6 +29,13 @@
       {{ end }}
     {{ end }}
 
+    {{ $estateCount := 0 }}
+    {{ if fileExists "data/businesses/estate-agents" }}
+      {{ range (readDir "data/businesses/estate-agents") }}
+        {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}{{ $estateCount = add $estateCount 1 }}{{ end }}
+      {{ end }}
+    {{ end }}
+
     {{ $animalCount := 0 }}
     {{ if fileExists "data/businesses/animal-services" }}
       {{ range (readDir "data/businesses/animal-services") }}
@@ -57,21 +64,25 @@
           <span class="label">Medical listings</span>
         </article>
         <article>
-          <span class="stat">{{ $fuelCount }}</span>
-          <span class="label">Fuel listings</span>
-        </article>
-        <article>
           <span class="stat">{{ $animalCount }}</span>
           <span class="label">Animal services listings</span>
+        </article>
+        <article>
+          <span class="stat">{{ $estateCount }}</span>
+          <span class="label">Estate agent listings</span>
+        </article>
+        <article>
+          <span class="stat">{{ $fuelCount }}</span>
+          <span class="label">Fuel listings</span>
         </article>
       </div>
     </section>
 
     <section class="feature-grid">
       <article class="feature-card">
-        <h2>☕ Coffee Shops</h2>
-        <p>Specialty cafes and neighborhood favorites with quality score, confidence, and direct links.</p>
-        <a class="btn" href="{{ "coffee/" | relURL }}">Browse coffee directory</a>
+        <h2>🐾 Animal Services</h2>
+        <p>Animal health providers including vets and related care services.</p>
+        <a class="btn" href="{{ "animal-services/" | relURL }}">Browse animal services</a>
       </article>
       <article class="feature-card">
         <h2>🚴 Bicycle Shops</h2>
@@ -79,9 +90,14 @@
         <a class="btn" href="{{ "bicycle/" | relURL }}">Browse bicycle directory</a>
       </article>
       <article class="feature-card">
-        <h2>🏥 Medical Services</h2>
-        <p>Split into Doctors, Pharmacies, and Service Providers with expertise fields and ongoing enrichment.</p>
-        <a class="btn" href="{{ "medical/" | relURL }}">Browse medical directory</a>
+        <h2>☕ Coffee Shops</h2>
+        <p>Specialty cafes and neighborhood favorites with quality score, confidence, and direct links.</p>
+        <a class="btn" href="{{ "coffee/" | relURL }}">Browse coffee directory</a>
+      </article>
+      <article class="feature-card">
+        <h2>🏘️ Estate Agents</h2>
+        <p>Property agencies in George with branch links, contacts, and map references.</p>
+        <a class="btn" href="{{ "estate-agents/" | relURL }}">Browse estate agents</a>
       </article>
       <article class="feature-card">
         <h2>⛽ Fuel Filling Stations</h2>
@@ -89,9 +105,9 @@
         <a class="btn" href="{{ "fuel/" | relURL }}">Browse fuel stations</a>
       </article>
       <article class="feature-card">
-        <h2>🐾 Animal Services</h2>
-        <p>Animal health providers including vets and related care services.</p>
-        <a class="btn" href="{{ "animal-services/" | relURL }}">Browse animal services</a>
+        <h2>🏥 Medical Services</h2>
+        <p>Split into Doctors, Pharmacies, and Service Providers with expertise fields and ongoing enrichment.</p>
+        <a class="btn" href="{{ "medical/" | relURL }}">Browse medical directory</a>
       </article>
     </section>
   {{ else }}

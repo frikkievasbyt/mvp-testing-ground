@@ -10,8 +10,8 @@ address:
   city: 'George'
   postal_code: '6529'
   full: 'Unit 1 Windsor Park, 3 Varing Avenue, George, 6529'
-  latitude: null
-  longitude: null
+  latitude: -33.9573205
+  longitude: 22.4517181
 contact:
   phone: '+27 44 874 2206'
   whatsapp: null

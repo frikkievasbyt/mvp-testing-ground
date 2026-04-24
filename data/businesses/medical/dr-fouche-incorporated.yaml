@@ -10,8 +10,8 @@ address:
   city: 'George'
   postal_code: null
   full: '22 Gloucester Avenue, George'
-  latitude: null
-  longitude: null
+  latitude: -33.9567263
+  longitude: 22.4550681
 contact:
   phone: '044 874 4644'
   whatsapp: null
@@ -33,4 +33,5 @@ verification:
   - 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=10256'
   - 'https://www.google.com/search?q=site%3Amedpages.info+Dr+Fouche+Incorporated+George'
   - 'https://www.google.com/maps/search/?api=1&query=Dr+Fouche+Incorporated+George'
-notes: 'Medpages-backed doctor listing for George. Dermatology expertise mapped conservatively from Medpages specialty.'
+  - 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&bounded=1&viewbox=22.38%2C-33.89%2C22.56%2C-34.05&q=22+Gloucester+Avenue%2C+George%2C+South+Africa'
+notes: 'Medpages-backed doctor listing for George. Dermatology expertise mapped conservatively from Medpages specialty. Nominatim returned a George street-level point for 22 Gloucester Avenue, lat/lon set from that source.'

@@ -1,0 +1,29 @@
+slug: seeff-george
+name: Seeff George
+category: estate_agent
+subcategories: [residential_sales, rentals]
+address:
+  street: null
+  suburb: null
+  city: "George"
+  postal_code: "6529"
+  full: "George, Western Cape"
+  latitude: null
+  longitude: null
+contact:
+  phone: null
+  whatsapp: null
+  email: null
+links:
+  website: "https://www.seeff.com/"
+  facebook: null
+  instagram: null
+  google_maps: "https://www.google.com/maps/search/?api=1&query=Seeff+George"
+hours: []
+photos: []
+verification:
+  last_verified_at: "2026-04-24"
+  confidence: "low"
+  sources:
+    - "Seeded entry, needs branch-level verification"
+notes: "Seeded top-five estate agent list for George, contact details still to confirm."

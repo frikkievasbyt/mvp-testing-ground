@@ -1,27 +1,11 @@
 {
-  "phase": "fuel-quality-pass",
-  "batchSize": 14,
-  "discoveredCount": 0,
+  "phase": "coffee-website-reliability-pass",
+  "batchSize": 11,
   "changedCount": 0,
-  "sampledCount": 25,
-  "avgConfidence": 0.9,
-  "escalatedCount": 0,
-  "committed": true,
-  "blocker": null,
-  "lastRunAtUtc": "2026-04-23T14:49:59Z",
-  "notes": "Re-ran 20km discovery against Overpass and confirmed full coverage parity: 25 OSM fuel features, 25 local station files, 0 uncovered.",
-  "usedMissGwenHandoff": true,
-  "addedCount": 0,
-  "updatedCount": 0,
-  "knownStations": 25,
-  "coveredStations": 25,
-  "missingStationsEstimate": 0,
-  "progressPct": 100,
+  "committed": false,
+  "blocker": false,
+  "progressNote": "Verified all 11 flagged coffee websites with live HTTP checks; each currently returns 200, so no fix/replace/remove edits were warranted.",
+  "lastRunAtUtc": "2026-04-24T06:14:00Z",
   "missionComplete": true,
-  "evidenceSources": [
-    "https://overpass-api.de/api/interpreter (nwr amenity=fuel around 20km from George center -33.9649,22.4617, checked 2026-04-23)",
-    "https://www.openstreetmap.org (cross-check each local source URL node/way id)",
-    "https://nominatim.openstreetmap.org/reverse (address verification basis from prior enrichment runs)"
-  ],
-  "progressNote": "Validated 14 fuel files with missing phone/hours against linked OSM source objects (API 0.6); no additional source-backed phone/opening_hours tags available, so nulls retained."
+  "usedMissGwenHandoff": true
 }

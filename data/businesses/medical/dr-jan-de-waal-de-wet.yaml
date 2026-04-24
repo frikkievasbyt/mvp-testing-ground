@@ -10,8 +10,8 @@ address:
   city: 'George'
   postal_code: '6529'
   full: 'Room K06 G J Lamprecht Medical Centre, Cnr Gloucester Avenue & York Street, George, 6529'
-  latitude: null
-  longitude: null
+  latitude: -33.957298
+  longitude: 22.4568222
 contact:
   phone: '+27 44 874 4335'
   whatsapp: null
