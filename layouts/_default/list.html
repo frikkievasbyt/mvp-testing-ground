@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ if eq .RelPermalink "/" }}
+  {{ if .IsHome }}
     {{ $coffeeCount := 0 }}
     {{ if fileExists "data/businesses/coffee" }}
       {{ range (readDir "data/businesses/coffee") }}
@@ -43,6 +43,16 @@
       {{ end }}
     {{ end }}
 
+    {{ $dieselData := dict }}
+    {{ if fileExists "data/pricing/diesel.yaml" }}
+      {{ $dieselData = transform.Unmarshal (readFile "data/pricing/diesel.yaml") }}
+    {{ end }}
+
+    {{ $cheapest := slice }}
+    {{ with $dieselData.prices }}
+      {{ $cheapest = first 3 (sort . "diesel_price" "asc") }}
+    {{ end }}
+
     <section class="hero">
       <div>
         <p class="eyebrow">Local Discovery</p>
@@ -75,6 +85,33 @@
           <span class="stat">{{ $fuelCount }}</span>
           <span class="label">Fuel listings</span>
         </article>
+      </div>
+    </section>
+
+    <section class="diesel-banner">
+      <div>
+        <p class="eyebrow">Diesel Watch</p>
+        <h2>Where is the best priced diesel in George today?</h2>
+        <p class="lead">Compare stations instantly and head straight to the cheapest pump.</p>
+        <a class="btn" href="{{ "fuel/" | relURL }}">View diesel prices</a>
+      </div>
+      <div>
+        <p class="muted diesel-updated">Latest price sheet: {{ or $dieselData.updated_at "Pending update" }}</p>
+        <div class="diesel-top3">
+          {{ if gt (len $cheapest) 0 }}
+            {{ range $cheapest }}
+              <article>
+                <strong>{{ or .station_name .slug }}</strong>
+                <span class="diesel-pill">R{{ printf "%.2f" (float .diesel_price) }}/L</span>
+              </article>
+            {{ end }}
+          {{ else }}
+            <article>
+              <strong>Diesel prices not published yet</strong>
+              <span class="muted">Add data/pricing/diesel.yaml entries to activate ranking</span>
+            </article>
+          {{ end }}
+        </div>
       </div>
     </section>
 

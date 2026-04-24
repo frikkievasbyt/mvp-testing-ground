@@ -178,6 +178,53 @@ h1 {
   gap: 16px;
 }
 
+.diesel-banner {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 14px;
+  border: 1px solid #ffd48a;
+  border-radius: 16px;
+  padding: 18px;
+  background: linear-gradient(130deg, #fff7df 0%, #fff2cc 100%);
+  box-shadow: var(--shadow);
+}
+
+.diesel-banner h2 {
+  margin: 6px 0 8px;
+  font-size: clamp(1.2rem, 3vw, 1.65rem);
+}
+
+.diesel-updated {
+  margin: 0 0 8px;
+}
+
+.diesel-top3 {
+  display: grid;
+  gap: 8px;
+}
+
+.diesel-top3 article {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid #ffdc9c;
+  border-radius: 11px;
+  padding: 9px 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.diesel-pill {
+  font-weight: 800;
+  color: #2d2000;
+  background: #ffd25e;
+  border: 1px solid #e2b53f;
+  border-radius: 999px;
+  padding: 4px 9px;
+  font-size: 0.84rem;
+}
+
 .feature-card {
   background: var(--surface);
   border: 1px solid var(--line);
@@ -305,6 +352,30 @@ h1 {
   background: var(--warn-bg);
 }
 
+.diesel-price-badge {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 800;
+  border-radius: 999px;
+  padding: 6px 11px;
+  white-space: nowrap;
+  color: #2d2000;
+  background: linear-gradient(130deg, #ffd84d 0%, #ffbf1f 100%);
+  border: 1px solid #d79b00;
+}
+
+.diesel-price-pending {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 6px 10px;
+  white-space: nowrap;
+  color: var(--muted);
+  background: #edf1f9;
+  border: 1px solid #d0daee;
+}
+
 .scoreline {
   margin: 8px 0 10px;
   font-size: 0.87rem;
@@ -397,6 +468,10 @@ h1 {
 
 @media (max-width: 980px) {
   .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .diesel-banner {
     grid-template-columns: 1fr;
   }
 
