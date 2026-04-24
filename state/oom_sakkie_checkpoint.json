@@ -1,11 +1,11 @@
 {
   "phase": "fuel-quality-pass",
-  "batchSize": 11,
-  "changedCount": 0,
-  "committed": false,
+  "batchSize": 14,
+  "changedCount": 1,
+  "committed": true,
   "blocker": false,
-  "progressNote": "Reviewed remaining 11/25 fuel files; source-backed OSM checks found no missing hours/phone values to backfill, nulls retained.",
-  "lastRunAtUtc": "2026-04-24T10:42:43Z",
+  "progressNote": "Processed 14 fuel files in covered set via OSM source checks; updated Sasol node 817811142 phone to +27 44 873 4142, retained null hours/phones where no source-backed value exists.",
+  "lastRunAtUtc": "2026-04-24T11:04:23Z",
   "missionComplete": true,
   "usedMissGwenHandoff": true
 }
