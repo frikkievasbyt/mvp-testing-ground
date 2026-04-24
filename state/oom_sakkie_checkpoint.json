@@ -1,11 +1,11 @@
 {
   "phase": "duplicate-verification-sweep",
   "batchSize": 15,
-  "changedCount": 2,
+  "changedCount": 3,
   "committed": true,
   "blocker": false,
-  "progressNote": "Executed in strict order: fuel (14 files checked, no new source-backed hours/phone), coffee flagged URL verified reachable, medical sample check found no source-backed phone/geo backfills, and published confirmed duplicate candidates only.",
-  "lastRunAtUtc": "2026-04-24T07:41:21Z",
+  "progressNote": "Executed ordered pass: fuel reviewed (14 flagged, no new null backfills from source data; updated one stale Sasol source/phone from OSM), coffee flagged URL rechecked reachable, medical null-phone set sampled with no source-backed recoveries, duplicate confirmed outputs refreshed.",
+  "lastRunAtUtc": "2026-04-24T08:23:34Z",
   "missionComplete": true,
   "usedMissGwenHandoff": true
 }
