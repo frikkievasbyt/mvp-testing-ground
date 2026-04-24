@@ -1,11 +1,11 @@
 {
   "phase": "fuel-quality-pass",
-  "batchSize": 14,
+  "batchSize": 10,
   "changedCount": 0,
   "committed": false,
-  "blocker": false,
-  "progressNote": "Completed a strict-order fuel batch on all 14 flagged files; verified live OSM node/way tags and found no new source-backed hours or phone values to backfill.",
-  "lastRunAtUtc": "2026-04-24T14:00:00Z",
+  "blocker": true,
+  "progressNote": "Ran the next strict-order 10-file fuel batch (Miss Gwen recommended set) and re-checked live OSM API tags; no verifiable new `hours` or `phone` values were available to backfill, so nulls were retained.",
+  "lastRunAtUtc": "2026-04-24T14:25:00Z",
   "missionComplete": true,
   "usedMissGwenHandoff": true
 }
