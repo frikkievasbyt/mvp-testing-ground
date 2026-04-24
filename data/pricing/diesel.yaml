@@ -78,7 +78,7 @@ prices:
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "liwani-street-fuel-4449287989"
-    station_name: "Fuel Station"
+    station_name: "Liwani Street Fuel Station"
     diesel_price: 27.14
     last_updated: "2026-04-24"
     source: "manual_seed"
