@@ -1,8 +1,8 @@
 {
   "phase": "duplicate-verification-sweep",
   "batchSize": 12,
-  "changedCount": 2,
-  "committed": false,
+  "changedCount": 3,
+  "committed": true,
   "blocker": false,
   "progressNote": "Ordered TODO batch executed: 12 fuel files rechecked against OSM tags (no source-backed hours/phone recoveries), Costa website revalidated as environment-TLS uncertain so left unchanged, medical minimum-publishability spot check found no source-backed phone/source/geo backfills, confirmed-duplicate output synced to validated high-confidence set.",
   "lastRunAtUtc": "2026-04-24T08:46:00Z",
