@@ -11,21 +11,14 @@
   {{ end }}
 
   {{ $total := len $stations }}
-  {{ .Scratch.Set "publishReady" 0 }}
-  {{ range $stations }}
-    {{ if .verification.publish_ready }}{{ $.Scratch.Add "publishReady" 1 }}{{ end }}
-  {{ end }}
 
   <section class="page-intro">
     <p class="eyebrow">Directory</p>
     <h1>{{ .Title }}</h1>
-    <div class="lead">{{ .Content }}</div>
   </section>
 
   <section class="kpi-grid">
     <article><span class="stat">{{ $total }}</span><span class="label">Total listings</span></article>
-    <article><span class="stat">{{ .Scratch.Get "publishReady" }}</span><span class="label">Publish-ready</span></article>
-    <article><span class="stat">{{ sub $total (.Scratch.Get "publishReady") }}</span><span class="label">Needs review</span></article>
     <article><span class="stat">{{ now.Format "2006-01-02" }}</span><span class="label">Updated date</span></article>
   </section>
 
@@ -40,7 +33,6 @@
             <h2>{{ or .name "Unnamed station" }}</h2>
             <span class="quality-pill {{ if .verification.publish_ready }}good{{ else }}warn{{ end }}">{{ if .verification.publish_ready }}Publish-ready{{ else }}Needs review{{ end }}</span>
           </div>
-          <p class="muted scoreline">Score {{ or .verification.score "n/a" }} · Confidence {{ or .verification.confidence "unknown" }}</p>
           <ul class="meta">
             <li><strong>Brand</strong><span>{{ or .brand "Unknown" }}</span></li>
             <li><strong>Address</strong><span>{{ $address }}</span></li>
