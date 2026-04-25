@@ -1,3 +1,14 @@
 .hugo_build.lock
 public/
 resources/_gen/
+
+# Volatile operation artifacts (generated during enrichment/audit runs)
+state/miss_gwen_sitewide_audit*.json
+state/miss_gwen_sitewide_audit*.md
+state/oom_sakkie_checkpoint.json
+state/oom_sakkie_confirmed_duplicate_candidates.json
+state/oom_sakkie_duplicate_candidates.json
+state/oom_sakkie_duplicate_candidates_confirmed.json
+state/oom_sakkie_duplicate_candidates_confirmed.md
+state/oom_sakkie_fuel_quality_batch_latest.json
+state/tmp_overpass.json
