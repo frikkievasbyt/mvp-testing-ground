@@ -7,42 +7,22 @@
     {{ $shops = $shops | append $shop }}
   {{ end }}
 
-  {{ .Scratch.Set "publishReady" 0 }}
-  {{ range $shops }}
-    {{ if .verification.publish_ready }}{{ $.Scratch.Add "publishReady" 1 }}{{ end }}
-  {{ end }}
-
   {{ $total := len $shops }}
-  {{ $publishReady := .Scratch.Get "publishReady" }}
-  {{ $needsReview := sub $total $publishReady }}
 
   <section class="page-intro">
     <p class="eyebrow">Directory</p>
     <h1>{{ .Title }}</h1>
+    <p class="wip-note">This page is a work in progress.</p>
     <div class="lead">{{ .Content }}</div>
   </section>
 
   <section class="kpi-grid">
     <article><span class="stat">{{ $total }}</span><span class="label">Total listings</span></article>
-    <article><span class="stat">{{ $publishReady }}</span><span class="label">Publish-ready</span></article>
-    <article><span class="stat">{{ $needsReview }}</span><span class="label">Needs review</span></article>
     <article><span class="stat">{{ now.Format "2006-01-02" }}</span><span class="label">Updated date</span></article>
   </section>
 
   <section class="directory-toolbar" data-target="#coffee-listings">
     <input type="search" class="control js-filter-text" placeholder="Search by name or address">
-    <select class="control js-filter-status" aria-label="Filter by quality status">
-      <option value="all">All quality statuses</option>
-      <option value="ready">Publish-ready</option>
-      <option value="review">Needs review</option>
-    </select>
-    <select class="control js-filter-confidence" aria-label="Filter by confidence">
-      <option value="all">All confidence levels</option>
-      <option value="high">High</option>
-      <option value="medium">Medium</option>
-      <option value="low">Low</option>
-      <option value="unknown">Unknown</option>
-    </select>
     <p class="muted filter-count">Showing <span class="js-visible-count">{{ $total }}</span> of <span class="js-total-count">{{ $total }}</span></p>
   </section>
 

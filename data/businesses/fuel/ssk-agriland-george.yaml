@@ -1,0 +1,37 @@
+---
+name: SSK AgriLand George
+brand: SSK AgriLand
+location: "68 York St, George Central, George"
+address:
+  full: "68 York St, George Central, George, 6529, South Africa"
+  street: York Street
+  city: George
+  postal_code: 6529
+  suburb: George Central
+  municipality: George Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
+source: https://www.google.com/viewer/place?mid=/g/11b7vwqpgc&sa=X&ved=2ahUKEwiX_5y89IiUAxVS2skDHSrlCg0QqdYPegYIAQgDEAE
+confidence: 0.7
+links:
+  website: null
+  google_maps: https://www.google.com/maps/search/?api=1&query=SSK+AgriLand+George+68+York+St+George
+  openstreetmap_map: null
+  openstreetmap: null
+phone: "+27 44 801 4500"
+contact:
+  phone: "+27 44 801 4500"
+  email: null
+website: null
+hours: "Mo-Fr 07:30-17:00; Sa 08:00-13:00; Su off"
+coords:
+  lat: null
+  lon: null
+services:
+  - diesel
+  - hardware
+  - agricultural_supply
+operator: SSK AgriLand
+branch: George
+notes: "Large-scale agricultural cooperative store; includes diesel availability and agri supply services."

@@ -39,8 +39,13 @@
     <article><span class="stat">{{ or $priceData.updated_at "Pending" }}</span><span class="label">Prices updated</span></article>
   </section>
 
+  <section class="directory-toolbar" data-target="#fuel-listings">
+    <input type="search" class="control js-filter-text" placeholder="Search by station name or address">
+    <p class="muted filter-count">Showing <span class="js-visible-count">{{ $total }}</span> of <span class="js-total-count">{{ $total }}</span></p>
+  </section>
+
   {{ if gt $total 0 }}
-    <section class="listing-grid">
+    <section id="fuel-listings" class="listing-grid">
       {{ range sort $stations "sortPrice" "asc" }}
         {{ $station := .station }}
         {{ $price := .price }}
