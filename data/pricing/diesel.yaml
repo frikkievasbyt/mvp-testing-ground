@@ -4,131 +4,183 @@ notes: "Seed data for rollout demo. Replace with human-verified prices via PR or
 prices:
   - slug: "astron-energy-12193963366"
     station_name: "Astron Energy"
+    address: "Astron Energy, George Road, George Ward 4, Wilderness, Garden Route District Municipality, Western Cape, 6560, South Africa"
+    phone: "+27 44 877 0201"
     diesel_price: 27.53
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "astron-energy-12193969237"
     station_name: "Astron Energy"
+    address: "Astron Energy, Montagu Street, Blanco, George Ward 26, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa"
+    phone: "+27 44 870 7660"
     diesel_price: 28.06
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "astron-energy-1446143170"
     station_name: "Astron Energy"
+    address: "Astron Energy, York Street, George, 6530, South Africa"
+    phone: "+27 44 874 4118"
     diesel_price: 28.90
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "astron-energy-osm-12193969173-12193969173"
     station_name: "Astron Energy"
+    address: "Astron Energy, Courtenay Street, George Central, George, 6530, South Africa"
+    phone: "+27 44 873 5689"
     diesel_price: 28.66
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "astron-energy-osm-12193969208-12193969208"
     station_name: "Astron Energy"
+    address: "Astron Energy, Courtenay Street, George, 6530, South Africa"
+    phone: "+27 44 874 4734"
     diesel_price: 27.19
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "astron-energy-osm-305657519-305657519"
     station_name: "Astron Energy"
+    address: "Astron Energy, N2, Wilderness East, Wilderness, 6560, South Africa"
+    phone: "+27 44 877 1122"
     diesel_price: 27.88
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "bp-2122238906"
     station_name: "BP"
+    address: "BP, R404, George Ward 23, George Local Municipality, Garden Route District Municipality, Western Cape, South Africa"
+    phone: null
     diesel_price: 27.78
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "bp-440823277"
     station_name: "BP"
+    address: "BP, N2, George Ward 11, George Local Municipality, Garden Route District Municipality, Western Cape, 6546, South Africa"
+    phone: null
     diesel_price: 28.34
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "caltex-646992733"
     station_name: "Caltex"
+    address: "Caltex, Discovery, Pacaltsdorp Industria, George Ward 23, George Local Municipality, Garden Route District Municipality, Western Cape, 6534, South Africa"
+    phone: null
     diesel_price: 28.50
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "engen-2108369963"
     station_name: "Engen"
+    address: "York Street, George Ward 19, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa"
+    phone: null
     diesel_price: 28.26
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "engen-644594921"
     station_name: "Engen"
+    address: "Engen, Courtenay Street, George Ward 19, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa"
+    phone: null
     diesel_price: 28.76
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "engen-albert-street-12289683893"
     station_name: "Engen"
+    address: "Engen, 42, Albert Street, George Ward 19, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa"
+    phone: "+27 44 874 2376"
     diesel_price: 28.85
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "engen-knysna-road-12289683509"
     station_name: "Engen"
+    address: "Engen, Knysna Road, Levallia, George Ward 5, George Local Municipality, Garden Route District Municipality, Western Cape, 6519, South Africa"
+    phone: "+27 44 871 1516"
     diesel_price: 27.39
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "engen-osm-12289683348-12289683348"
     station_name: "Engen"
+    address: "Engen, Discovery, Pacaltsdorp Industria, George Ward 23, George Local Municipality, Garden Route District Municipality, Western Cape, 6534, South Africa"
+    phone: "+27 44 802 7000"
     diesel_price: 27.49
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "engen-osm-12289683707-12289683707"
     station_name: "Engen"
+    address: "Engen, CJ Langenhoven Street, Golfpark 1, George, 6530, South Africa"
+    phone: "+27 44 873 0805"
     diesel_price: 28.47
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "liwani-street-fuel-4449287989"
     station_name: "Liwani Street Fuel Station"
+    address: "5415, Liwani Street, Thembalethu, George Local Municipality, Garden Route District Municipality, Western Cape, 6519, South Africa"
+    phone: null
     diesel_price: 27.14
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "sasol-12196958064"
     station_name: "Sasol"
+    address: "N2, George, Western Cape, 6529"
+    phone: "+27 44 889 0282"
     diesel_price: 28.48
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "sasol-osm-455663826-455663826"
     station_name: "Sasol"
+    address: "Sasol, Luven Street, George Industria, George, 6536, South Africa"
+    phone: "+27 44 884 1316"
     diesel_price: 27.71
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "sasol-osm-817811142-817811142"
     station_name: "Sasol"
+    address: "Nelson Mandela Blvd, George, Western Cape, 6529"
+    phone: "+27 44 873 4142"
     diesel_price: 27.40
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "shell-12343680995"
     station_name: "Shell"
+    address: "Shell, Knysna Street, George Ward 11, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa"
+    phone: "+27 44 887 0480"
     diesel_price: 28.59
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "shell-5081791711"
     station_name: "Shell"
+    address: "Shell, Knysna Street, George Ward 11, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa"
+    phone: "+27 44 887 0480"
     diesel_price: 27.69
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "total-1070236308"
     station_name: "Total"
+    address: "York Street, Bishops Lea, George Central, George Local Municipality, Garden Route District Municipality, Western Cape, 6530, South Africa"
+    phone: null
     diesel_price: 28.19
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "totalenergies-12269703965"
     station_name: "TotalEnergies"
+    address: "TotalEnergies, Beach Road, Pacaltsdorp, George Local Municipality, Garden Route District Municipality, Western Cape, 6529, South Africa"
+    phone: null
     diesel_price: 28.06
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "totalenergies-12269704118"
     station_name: "TotalEnergies"
+    address: "TotalEnergies, Courtenay Street, George Ward 19, George Local Municipality, Garden Route District Municipality, Western Cape, 6529, South Africa"
+    phone: null
     diesel_price: 27.18
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "totalenergies-12269704122"
     station_name: "TotalEnergies"
+    address: "TotalEnergies, Nelson Mandela Boulevard, George Industria, Borcherds, George Ward 20, George Local Municipality, Garden Route District Municipality, Western Cape, 6529, South Africa"
+    phone: null
     diesel_price: 27.37
     last_updated: "2026-04-24"
     source: "manual_seed"
   - slug: "ssk-agriland-george"
     station_name: "SSK AgriLand George"
+    address: "68 York St, George Central, George, 6529, South Africa"
+    phone: "+27 44 801 4500"
     diesel_price: 27.03
     last_updated: "2026-04-24"
     source: "manual_seed"
