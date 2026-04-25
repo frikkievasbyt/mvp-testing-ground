@@ -7,7 +7,12 @@ enableRobotsTXT: true
 params:
   town: "George, Western Cape"
   feedbackFormUrl: ""
+  feedbackPriceUpdateUrl: ""
+  feedbackIncorrectListingUrl: ""
+  feedbackAddStationUrl: ""
   ownerEmail: ""
+  analytics:
+    goatcounterDomain: ""
 
 permalinks:
   coffee: "/coffee/:slug/"

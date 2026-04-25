@@ -1,48 +1,5 @@
 {{ define "main" }}
   {{ if .IsHome }}
-    {{ $coffeeCount := 0 }}
-    {{ if fileExists "data/businesses/coffee" }}
-      {{ range (readDir "data/businesses/coffee") }}
-        {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}{{ $coffeeCount = add $coffeeCount 1 }}{{ end }}
-      {{ end }}
-    {{ end }}
-
-    {{ $bicycleCount := 0 }}
-    {{ if fileExists "data/businesses/bicycle" }}
-      {{ range (readDir "data/businesses/bicycle") }}
-        {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}{{ $bicycleCount = add $bicycleCount 1 }}{{ end }}
-      {{ end }}
-    {{ end }}
-
-    {{ $medicalCount := 0 }}
-    {{ if fileExists "data/businesses/medical" }}
-      {{ range (readDir "data/businesses/medical") }}
-        {{ $nameLower := lower .Name }}
-        {{ if and (in (slice ".yaml" ".yml") (lower (path.Ext .Name))) (not (strings.HasPrefix $nameLower "doctor-profiles")) }}{{ $medicalCount = add $medicalCount 1 }}{{ end }}
-      {{ end }}
-    {{ end }}
-
-    {{ $fuelCount := 0 }}
-    {{ if fileExists "data/businesses/fuel" }}
-      {{ range (readDir "data/businesses/fuel") }}
-        {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}{{ $fuelCount = add $fuelCount 1 }}{{ end }}
-      {{ end }}
-    {{ end }}
-
-    {{ $estateCount := 0 }}
-    {{ if fileExists "data/businesses/estate-agents" }}
-      {{ range (readDir "data/businesses/estate-agents") }}
-        {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}{{ $estateCount = add $estateCount 1 }}{{ end }}
-      {{ end }}
-    {{ end }}
-
-    {{ $animalCount := 0 }}
-    {{ if fileExists "data/businesses/animal-services" }}
-      {{ range (readDir "data/businesses/animal-services") }}
-        {{ if in (slice ".yaml" ".yml") (lower (path.Ext .Name)) }}{{ $animalCount = add $animalCount 1 }}{{ end }}
-      {{ end }}
-    {{ end }}
-
     {{ $dieselData := dict }}
     {{ if fileExists "data/pricing/diesel.yaml" }}
       {{ $dieselData = transform.Unmarshal (readFile "data/pricing/diesel.yaml") }}

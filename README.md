@@ -3,9 +3,9 @@
 Hugo-based static directory for George, Western Cape businesses.
 
 ## Current scope
-- Category: Coffee shops
+- Multi-category George directory (Coffee, Bicycle, Medical, Animal Services, Estate Agents, Fuel)
 - Data source format: YAML (one business per file)
-- Starter listing page: `/coffee/`
+- Fuel page includes diesel-price ranking via `data/pricing/diesel.yaml`
 
 ## Why YAML first
 - Easy PR review and editing
@@ -14,21 +14,23 @@ Hugo-based static directory for George, Western Cape businesses.
 
 ## Project structure
 
-- `config.yaml` - site config
-- `content/coffee/_index.md` - coffee category page content
-- `data/businesses/coffee/*.yaml` - business records
-- `layouts/coffee/list.html` - coffee listing renderer
+- `config.yaml` - site config + feedback/analytics params
+- `content/*/_index.md` - category page content
+- `data/businesses/<category>/*.yaml` - business records
+- `data/pricing/diesel.yaml` - diesel pricing feed used on home + fuel pages
+- `layouts/_default/*.html` - shared/home templates
+- `layouts/<category>/list.html` - category listing renderers
 - `static/css/site.css` - base styling
-- `scripts/import_coffee_from_obsidian.py` - optional seed importer
+- `static/js/site.js` - client-side listing filters
 
 ## Local run
 
 ```bash
-cd george-directory-site
+cd /Users/frikkievasbyt/Documents/git-repos/mvp-testing-ground
 hugo server -D
 ```
 
-Open http://localhost:1313/coffee/
+Open http://localhost:1313/
 
 ## Data schema (per shop)
 
@@ -74,9 +76,17 @@ notes: Needs branch-level verification.
 5. Push branch, open PR
 6. Review, merge, deploy
 
-## Feedback form
+## Feedback + traffic analytics (next wiring step)
 
-Planned to wire to Google Form (end-user friendly). Placeholder currently shown on page.
+`config.yaml` includes reserved params for upcoming feedback and analytics wiring:
+
+- `params.feedbackFormUrl`
+- `params.feedbackPriceUpdateUrl`
+- `params.feedbackIncorrectListingUrl`
+- `params.feedbackAddStationUrl`
+- `params.analytics.goatcounterDomain`
+
+These keys are ready for use, but template hooks should be enabled in a dedicated follow-up PR before production use.
 
 ## Low-human-touch quality pipeline (free-first)
 
@@ -111,7 +121,7 @@ export GOOGLE_MAPS_API_KEY="<your-key>"
 
 ## Next build steps
 
+- Replace seeded diesel prices with human-verified monthly submissions
+- Add diesel update runbook (PR + email intake path)
 - Add per-business profile pages
-- Add verification badges and confidence legend in UI
-- Wire feedback form
 - Add nightly update pipeline + publish gate
