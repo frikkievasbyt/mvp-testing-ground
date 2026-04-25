@@ -127,3 +127,8 @@ prices:
     diesel_price: 27.37
     last_updated: "2026-04-24"
     source: "manual_seed"
+  - slug: "ssk-agriland-george"
+    station_name: "SSK AgriLand George"
+    diesel_price: 27.03
+    last_updated: "2026-04-24"
+    source: "manual_seed"
