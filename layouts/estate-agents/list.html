@@ -10,6 +10,7 @@
   <section class="page-intro">
     <p class="eyebrow">Directory</p>
     <h1>{{ .Title }}</h1>
+    <p class="wip-note">This page is a work in progress.</p>
     <div class="lead">{{ .Content }}</div>
   </section>
 
@@ -20,13 +21,6 @@
 
   <section class="directory-toolbar" data-target="#estate-listings">
     <input type="search" class="control js-filter-text" placeholder="Search by name or address">
-    <select class="control js-filter-confidence" aria-label="Filter by confidence">
-      <option value="all">All confidence levels</option>
-      <option value="high">High</option>
-      <option value="medium">Medium</option>
-      <option value="low">Low</option>
-      <option value="unknown">Unknown</option>
-    </select>
     <p class="muted filter-count">Showing <span class="js-visible-count">{{ len $agencies }}</span> of <span class="js-total-count">{{ len $agencies }}</span></p>
   </section>
 
@@ -38,13 +32,11 @@
       {{ else if or .address.street .address.city }}
         {{ $address = printf "%s%s%s" (or .address.street "") (cond (and .address.street .address.city) ", " "") (or .address.city "") }}
       {{ end }}
-      {{ $confidence := lower (or .verification.confidence "unknown") }}
-      <article class="listing-card" data-name="{{ lower .name }}" data-address="{{ lower $address }}" data-confidence="{{ $confidence }}">
+      <article class="listing-card" data-name="{{ lower .name }}" data-address="{{ lower $address }}">
         <div class="card-top">
           <h2>{{ .name }}</h2>
         </div>
 
-        <p class="muted scoreline">Confidence {{ or .verification.confidence "unknown" }}</p>
 
         <ul class="meta">
           <li><strong>Address</strong><span>{{ $address }}</span></li>

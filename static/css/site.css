@@ -261,6 +261,34 @@ h1 {
   margin-bottom: 14px;
 }
 
+.wip-note {
+  margin: 0 0 8px;
+  font-size: clamp(1.6rem, 3.8vw, 2.4rem);
+  line-height: 1.12;
+  color: #2d3f61;
+  font-weight: 700;
+}
+
+.section-jump-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 8px 0 14px;
+}
+
+.section-jump-links a,
+.page-intro h2 a {
+  text-decoration: none;
+  color: var(--brand-dark);
+  border-bottom: 1px solid rgba(31, 63, 178, 0.35);
+}
+
+.section-jump-links a:hover,
+.page-intro h2 a:hover {
+  color: var(--brand);
+  border-bottom-color: var(--brand);
+}
+
 .kpi-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
@@ -270,7 +298,7 @@ h1 {
 
 .directory-toolbar {
   display: grid;
-  grid-template-columns: 1.3fr 0.9fr 0.9fr auto;
+  grid-template-columns: 1fr auto;
   gap: 10px;
   align-items: center;
   margin-bottom: 14px;

@@ -23,7 +23,7 @@ contact:
   phone: null
   email: null
 website: null
-hours: 24/7
+hours: "24/7"
 coords:
   lat: -34.0024319
   lon: 22.4742593

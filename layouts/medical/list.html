@@ -53,14 +53,10 @@
 
   {{ $total := add (add (len $doctors) (len $pharmacies)) (len $services) }}
 
-  {{ .Scratch.Set "publishReady" 0 }}
-  {{ range $all }}
-    {{ if .verification.publish_ready }}{{ $.Scratch.Add "publishReady" 1 }}{{ end }}
-  {{ end }}
-
   <section class="page-intro">
     <p class="eyebrow">Directory</p>
     <h1>{{ .Title }}</h1>
+    <p class="wip-note">This page is a work in progress.</p>
     <div class="lead">{{ .Content }}</div>
   </section>
 
@@ -71,12 +67,19 @@
     <article><span class="stat">{{ len $pharmacies }}</span><span class="label">Pharmacies</span></article>
     <article><span class="stat">{{ len $services }}</span><span class="label">Service providers</span></article>
     <article><span class="stat">{{ $total }}</span><span class="label">Total medical listings</span></article>
-    <article><span class="stat">{{ .Scratch.Get "publishReady" }}</span><span class="label">Publish-ready</span></article>
     <article><span class="stat">{{ now.Format "2006-01-02" }}</span><span class="label">Updated date</span></article>
   </section>
 
+  <section class="section-jump-links">
+    <a href="#dentists">Dentists</a>
+    <a href="#general">General</a>
+    <a href="#specialists">Specialists</a>
+    <a href="#pharmacies">Pharmacies</a>
+    <a href="#service-providers">Service Providers</a>
+  </section>
+
   {{ if gt (len $dentists) 0 }}
-    <section class="page-intro"><h2>Dentists</h2><p class="muted">Dental practitioners and oral health specialists.</p></section>
+    <section class="page-intro"><h2 id="dentists"><a href="#dentists">Dentists</a></h2><p class="muted">Dental practitioners and oral health specialists.</p></section>
     <section class="listing-grid">
       {{ range sort $dentists "name" "asc" }}
         {{ $address := "Address not listed" }}
@@ -106,7 +109,7 @@
   {{ end }}
 
   {{ if gt (len $general) 0 }}
-    <section class="page-intro"><h2>General</h2><p class="muted">General practitioners and family medicine providers.</p></section>
+    <section class="page-intro"><h2 id="general"><a href="#general">General</a></h2><p class="muted">General practitioners and family medicine providers.</p></section>
     <section class="listing-grid">
       {{ range sort $general "name" "asc" }}
         {{ $address := "Address not listed" }}
@@ -136,7 +139,7 @@
   {{ end }}
 
   {{ if gt (len $specialists) 0 }}
-    <section class="page-intro"><h2>Specialists</h2><p class="muted">Specialist doctors outside general practice and dentistry.</p></section>
+    <section class="page-intro"><h2 id="specialists"><a href="#specialists">Specialists</a></h2><p class="muted">Specialist doctors outside general practice and dentistry.</p></section>
     <section class="listing-grid">
       {{ range sort $specialists "name" "asc" }}
         {{ $address := "Address not listed" }}
@@ -166,7 +169,7 @@
   {{ end }}
 
   {{ if gt (len $pharmacies) 0 }}
-    <section class="page-intro"><h2>Pharmacies</h2><p class="muted">Retail and clinical pharmacy providers.</p></section>
+    <section class="page-intro"><h2 id="pharmacies"><a href="#pharmacies">Pharmacies</a></h2><p class="muted">Retail and clinical pharmacy providers.</p></section>
     <section class="listing-grid">
       {{ range sort $pharmacies "name" "asc" }}
         {{ $address := "Address not listed" }}
@@ -195,7 +198,7 @@
   {{ end }}
 
   {{ if gt (len $services) 0 }}
-    <section class="page-intro"><h2>Service Providers</h2><p class="muted">Clinics, hospitals, labs, and allied healthcare services.</p></section>
+    <section class="page-intro"><h2 id="service-providers"><a href="#service-providers">Service Providers</a></h2><p class="muted">Clinics, hospitals, labs, and allied healthcare services.</p></section>
     <section class="listing-grid">
       {{ range sort $services "name" "asc" }}
         {{ $address := "Address not listed" }}
