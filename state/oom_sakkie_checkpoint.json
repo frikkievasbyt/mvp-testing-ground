@@ -4,8 +4,8 @@
   "changedCount": 0,
   "committed": false,
   "blocker": false,
-  "progressNote": "Completed a strict-order fuel batch on all 14 flagged files; verified live OSM node/way tags and found no new source-backed hours or phone values to backfill.",
-  "lastRunAtUtc": "2026-04-24T14:00:00Z",
+  "progressNote": "Re-ran fuel quality pass on 14 flagged files using live OSM source checks; no additional source-backed hours or phone values were available, so nulls were preserved.",
+  "lastRunAtUtc": "2026-04-25T10:51:00Z",
   "missionComplete": true,
   "usedMissGwenHandoff": true
 }
