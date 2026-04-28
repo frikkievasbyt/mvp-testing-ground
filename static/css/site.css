@@ -62,10 +62,13 @@ body {
   width: 36px;
   height: 36px;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: linear-gradient(135deg, rgba(60, 108, 255, 0.65), rgba(36, 75, 202, 0.65));
   display: grid;
   place-items: center;
-  font-size: 1.05rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
 }
 
 .brand strong {
@@ -231,6 +234,18 @@ h1 {
   border-radius: 16px;
   padding: 18px;
   box-shadow: var(--shadow);
+  position: relative;
+}
+
+.feature-card::before {
+  content: "";
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  top: 0;
+  height: 3px;
+  border-radius: 0 0 8px 8px;
+  background: linear-gradient(90deg, #4c74ff, #2a57f0);
 }
 
 .feature-card h2 {
@@ -263,10 +278,10 @@ h1 {
 
 .wip-note {
   margin: 0 0 8px;
-  font-size: clamp(1.6rem, 3.8vw, 2.4rem);
-  line-height: 1.12;
-  color: #2d3f61;
-  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #3a4f74;
+  font-weight: 500;
 }
 
 .section-jump-links {
