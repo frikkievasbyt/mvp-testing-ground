@@ -1,0 +1,33 @@
+---
+name: TotalEnergies
+brand: TotalEnergies
+location: R102, Mossel Bay Ward 5
+address:
+  full: TotalEnergies, R102, Mossel Bay Ward 5, Mossel Bay Local Municipality, Garden Route District Municipality, Western Cape, 6525, South Africa
+  street: R102
+  city: Mossel Bay Local Municipality
+  postal_code: '6525'
+  suburb: Mossel Bay Ward 5
+  municipality: Mossel Bay Local Municipality
+  province: Western Cape
+  country: South Africa
+  country_code: ZA
+source: https://www.openstreetmap.org/node/12269704121
+confidence: 0.8
+links:
+  google_maps: https://www.google.com/maps/search/?api=1&query=-34.0548239,22.2243677
+  openstreetmap_map: https://www.openstreetmap.org/node/12269704121#map=19/-34.0548239/22.2243677
+  openstreetmap: https://www.openstreetmap.org/node/12269704121
+phone: null
+contact:
+  phone: null
+  email: null
+website: null
+hours: null
+coords:
+  lat: -34.0548239
+  lon: 22.2243677
+services:
+- diesel
+- petrol
+operator: TotalEnergies
