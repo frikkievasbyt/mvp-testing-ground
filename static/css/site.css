@@ -195,7 +195,9 @@ h1 {
 
 .diesel-banner h2 {
   margin: 6px 0 8px;
-  font-size: clamp(1.2rem, 3vw, 1.65rem);
+  font-size: clamp(1.44rem, 3.6vw, 1.98rem);
+  font-weight: 800;
+  color: #c1121f;
 }
 
 .diesel-updated {
@@ -280,8 +282,8 @@ h1 {
   margin: 0 0 8px;
   font-size: 1rem;
   line-height: 1.5;
-  color: #3a4f74;
-  font-weight: 500;
+  color: #c1121f;
+  font-weight: 700;
 }
 
 .section-jump-links {

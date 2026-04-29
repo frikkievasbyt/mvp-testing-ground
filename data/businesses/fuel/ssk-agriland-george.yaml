@@ -12,12 +12,12 @@ address:
   province: Western Cape
   country: South Africa
   country_code: ZA
-source: https://www.google.com/viewer/place?mid=/g/11b7vwqpgc&sa=X&ved=2ahUKEwiX_5y89IiUAxVS2skDHSrlCg0QqdYPegYIAQgDEAE
-confidence: 0.7
+source: https://www.google.com/maps/place/SSK+AgriLand,+68+York+St,+George+Central,+George,+6529/data=!4m2!3m1!1s0x1dd60535efa37b01:0xba137901d5b7fe6!18m1!1e1
+confidence: 0.82
 links:
   website: null
-  google_maps: https://www.google.com/maps/search/?api=1&query=SSK+AgriLand+George+68+York+St+George
-  openstreetmap_map: null
+  google_maps: https://maps.app.goo.gl/f1Uvo9xr8MLGykUs9?g_st=ac
+  openstreetmap_map: https://www.openstreetmap.org/#map=19/-34.0005770/22.4462890
   openstreetmap: null
 phone: "+27 44 801 4500"
 contact:
@@ -26,8 +26,8 @@ contact:
 website: null
 hours: "Mo-Fr 07:30-17:00; Sa 08:00-13:00; Su off"
 coords:
-  lat: null
-  lon: null
+  lat: -34.0005770
+  lon: 22.4462890
 services:
   - diesel
   - hardware
