@@ -6,7 +6,7 @@ enableRobotsTXT: true
 
 params:
   town: "George, Western Cape"
-  feedbackFormUrl: ""
+  feedbackFormUrl: "https://forms.gle/WsUjtGi1ayK8Mvpq5"
   feedbackPriceUpdateUrl: ""
   feedbackIncorrectListingUrl: ""
   feedbackAddStationUrl: ""
