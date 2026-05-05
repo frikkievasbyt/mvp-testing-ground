@@ -37,6 +37,13 @@
   <section class="kpi-grid">
     <article><span class="stat">{{ $total }}</span><span class="label">Total listings</span></article>
     <article><span class="stat">{{ or $priceData.updated_at "Pending" }}</span><span class="label">Prices updated</span></article>
+    <article>
+      {{ with .Site.Params.feedbackFormUrl }}
+        <p><a class="btn-link btn-map" href="{{ . }}" target="_blank" rel="noopener">Report an issue</a></p>
+      {{ else }}
+        <span class="label">Report form not linked</span>
+      {{ end }}
+    </article>
   </section>
 
   <section class="directory-toolbar" data-target="#fuel-listings">
@@ -84,19 +91,4 @@
       <p>Discovery is running. Fuel stations will appear here first, then be enriched with complete contact, map, and service details.</p>
     </section>
   {{ end }}
-
-  <section class="feedback-box">
-    <h3>Found an issue?</h3>
-    <p>Use the report form to flag:</p>
-    <ul>
-      <li>Wrong price</li>
-      <li>Wrong fuel station information</li>
-      <li>Missing fuel station</li>
-    </ul>
-    {{ with .Site.Params.feedbackFormUrl }}
-      <p><a class="btn-link btn-map" href="{{ . }}" target="_blank" rel="noopener">Report an issue</a></p>
-    {{ else }}
-      <p class="muted">Report form not linked yet.</p>
-    {{ end }}
-  </section>
 {{ end }}
